@@ -21,6 +21,11 @@ web/.env.production.local
 .vscode/
 .idea/
 
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+
 # Render outputs at repo root (regeneratable). Leading slash anchors to root
 # so we don't ignore the same names inside samples/ (Jerry's reference files).
 /combined.wav

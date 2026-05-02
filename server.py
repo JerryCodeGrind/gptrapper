@@ -6,13 +6,31 @@ Endpoints:
   GET  /default-sample/{slot}
   POST /classify              audio file       -> { scores, best_match }
   POST /morph                  audio + target   -> wav bytes
+  POST /prep-raw              audio file       -> wav bytes (no morph)
   GET  /analyze-midi/{name}                     -> { needed_slots, ... }
   POST /render-song            midi + slots     -> wav bytes
+  POST /text-to-music-params  { text }         -> { tempo, key, mode, instruments, ... }
+  POST /apply-edit            { params, edit } -> updated params
 """
 import base64
 import io
+import logging
+import os
 import re
 from pathlib import Path
+
+# Load .env BEFORE any modules that read os.getenv at import time.
+from dotenv import load_dotenv
+
+REPO_ROOT_FOR_ENV = Path(__file__).parent.resolve()
+load_dotenv(REPO_ROOT_FOR_ENV / ".env")
+
+logger = logging.getLogger("found-sound")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+
+for _key in ("ANTHROPIC_API_KEY", "SPOTIFY_CLIENT_ID", "SPOTIFY_CLIENT_SECRET"):
+    if not os.getenv(_key):
+        logger.warning("%s missing from .env — /text-to-music-params and /apply-edit will fail until it's set", _key)
 
 import librosa
 import numpy as np
@@ -34,6 +52,8 @@ from pipeline import (
     load_audio,
     _load_y_from_input,
 )
+from claude_client import ClaudeError, apply_edit, classify_prompt
+from spotify_client import SpotifyError, lookup_song
 
 REPO_ROOT = Path(__file__).parent.resolve()
 MIDI_DIR = (REPO_ROOT / "web" / "public" / "midi").resolve()
@@ -251,3 +271,86 @@ def render_endpoint(req: RenderRequest):
             "Content-Disposition": f'attachment; filename="{title_slug}-found-sound-cover.wav"'
         },
     )
+
+
+# ─────────────────────────────────────────────────────────────
+# /studio NLP endpoints
+# ─────────────────────────────────────────────────────────────
+
+class TextToParamsRequest(BaseModel):
+    text: str
+    bars: int = Field(default=16, description="Target length in bars (8/16/24/32)")
+
+
+def _params_from_intent(intent: dict, bars: int) -> dict:
+    """Merge Claude intent + Spotify lookup (if available) into final render params."""
+    artist = intent.get("artist")
+    title = intent.get("title")
+    spotify_data: dict | None = None
+    spotify_error: str | None = None
+
+    if artist and title:
+        try:
+            spotify_data = lookup_song(artist, title)
+        except SpotifyError as e:
+            spotify_error = str(e)
+
+    # Spotify wins for tempo/key/mode if it found the track; otherwise use Claude hints.
+    if spotify_data and spotify_data.get("features"):
+        f = spotify_data["features"]
+        tempo = float(f.get("tempo") or intent.get("tempo_hint") or 110)
+        key = f.get("key") or intent.get("key_hint") or "C"
+        mode = f.get("mode") or intent.get("mode_hint") or "major"
+        time_signature = int(f.get("time_signature") or 4)
+        source = "spotify"
+    else:
+        tempo = float(intent.get("tempo_hint") or 110)
+        key = intent.get("key_hint") or "C"
+        mode = intent.get("mode_hint") or "major"
+        time_signature = 4
+        source = "claude"
+
+    return {
+        "tempo": tempo,
+        "key": key,
+        "mode": mode,
+        "time_signature": time_signature,
+        "instruments": intent.get("instruments") or ["piano", "kickdrum", "hihat"],
+        "bars": bars,
+        "mood": intent.get("mood"),
+        "genre": intent.get("genre"),
+        "subgenre": intent.get("subgenre"),
+        "artist": artist,
+        "title": title,
+        "source": source,
+        "spotify_error": spotify_error,
+        "spotify_features": spotify_data.get("features") if spotify_data else None,
+    }
+
+
+@app.post("/text-to-music-params")
+def text_to_music_params(req: TextToParamsRequest):
+    if req.bars not in (8, 16, 24, 32):
+        raise HTTPException(status_code=400, detail="bars must be 8/16/24/32")
+    if not req.text.strip():
+        raise HTTPException(status_code=400, detail="empty text")
+    try:
+        intent = classify_prompt(req.text)
+    except ClaudeError as e:
+        raise HTTPException(status_code=502, detail=f"claude: {e}")
+    return _params_from_intent(intent, req.bars)
+
+
+class ApplyEditRequest(BaseModel):
+    params: dict
+    edit: str
+
+
+@app.post("/apply-edit")
+def apply_edit_endpoint(req: ApplyEditRequest):
+    if not req.edit.strip():
+        raise HTTPException(status_code=400, detail="empty edit")
+    try:
+        return apply_edit(req.params, req.edit)
+    except ClaudeError as e:
+        raise HTTPException(status_code=502, detail=f"claude: {e}")
