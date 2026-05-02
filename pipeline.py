@@ -1,10 +1,12 @@
 import csv
+import io
 import os
 import tempfile
 import warnings
 from dataclasses import dataclass, field
 from glob import glob
 from pathlib import Path
+from typing import Union
 
 import numpy as np
 import librosa
@@ -341,6 +343,336 @@ def pitch_adjust(y, target_pitch_hz: float, src_y=None, label: str = "") -> np.n
     if src_hz <= 0 or abs(n_steps) < 0.5:
         return y
     return librosa.effects.pitch_shift(y, sr=SR, n_steps=n_steps)
+
+
+# ── server-layer constants and functions (used by server.py) ──
+
+INSTRUMENT_PITCH: dict[str, "float | None"] = {
+    "piano":     440.0,
+    "violin":    440.0,
+    "cello":     220.0,
+    "aguitar":   196.0,
+    "eguitar":   196.0,
+    "bguitar":    98.0,
+    "flute":     880.0,
+    "trumpet":   440.0,
+    "kickdrum":   None,
+    "snaredrum":  None,
+    "hihat":      None,
+}
+
+# General MIDI drum note → slot mapping
+GM_DRUM_NOTES = {
+    "kickdrum":  {35, 36},
+    "snaredrum": {38, 40},
+    "hihat":     {42, 44, 46},
+}
+
+# Per-slot mix gain. Bass dominates if equal-volume because its peaks coincide
+# with everything else. Hi-hat trimmed because high transients are sharp.
+SLOT_GAIN: dict[str, float] = {
+    "piano":     0.7,
+    "violin":    0.7,
+    "cello":     0.6,
+    "aguitar":   0.7,
+    "eguitar":   0.7,
+    "bguitar":   0.4,
+    "flute":     0.7,
+    "trumpet":   0.7,
+    "kickdrum":  0.6,
+    "snaredrum": 0.6,
+    "hihat":     0.5,
+}
+
+AudioInput = Union[str, Path, bytes]
+
+
+def _load_y_from_input(audio_input: AudioInput) -> np.ndarray:
+    """Load audio (path or raw bytes) → mono float32 at SR with phone HPF."""
+    if isinstance(audio_input, (str, Path)):
+        y_raw, _ = load_audio(audio_input)
+    else:
+        with tempfile.NamedTemporaryFile(suffix=".bin", delete=False) as tmp:
+            tmp.write(audio_input)
+            tmp_path = tmp.name
+        try:
+            y_raw, _ = load_audio(tmp_path)
+        finally:
+            os.unlink(tmp_path)
+    return _phone_hpf(y_raw)
+
+
+def classify_sound(audio_input: AudioInput) -> dict:
+    """Classify against the 11 trained instruments. Returns scores + best_match."""
+    y = strip_silence(_load_y_from_input(audio_input))
+    db = load_db()
+
+    mat = np.array([[row[c] for c in ALL_COLS] for row in db])
+    mean = mat.mean(0)
+    std = mat.std(0) + 1e-9
+    weights = np.where([c.startswith("mfcc_") for c in ALL_COLS], 2.0, 1.0)
+    db_n = (mat - mean) / std
+
+    q_n = (feat_vec(extract(y)) - mean) / std
+    dists = np.sqrt(np.sum(weights * (db_n - q_n) ** 2, axis=1))
+
+    sims = 1.0 / (1.0 + dists)
+    sims = sims / sims.sum()
+
+    scores = {row["instrument"]: float(s) for row, s in zip(db, sims)}
+    best = max(scores, key=scores.get)
+    return {"scores": scores, "best_match": best}
+
+
+def process_sound(audio_input: AudioInput, target_instrument: str) -> bytes:
+    """Morph + pitch-adjust a sound toward target. Returns 16-bit PCM mono WAV bytes."""
+    if target_instrument not in INSTRUMENT_PITCH:
+        raise ValueError(f"unknown instrument: {target_instrument}")
+
+    y = strip_silence(_load_y_from_input(audio_input))
+
+    db = load_db()
+    target_row = next((r for r in db if r["instrument"] == target_instrument), None)
+    if target_row is None:
+        raise ValueError(f"no DB row for {target_instrument} — rebuild instruments_db.csv?")
+
+    src_features = extract(y)
+    y_out = morph(y, src_features, target_row)
+
+    target_hz = INSTRUMENT_PITCH.get(target_instrument)
+    if target_hz is not None:
+        y_out = pitch_adjust(y_out, target_hz, src_y=y, label=target_instrument)
+
+    peak = float(np.max(np.abs(y_out)))
+    if peak > 0:
+        y_out = y_out * (0.891 / peak)
+
+    buf = io.BytesIO()
+    sf.write(buf, y_out.astype(np.float32), SR, subtype="PCM_16", format="WAV")
+    return buf.getvalue()
+
+
+def identify_tracks(midi) -> dict:
+    """Heuristically map MIDI tracks to instrument slots."""
+    track_map: dict = {}
+
+    drum_inst = None
+    melodic = []
+    for inst in midi.instruments:
+        if inst.is_drum and len(inst.notes) > 0:
+            if drum_inst is None or len(inst.notes) > len(drum_inst.notes):
+                drum_inst = inst
+        elif len(inst.notes) > 0:
+            avg_pitch = float(np.mean([n.pitch for n in inst.notes]))
+            melodic.append((avg_pitch, len(inst.notes), inst))
+
+    if drum_inst is not None:
+        track_map["__drums__"] = drum_inst
+
+    if melodic:
+        melodic_by_pitch = sorted(melodic, key=lambda x: x[0])
+        bass_inst = melodic_by_pitch[0][2]
+        track_map["bguitar"] = bass_inst
+
+        rest = [m for m in melodic if m[2] is not bass_inst]
+        if rest:
+            rest.sort(key=lambda x: (x[1], x[0]), reverse=True)
+            piano_inst = rest[0][2]
+            track_map["piano"] = piano_inst
+
+            extras = [m for m in rest if m[2] is not piano_inst]
+            for avg_p, _n_notes, inst in extras:
+                if avg_p >= 75:
+                    candidates = ("violin", "flute", "trumpet")
+                elif avg_p >= 60:
+                    candidates = ("violin", "trumpet", "flute")
+                else:
+                    candidates = ("cello", "aguitar", "eguitar")
+                for c in candidates:
+                    if c not in track_map:
+                        track_map[c] = inst
+                        break
+
+    return track_map
+
+
+def pitch_shift_to_hz(
+    sample: np.ndarray,
+    target_hz: float,
+    slot_key: str,
+    src_hz_override: "float | None" = None,
+    pitch_strength: float = 1.0,
+) -> np.ndarray:
+    """Pitch-shift a sample so its center pitch becomes target_hz.
+    Octave-folds shifts beyond ±12 semitones to avoid librosa's metallic artifacts.
+    Pass src_hz_override to use a detected pitch instead of the slot's nominal pitch.
+    pitch_strength scales the shift: 1.0 = full shift to target_hz, 0.0 = no shift
+    (sample plays at its natural pitch regardless of MIDI note).
+    """
+    src_hz = src_hz_override if src_hz_override is not None else INSTRUMENT_PITCH.get(slot_key)
+    if src_hz is None or src_hz <= 0:
+        return sample  # unpitched (drums) — never shift
+    n_steps = 12.0 * float(np.log2(target_hz / src_hz))
+    while n_steps > 12.0:
+        n_steps -= 12.0
+    while n_steps < -12.0:
+        n_steps += 12.0
+    n_steps *= float(pitch_strength)
+    if abs(n_steps) < 0.5:
+        return sample
+    return librosa.effects.pitch_shift(sample, sr=SR, n_steps=n_steps).astype(np.float32)
+
+
+def _trim_with_fade(sample: np.ndarray, n_samples: int, fade_samples: int = 661) -> np.ndarray:
+    """Play `sample` for the MIDI note duration plus a short natural-decay tail.
+    The tail (~120 ms) gives smooth note transitions without letting a long
+    user recording (e.g. a 5-second boop) drone across the whole song and
+    create a fake-reverb / fake-instrument-sustain effect.
+    """
+    if n_samples <= 0:
+        return np.zeros(0, dtype=np.float32)
+    TAIL_S = 0.12
+    tail = int(TAIL_S * SR)
+    play_len = min(n_samples + tail, len(sample))
+    if play_len <= 0:
+        return np.zeros(0, dtype=np.float32)
+    out = sample[:play_len].astype(np.float32, copy=True)
+    fade = min(fade_samples, play_len)
+    if fade > 0:
+        ramp = np.linspace(1.0, 0.0, fade, dtype=np.float32)
+        out[-fade:] *= ramp
+    return out
+
+
+def _midi_pitch_to_hz(pitch: int) -> float:
+    return 440.0 * (2.0 ** ((pitch - 69) / 12.0))
+
+
+def render_song(
+    midi_path: Union[str, Path],
+    slot_samples: dict,
+    tempo_percent: float = 100.0,
+    raw_mode: bool = False,
+    temperature: float = 1.0,
+) -> np.ndarray:
+    """Render a MIDI file using the user's slot samples.
+
+    raw_mode=False (default): assume `slot_samples` are already morphed (e.g. via
+      /morph endpoint). Pitch-shift to MIDI notes using the slot's nominal pitch.
+    raw_mode=True: `slot_samples` are user's raw audio. Pitch always shifts fully
+      to the MIDI notes (so the melody is correct at any temperature).
+      `temperature` ∈ [0, 1] controls TIMBRE only:
+        0.0 = raw user timbre (a "boop" stays a boop, just pitched to each note).
+        1.0 = morphed to the target instrument's timbre (sounds like a piano note).
+        in between: linear timbre blend (raw vs morphed).
+    """
+    import pretty_midi
+
+    midi = pretty_midi.PrettyMIDI(str(midi_path))
+    tempo_factor = tempo_percent / 100.0
+    duration = midi.get_end_time() / tempo_factor
+    out_len = int(duration * SR) + SR
+    out = np.zeros(out_len, dtype=np.float32)
+
+    track_map = identify_tracks(midi)
+    t = float(np.clip(temperature, 0.0, 1.0))
+
+    # In raw mode, detect each user sample's natural pitch + precompute the morphed
+    # version (if temperature > 0) so we can blend timbre per-slot.
+    detected_src_hz: dict[str, float] = {}
+    blended_samples: dict[str, np.ndarray] = {}
+    if raw_mode:
+        db = load_db() if t > 0.0 else []
+        for k, s in slot_samples.items():
+            arr = np.asarray(s, dtype=np.float32)
+            if len(arr) == 0:
+                continue
+            if INSTRUMENT_PITCH.get(k) is not None:
+                try:
+                    detected_src_hz[k] = float(_detect_pitch(strip_silence(arr)))
+                except Exception:
+                    detected_src_hz[k] = INSTRUMENT_PITCH[k] or 220.0
+            if t > 0.0:
+                target_row = next((r for r in db if r["instrument"] == k), None)
+                if target_row is not None:
+                    try:
+                        morphed = morph(arr, extract(arr), target_row).astype(np.float32)
+                        n = min(len(arr), len(morphed))
+                        blended_samples[k] = (1.0 - t) * arr[:n] + t * morphed[:n]
+                    except Exception:
+                        blended_samples[k] = arr
+
+    shift_cache: dict = {}
+    melodic_slot_keys = [k for k in track_map.keys() if k != "__drums__"]
+    for slot_key in melodic_slot_keys:
+        if slot_key not in slot_samples:
+            continue
+        sample = slot_samples[slot_key].astype(np.float32)
+        if raw_mode and slot_key in blended_samples:
+            sample = blended_samples[slot_key].astype(np.float32)
+        if len(sample) == 0:
+            continue
+        inst = track_map[slot_key]
+        sorted_notes = sorted(inst.notes, key=lambda n: n.start)
+        prev_chord_start_midi = -1.0
+        chord_position = 0
+        CHORD_WINDOW_S = 0.012
+        CHORD_STAGGER_S = 0.005
+        src_override = detected_src_hz.get(slot_key) if raw_mode else None
+        # Pitch always tracks MIDI fully — temperature only blends timbre.
+        slot_pitch_strength = 1.0
+
+        for note in sorted_notes:
+            if abs(note.start - prev_chord_start_midi) < CHORD_WINDOW_S:
+                chord_position += 1
+            else:
+                chord_position = 0
+                prev_chord_start_midi = note.start
+            note_start = note.start / tempo_factor + chord_position * CHORD_STAGGER_S
+            note_dur_sec = (note.end - note.start) / tempo_factor
+            note_n_samples = int(note_dur_sec * SR)
+            if note_n_samples <= 0:
+                continue
+            cache_key = (slot_key, int(note.pitch))
+            shifted = shift_cache.get(cache_key)
+            if shifted is None:
+                target_hz = _midi_pitch_to_hz(int(note.pitch))
+                shifted = pitch_shift_to_hz(
+                    sample, target_hz, slot_key,
+                    src_hz_override=src_override,
+                    pitch_strength=slot_pitch_strength,
+                )
+                shift_cache[cache_key] = shifted
+            trimmed = _trim_with_fade(shifted, note_n_samples)
+            start_idx = int(note_start * SR)
+            end_idx = min(start_idx + len(trimmed), out_len)
+            if end_idx > start_idx:
+                gain = (note.velocity / 127.0) * SLOT_GAIN.get(slot_key, 0.6)
+                out[start_idx:end_idx] += trimmed[: end_idx - start_idx] * gain
+
+    drum_inst = track_map.get("__drums__")
+    if drum_inst is not None:
+        for note in drum_inst.notes:
+            for slot_key, drum_pitches in GM_DRUM_NOTES.items():
+                if int(note.pitch) not in drum_pitches:
+                    continue
+                if slot_key not in slot_samples:
+                    continue
+                sample = slot_samples[slot_key].astype(np.float32)
+                if len(sample) == 0:
+                    continue
+                note_start = note.start / tempo_factor
+                start_idx = int(note_start * SR)
+                end_idx = min(start_idx + len(sample), out_len)
+                if end_idx > start_idx:
+                    gain = (note.velocity / 127.0) * SLOT_GAIN.get(slot_key, 0.6)
+                    out[start_idx:end_idx] += sample[: end_idx - start_idx] * gain
+                break
+
+    peak = float(np.max(np.abs(out)))
+    if peak > 0:
+        out *= 0.891 / peak
+    return out
 
 
 # ── main ──────────────────────────────────────────────────────
