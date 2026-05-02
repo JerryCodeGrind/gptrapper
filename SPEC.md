@@ -1,313 +1,353 @@
-# Found-Sound Song Maker — MVP Spec
+# Found-Sound Song Maker — MVP Spec (v2, post-pipeline pivot)
 
 ## What we're building
 
-A browser app where users upload everyday sounds (tapping a table, hitting a water bottle, stomping) and pick a popular song. The app then plays a "cover" of that song using the user's sounds as the instruments — pitch-shifted across the song's melody, bassline, and drum pattern.
+A web app where users record/upload everyday sounds (tapping, hitting a bottle, humming) and assign each one to an **instrument slot** (Piano, Bass Guitar, Kick Drum, etc.). Then they pick a popular song from a bundled MIDI library, and the backend renders a "cover" of that song where each instrument's part is played using the user's morphed-and-pitch-shifted sound.
 
-Think: "Blinding Lights, but performed by someone tapping their desk."
+Think: "Blinding Lights, but every instrument is performed by something the user tapped on their desk."
 
-The output should be **recognizable as the chosen song** but clearly transformed by the user's weird sounds — not a literal copy.
+The output should be **recognizable as the chosen song** but clearly transformed by the user's noises.
+
+---
+
+## Architecture
+
+```
+┌─ Next.js (web/) ─────────────────────┐    ┌─ FastAPI (server.py) ──────────────┐
+│                                        │    │                                     │
+│ Step 1 — Fill instrument slots         │    │ POST /classify                      │
+│   11 cards, one per instrument.         │    │   in:  audio blob                   │
+│   Click a card → record mic OR upload  │ ──→│   out: { piano: 0.78, cello: 0.22,..}│
+│   → audio is sent to /morph,           │    │                                     │
+│   morphed-to-instrument blob comes back│    │ POST /morph                         │
+│   → stored client-side as that slot's   │ ──→│   in:  audio blob + target_instrument│
+│   sample.                               │    │   out: morphed .wav (16-bit PCM)    │
+│                                         │    │                                     │
+│ Step 2 — Pick a song                   │    │ POST /render-song                   │
+│   Grid of cards reading                 │ ──→│   in:  midi filename + slot map     │
+│   /midi/index.json (15 bundled MIDI).  │    │         (instrument → morphed wav)  │
+│                                         │    │   out: combined.wav (rendered cover)│
+│ Step 3 — Generate                      │    │                                     │
+│   POST /render-song with chosen MIDI   │    │  Uses pipeline.py morph + pitch +   │
+│   + filled slots → server returns      │    │  pretty_midi to schedule notes per  │
+│   combined.wav → play in browser.      │    │  track + numpy mixdown.             │
+│                                         │    │                                     │
+│ [Download .wav]                        │    │  Tracks whose instrument slot is    │
+└────────────────────────────────────────┘    │  empty render as silence.           │
+                                              └─────────────────────────────────────┘
+```
+
+**Crucial design decisions:**
+
+- **Server-side rendering.** Python parses the MIDI, pitch-shifts the morphed sample for each note, mixes into a single .wav. No Tone.js, no client-side audio scheduling. To change tempo, the user re-renders.
+- **User-driven slot assignment.** The classifier exists as a confidence hint ("this sounds 78% piano-like") but the user explicitly chooses which slot a sound goes into.
+- **11 fixed instrument slots.** User fills any subset; unfilled slots → silent for that track in the rendered song.
 
 ---
 
 ## Tech stack (do not deviate)
 
-- **Vite + Vanilla JS** (no React — keep it lightweight, faster to ship)
-- **Tone.js** — audio playback, sampling, pitch-shifting, scheduling, effects
-- **@tonejs/midi** — parse bundled MIDI files into JS note data
-- **Meyda.js** — extract audio features for auto-classifying user sounds
-- **No backend.** Everything runs in the browser. Deploy to Vercel/Netlify when done.
+### Backend (Python 3.11+)
+- **FastAPI** for the HTTP API
+- **uvicorn** as the ASGI server
+- **librosa** + **soundfile** + **pydub** + **scipy** + **numpy** — already used by `pipeline.py`
+- **pretty_midi** — for MIDI parsing in `render-song`
+- **python-multipart** — for FastAPI file uploads
 
-Install commands:
-```bash
-npm create vite@latest found-sound-song-maker -- --template vanilla
-cd found-sound-song-maker
-npm install tone @tonejs/midi meyda
+### Frontend (Next.js 14+, App Router)
+- **Next.js** with the App Router and the **/web** subfolder layout
+- **TypeScript**
+- Built-in fetch, **MediaRecorder** for mic capture
+- **No Tone.js, no @tonejs/midi, no Meyda** — backend handles all audio work
+- Tailwind optional; vanilla CSS modules are fine
+
+### No third-party state management — `useState` and `useReducer` are enough.
+
+---
+
+## Repo layout
+
+```
+/                        ← Python backend lives at root (Jerry's existing code)
+├── pipeline.py          ← classifier + morph + pitch_adjust (Jerry, refactored in N1)
+├── server.py            ← FastAPI app (NEW, mission N2)
+├── debug.py             ← classifier debug tool (Jerry, keep as-is)
+├── rebuild_db.py        ← rebuilds instruments_db.csv (Jerry, keep)
+├── instrument_recordings/   ← training set, 11 wavs/mp3s (Jerry, KEEP)
+├── instruments_db.csv   ← extracted features for the training set (KEEP)
+├── samples/             ← Jerry's old test artifacts (test*.m4a, *_*.wav, combined.wav)
+├── SPEC.md              ← this file
+├── requirements.txt     ← Python deps (NEW, mission N1)
+└── web/                 ← Next.js app
+    ├── package.json
+    ├── next.config.js
+    ├── tsconfig.json
+    ├── public/
+    │   └── midi/
+    │       ├── index.json           ← list of bundled songs
+    │       ├── blinding-lights.mid
+    │       └── ...
+    ├── src/
+    │   └── app/
+    │       ├── layout.tsx
+    │       ├── page.tsx              ← Step1+2+3 single page
+    │       ├── components/
+    │       │   ├── InstrumentSlot.tsx
+    │       │   ├── SongPicker.tsx
+    │       │   ├── GenerateButton.tsx
+    │       │   └── Player.tsx
+    │       └── lib/
+    │           ├── api.ts            ← fetch wrappers for /morph, /classify, /render-song
+    │           └── recorder.ts       ← MediaRecorder wrapper
+    └── styles/
+        └── globals.css
 ```
 
 ---
 
-## File structure
+## The 11 instrument slots
 
-```
-/
-├── index.html
-├── src/
-│   ├── main.js               # App entry, wires everything together
-│   ├── ui.js                 # DOM rendering and event handlers
-│   ├── recorder.js           # MediaRecorder wrapper for capturing user sounds
-│   ├── classifier.js         # Meyda-based sound classification
-│   ├── midi-loader.js        # Loads + parses bundled MIDI files
-│   ├── song-engine.js        # Tone.js sampler + scheduling + transformations
-│   ├── exporter.js           # Render song to .wav using Tone.Offline
-│   └── styles.css
-├── public/
-│   └── midi/                 # Bundled MIDI files (10–20 popular songs)
-│       ├── blinding-lights.mid
-│       ├── seven-nation-army.mid
-│       └── ...
-└── package.json
-```
+Match `pipeline.py`'s `INSTRUMENT_PITCH` keys exactly:
+
+| Display name | Slot key | Center pitch (Hz) |
+|---|---|---|
+| Piano | `piano` | 440 |
+| Acoustic Guitar | `aguitar` | 196 |
+| Electric Guitar | `eguitar` | 196 |
+| Bass Guitar | `bguitar` | 98 |
+| Violin | `violin` | 440 |
+| Cello | `cello` | 220 |
+| Trumpet | `trumpet` | 440 |
+| Flute | `flute` | 880 |
+| Kick Drum | `kickdrum` | unpitched |
+| Snare Drum | `snaredrum` | unpitched |
+| Hi-Hat | `hihat` | unpitched |
 
 ---
 
-## Core MVP features (must ship)
+## API contracts
 
-### 1. Sound input
-
-- User can **record** a sound from their mic (MediaRecorder API, save as WebM/OGG blob).
-- User can **upload** an audio file (.mp3, .wav, .ogg, .webm — accept all).
-- User can add **4–8 sounds total**.
-- Each sound shows in a list with a name (user-editable), a play button to preview, and a delete button.
-
-### 2. Sound classification (auto + manual override)
-
-When a sound is added, run it through Meyda to extract:
-- **Duration** (seconds)
-- **Spectral centroid** (average — measure of brightness)
-- **RMS / loudness**
-- **Zero-crossing rate** (proxy for noisiness vs. pitched)
-
-Then apply a simple rule tree to assign a role:
-
-```
-if duration < 0.2s and centroid is low (< 800Hz)   → KICK
-if duration < 0.2s and centroid is high (> 3000Hz) → HI_HAT
-if duration < 0.4s and centroid is mid             → SNARE
-if duration > 0.4s and zero-crossing rate is low   → MELODIC (pitched-ish)
-if duration > 0.4s and zero-crossing rate is high  → BASS / SUB
-```
-
-**Always show the assigned role in the UI with a dropdown so the user can override.** Roles available: `KICK`, `SNARE`, `HI_HAT`, `BASS`, `MELODIC`, `PERC`.
-
-### 3. Song picker
-
-- Bundle **10–15 MIDI files** in `public/midi/` (suggestions: Blinding Lights, Seven Nation Army, Take On Me, Smoke on the Water, Megalovania, Africa, Stayin' Alive, Sweet Child O' Mine, Hey Jude, Pirates of the Caribbean theme, Mario Theme, Tetris Theme, Happy Birthday).
-- Show as a grid of cards with song name + artist.
-- User clicks one to select it.
-
-### 4. Song generation engine
-
-When user clicks **"Generate Song"**:
-
-1. **Load and parse the selected MIDI file** with `@tonejs/midi`.
-2. **Identify tracks** by heuristic:
-   - Track with lowest average pitch and `isPercussion` true → **drums**
-   - Track with lowest average pitch (non-drum) → **bass**
-   - Track with most notes / highest avg pitch → **melody**
-   - Other tracks → **chords / harmony**
-3. **Map user sounds to tracks** based on classified roles:
-   - `KICK` / `SNARE` / `HI_HAT` sounds → drums (split by hit type if available, otherwise just KICK on every drum hit)
-   - `BASS` sound → bass track
-   - `MELODIC` sound → melody track
-   - If a role is missing (e.g. user only uploaded percussion sounds), **gracefully skip that track** rather than crashing.
-4. **Build a Tone.js Sampler for each role** using the user's sound as the sample. Set the sample's base note to C4.
-5. **Schedule all notes** using `Tone.Transport` and the timing from the MIDI.
-6. **Apply transformations** (see next section).
-7. **Press play.** Show a stop button and a progress bar.
-
-### 5. Transformations (this is what makes it not sound like a literal copy)
-
-Apply these to every generation:
-
-- **Pitch envelope shift**: shift the entire melody track up or down by 1–2 octaves randomly, so the user's bottle ping doesn't try to play the song's actual original pitches (which would sound off because of timbre mismatch). Same for bass — shift it down 1 octave so it's properly thumpy.
-- **Tempo**: read tempo from MIDI, but offer a UI slider (50%–150% of original BPM) defaulting to 100%.
-- **Timing humanization**: jitter every note's start time by ±15ms (random) so it feels handmade, not robotic.
-- **Effects chain on each role** (using Tone.js built-ins):
-  - Drums: subtle compression + a touch of reverb
-  - Bass: lowpass filter at ~400Hz + light distortion
-  - Melody: medium reverb + slight delay
-- **Master bus**: gentle compressor + limiter to avoid clipping.
-
-### 6. Export to .wav
-
-- Button: **"Download Song"**
-- Use `Tone.Offline()` to render the entire song into an AudioBuffer, then encode to .wav and trigger a browser download.
-- Filename: `{song-name}-found-sound-cover.wav`
-
-### 7. UI flow (single page, top to bottom)
-
-```
-┌─────────────────────────────────────┐
-│  Found-Sound Song Maker             │
-├─────────────────────────────────────┤
-│  Step 1: Add your sounds            │
-│  [🎙 Record]  [📁 Upload]            │
-│  ┌─────────────────────────────┐    │
-│  │ table-tap     [▶] [KICK ▾] [✕] │    │
-│  │ bottle-ping   [▶] [HI_HAT ▾][✕]│    │
-│  │ stomp         [▶] [BASS ▾] [✕] │    │
-│  └─────────────────────────────┘    │
-├─────────────────────────────────────┤
-│  Step 2: Pick a song                │
-│  ┌──────┐ ┌──────┐ ┌──────┐         │
-│  │Blind.│ │7-Nat.│ │Mario │  ...    │
-│  └──────┘ └──────┘ └──────┘         │
-├─────────────────────────────────────┤
-│  Step 3: Generate                   │
-│  Tempo: [-----●-----]  100%         │
-│  [✨ Generate Song]                  │
-├─────────────────────────────────────┤
-│  ▶ ⏸  [============●----]  0:42/1:30│
-│  [⬇ Download .wav]                  │
-└─────────────────────────────────────┘
-```
-
-Style: dark mode, big chunky buttons, a little playful (slight rounded corners, maybe a subtle waveform animation when playing). Don't over-design it.
-
----
-
-## Code patterns (the tricky bits, written out)
-
-### Tone.js Sampler from a user-uploaded blob
-
-```js
-import * as Tone from 'tone';
-
-async function makeSamplerFromBlob(blob, baseNote = 'C4') {
-  const arrayBuffer = await blob.arrayBuffer();
-  const audioBuffer = await Tone.getContext().decodeAudioData(arrayBuffer);
-  
-  const sampler = new Tone.Sampler({
-    urls: { [baseNote]: audioBuffer },
-    release: 1,
-  }).toDestination();
-  
-  await Tone.loaded();
-  return sampler;
+### `POST /classify`
+**Request:** multipart `audio` field (any wav/mp3/m4a/ogg/webm under 20MB).
+**Response:**
+```json
+{
+  "scores": {
+    "piano": 0.78,
+    "cello": 0.22,
+    "violin": 0.05,
+    ...
+  },
+  "best_match": "piano"
 }
 ```
+- `scores` is normalized: 1.0 = perfect match, 0.0 = no resemblance. Computed as `1 / (1 + distance)` then re-normalized so all 11 sum to 1.
+- Used by the frontend purely as a hint under each slot.
 
-### Parsing MIDI and scheduling notes
+### `POST /morph`
+**Request:** multipart `audio` + form field `target_instrument` (one of the 11 keys).
+**Response:** `audio/wav` body, 16-bit PCM, 22050Hz mono. The user's sound morphed and pitch-adjusted to match `target_instrument`'s spectral profile.
 
-```js
-import { Midi } from '@tonejs/midi';
-
-const midi = await Midi.fromUrl('/midi/blinding-lights.mid');
-
-midi.tracks.forEach((track) => {
-  const sampler = samplersByTrack[track.name]; // assigned earlier
-  if (!sampler) return;
-  
-  track.notes.forEach((note) => {
-    Tone.Transport.schedule((time) => {
-      sampler.triggerAttackRelease(
-        note.name,           // pitch (e.g. "C4")
-        note.duration,
-        time + (Math.random() - 0.5) * 0.03, // ±15ms humanization
-        note.velocity
-      );
-    }, note.time);
-  });
-});
-
-Tone.Transport.bpm.value = midi.header.tempos[0]?.bpm ?? 120;
-Tone.Transport.start();
-```
-
-### Meyda feature extraction for classification
-
-```js
-import Meyda from 'meyda';
-
-async function classify(audioBuffer) {
-  const features = Meyda.extract(
-    ['rms', 'spectralCentroid', 'zcr'],
-    audioBuffer.getChannelData(0).slice(0, 2048)
-  );
-  const duration = audioBuffer.duration;
-  
-  // Apply rule tree from spec
-  if (duration < 0.2 && features.spectralCentroid < 30) return 'KICK';
-  if (duration < 0.2 && features.spectralCentroid > 100) return 'HI_HAT';
-  if (duration < 0.4) return 'SNARE';
-  if (features.zcr < 0.1) return 'MELODIC';
-  return 'BASS';
+### `POST /render-song`
+**Request:** JSON
+```json
+{
+  "midi_filename": "blinding-lights.mid",
+  "slots": {
+    "piano":     "<base64 wav from prior /morph>",
+    "bguitar":   "<base64 wav from prior /morph>",
+    "kickdrum":  "<base64 wav from prior /morph>",
+    ...
+  },
+  "tempo_percent": 100
 }
 ```
-*(Note: Meyda's spectral centroid is in bins, not Hz — tune the thresholds empirically once it's running.)*
+- Slots may include any subset of the 11. Unprovided slots are silent.
+- `midi_filename` must match a file in `web/public/midi/`. Frontend tells the server the relative path; server resolves it against a configured MIDI directory.
+**Response:** `audio/wav` of the rendered cover.
 
-### Offline render to .wav
+---
 
-```js
-const buffer = await Tone.Offline(({ transport }) => {
-  // Re-build the entire song graph inside this callback
-  setupSamplersAndScheduleSong();
-  transport.start();
-}, songDurationSeconds);
+## Server-side MIDI rendering algorithm (the crucial new code)
 
-// Convert AudioBuffer to .wav blob (use a small wav-encoder helper)
-const wavBlob = audioBufferToWav(buffer);
-downloadBlob(wavBlob, `${songName}-found-sound-cover.wav`);
+```python
+def render_song(midi_path: str, slot_samples: dict[str, np.ndarray], tempo_percent: float = 100) -> np.ndarray:
+    """
+    midi_path: absolute path to the .mid file
+    slot_samples: { instrument_key: morphed_audio_array_at_22050hz_mono }
+    Returns: combined audio array at 22050Hz mono.
+    """
+    midi = pretty_midi.PrettyMIDI(midi_path)
+
+    # Identify tracks by heuristic
+    track_map = identify_tracks(midi)
+    # → { 'piano': <Instrument>, 'bass': <Instrument>, 'drums': <Instrument>, ... }
+    # Mapping rules per SPEC: lowest-avg-pitch percussion → drums; lowest-avg-pitch
+    # non-drum → bass; most-notes non-drum-non-bass → melody (treated as piano);
+    # any remaining tracks → match by GM program number to closest of the 11 slots.
+
+    # Apply tempo modifier
+    duration = midi.get_end_time() / (tempo_percent / 100.0)
+    sr = 22050
+    out = np.zeros(int(duration * sr) + sr, dtype=np.float32)
+
+    for slot_key, instrument_obj in track_map.items():
+        if slot_key not in slot_samples:
+            continue  # user didn't fill this slot → silent
+        sample = slot_samples[slot_key]
+        for note in instrument_obj.notes:
+            note_start = note.start / (tempo_percent / 100.0)
+            note_pitch_hz = 440 * 2 ** ((note.pitch - 69) / 12)
+            shifted = pitch_shift_to_hz(sample, note_pitch_hz, slot_key)
+            # for unpitched (drums), skip the shift
+            start_idx = int(note_start * sr)
+            end_idx = min(start_idx + len(shifted), len(out))
+            out[start_idx:end_idx] += shifted[:end_idx - start_idx] * note.velocity / 127
+
+    # Master limiter
+    peak = np.max(np.abs(out))
+    if peak > 0:
+        out *= 0.891 / peak
+    return out
 ```
 
-For `audioBufferToWav`, use the `audiobuffer-to-wav` npm package (~30 lines, no dependencies).
+Notes:
+- `pitch_shift_to_hz` is a wrapper around `librosa.effects.pitch_shift` that computes semitone delta from the slot's center pitch (per `INSTRUMENT_PITCH`) to the MIDI note's frequency, clamped to ±24 semitones.
+- For drums (`kickdrum`, `snaredrum`, `hihat`), do NOT pitch-shift — just play the morphed sample at every note's start time.
+- `tempo_percent` scales note start times. Default 100. Range 50–200 acceptable.
 
 ---
 
-## Build order (follow this exactly)
+## UI flow (single page, top to bottom)
 
-Do these one at a time and test each before moving on. Do not try to build everything at once.
+```
+┌─────────────────────────────────────────────────────────┐
+│  Found-Sound Song Maker                                  │
+├─────────────────────────────────────────────────────────┤
+│  Step 1: Fill instrument slots                            │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐        │
+│  │ Piano   │ │ Bass    │ │ Kick    │ │ Hi-hat  │        │
+│  │ [+ Add] │ │ [▶][✕]  │ │ [+ Add] │ │ [+ Add] │        │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘        │
+│  ... (11 total — auto-flow grid) ...                     │
+│                                                            │
+│  Click slot → modal: [🎙 Record] [📁 Upload]              │
+│  After morph: shows hint "your sound was 78% piano-like" │
+├─────────────────────────────────────────────────────────┤
+│  Step 2: Pick a song                                      │
+│  ┌──────┐ ┌──────┐ ┌──────┐                              │
+│  │Blind.│ │Mario │ │Africa│  (15 cards, click selects)   │
+│  └──────┘ └──────┘ └──────┘                              │
+├─────────────────────────────────────────────────────────┤
+│  Step 3: Generate                                         │
+│  Tempo: [---●---] 100%   [✨ Generate]                    │
+├─────────────────────────────────────────────────────────┤
+│  ▶ ⏸  [============●----]  0:42/1:30                      │
+│  [⬇ Download .wav]                                       │
+└─────────────────────────────────────────────────────────┘
+```
 
-1. **Vite scaffold + install deps.** Get a blank page rendering.
-2. **Tone.js Sampler proof-of-concept.** Hardcode one audio file in `public/`, load it into a Sampler, play a C major scale on button click. **Until this works, nothing else matters.**
-3. **MIDI playback proof-of-concept.** Load one bundled MIDI file with `@tonejs/midi`, play it through the hardcoded sampler. Confirm timing sounds right.
-4. **Sound recording UI.** Record from mic → store blob in memory → preview playback. No classification yet.
-5. **Sound upload UI.** Same as recording but via file input.
-6. **Classification.** Wire up Meyda, assign roles, show role dropdowns.
-7. **Song picker UI.** Grid of cards, clicking selects a song.
-8. **Full song generation.** Map sounds to tracks, build samplers per role, schedule MIDI notes through them. **First milestone where it actually demos.**
-9. **Transformations.** Pitch shifts, tempo control, humanization, effects chain.
-10. **Export to .wav.** Tone.Offline render + download.
-11. **Polish UI.** Dark mode, animations, loading states, error handling.
+Style: dark mode, rounded corners, accent color #fbbf24, big chunky buttons. Don't over-design.
 
 ---
 
-## Acceptance criteria (definition of "done")
+## Build order (the 6 missions)
 
-- [ ] User can record at least 4 sounds from mic
-- [ ] User can upload sounds as alternative
-- [ ] Each sound auto-classifies into a role with manual override available
-- [ ] User can pick from at least 10 bundled songs
-- [ ] Clicking "Generate" produces audible playback of the song using user's sounds
-- [ ] Playback has bass + melody + drums all clearly using different user sounds
-- [ ] Tempo slider works
-- [ ] Pitch transformations are applied (sounds aren't trying to hit unreasonable original-song pitches)
-- [ ] Output sounds **recognizably like the chosen song** but clearly made of the user's noises
-- [ ] User can download the result as a .wav file
-- [ ] App works in Chrome and Firefox without errors
-- [ ] No backend, no API keys, runs entirely in the browser
+Do these one at a time. Each must self-test before the next runs.
+
+### N1 — Refactor `pipeline.py` + add MIDI rendering
+- Extract `load_audio`, `strip_silence`, `extract`, `morph`, `pitch_adjust`, `_phone_hpf` from pipeline.py as importable library functions. They must work without depending on the `__main__` block.
+- Move the existing `if __name__ == "__main__"` fixed-loop demo to a separate `experiments/fixed_loop_demo.py` (preserve it for reference; it was Jerry's working test).
+- Add `classify_sound(audio_bytes_or_path) -> dict[str, float]` that returns confidence scores per instrument (1/(1+distance), normalized so they sum to 1).
+- Add `process_sound(audio_bytes, target_instrument) -> bytes` that runs strip_silence + morph + pitch_adjust against the named target and returns 16-bit PCM 22050Hz mono WAV bytes.
+- Add `render_song(midi_path, slot_samples, tempo_percent=100) -> np.ndarray` per the algorithm above. Use `pretty_midi`. Implement `identify_tracks` heuristically.
+- Add `requirements.txt` with: librosa, numpy, scipy, soundfile, pydub, fastapi, uvicorn, python-multipart, pretty_midi.
+- Self-test: write `experiments/test_render.py` that loads two of Jerry's training samples (`instrument_recordings/piano.wav` and `instrument_recordings/kickdrum.wav`), renders a tiny test MIDI through them via `render_song`, writes the output, and confirms the output has non-silent samples.
+
+### N2 — FastAPI server (`server.py`)
+- `POST /classify` → calls `classify_sound`.
+- `POST /morph` → calls `process_sound`.
+- `POST /render-song` → decodes base64 slot samples, calls `render_song`, returns wav.
+- CORS allow-list: `http://localhost:3000` and `http://localhost:5173`.
+- `/health` → `{"ok": true, "instruments_loaded": 11}`.
+- Boots via `uvicorn server:app --reload --port 8000`. Document the command in a README.
+- Self-test: hit `/health` and `/classify` with `instrument_recordings/piano.wav` via curl. Confirm `best_match: "piano"`.
+
+### N3 — MIDI library sourcing
+- Research top-30 most iconic / instantly-recognizable songs with free MIDI online. Pick 15 with smallest, cleanest track structure (under 200KB each, parseable by `pretty_midi`, identifiable bass + drums + melody tracks).
+- Place in `web/public/midi/`. Generate `web/public/midi/index.json`: `[{filename, title, artist}]`.
+- Document sources in `web/public/midi/SOURCES.md`.
+- Validation script `web/scripts/validate-midi.mjs` (or a Python script if simpler) — every .mid must parse without error.
+- Self-test: run the validation script. All 15 PASS.
+
+### N4 — Next.js scaffold + 11 instrument slot UI
+- `npx create-next-app@latest web --typescript --app --no-tailwind --import-alias "@/*"` (or with tailwind — agent's call, but document it).
+- Build the InstrumentSlot component: 11 cards, click opens a modal with Record + Upload buttons. On audio captured, POST to `http://localhost:8000/morph` with the slot's `target_instrument`. Receive morphed wav blob, store in slot state.
+- Show classifier hint under each slot — POST in parallel to `/classify` for the user-feedback display ("78% piano").
+- Slot state lives in a single `useReducer` in the page component for now.
+- Self-test: with the FastAPI server running, run `npm run dev` from `web/`, manually fill 2 slots, confirm morphed previews play.
+
+### N5 — Song picker + generate + playback
+- SongPicker component reads `/midi/index.json` (Next.js serves from `public/`).
+- GenerateButton: when at least 1 slot is filled and a song is selected, POST to `/render-song` with the MIDI filename + base64 of each slot's morphed wav blob.
+- Player: receive the rendered wav, play it via `<audio>` element. Show progress bar.
+- Download button: trigger browser download with filename `{slug-of-song}-found-sound-cover.wav`.
+- Tempo slider: 50%–150%, default 100%, sent as `tempo_percent` to render.
+- Self-test: with backend up, fill 3 slots with `instrument_recordings/{piano,bguitar,kickdrum}.wav` (treat them as user uploads), pick a song, hit Generate, confirm audible playback recognizable as that song. Download → verify .wav opens in QuickTime/VLC.
+
+### N6 — Polish + acceptance
+- Dark mode (#0d0e12 bg, #fbbf24 accent), rounded buttons, spacing.
+- Loading states: "Morphing..." while waiting for /morph; "Rendering..." while waiting for /render-song.
+- Error toasts: mic-permission-denied, file-too-large, render-failed, server-down.
+- Empty/disabled states: Generate disabled until ≥1 slot filled and a song selected.
+- Acceptance walkthrough: write `ACCEPTANCE.md` with PASS/FAIL against every criterion in the next section.
+
+---
+
+## Acceptance criteria
+
+- [ ] Backend `/health` returns `instruments_loaded: 11`.
+- [ ] Backend `/classify` correctly identifies `instrument_recordings/piano.wav` as piano.
+- [ ] Backend `/morph` returns a non-silent wav for any of Jerry's training samples + any target instrument.
+- [ ] Backend `/render-song` returns a non-silent wav given a MIDI from the bundled library and at least 1 slot filled.
+- [ ] Frontend boots cleanly on `npm run dev` with no console errors on initial load.
+- [ ] User can fill any subset of 11 slots via mic recording.
+- [ ] User can fill any subset of 11 slots via file upload.
+- [ ] Each slot displays the classifier confidence hint as a percentage.
+- [ ] Song picker grid renders ≥10 songs from `/midi/index.json`.
+- [ ] Clicking Generate posts to /render-song and plays the returned audio in the browser.
+- [ ] Output sounds **recognizably like the chosen song** but clearly made of the user's noises.
+- [ ] User can download the result as a .wav.
+- [ ] App works in Chrome and Firefox with no console errors.
+- [ ] No repo-root Python files (`pipeline.py`, `debug.py`, `rebuild_db.py`, `instruments_db.csv`, `instrument_recordings/`) are deleted or broken by the frontend work.
 
 ---
 
 ## Out of scope (do NOT build these)
 
-- "Type any song name" search — just use the bundled library.
-- AI-generated melodies (Magenta.js etc.) — using existing MIDI is faster and better.
-- User accounts, saving projects, sharing.
-- Mobile-optimized UI — desktop only is fine.
-- Multiple genre/style presets — one good generation pipeline is enough.
-- Real-time effects tweaking — apply on generation, that's it.
-- Polyphonic samplers per drum hit — one sound per role is fine.
+- Real-time tempo control during playback (tempo only applies on re-render).
+- AI-generated melodies.
+- User accounts, project saving, sharing.
+- Mobile-optimized UI.
+- Hungarian-algorithm auto-assignment of sounds to slots (user picks slot manually — the user explicitly opted out of auto-assignment).
+- Multiple concurrent users / production deployment / authentication.
 
 ---
 
-## Notes on MIDI files
+## Notes on existing files
 
-- Source MIDI files from [BitMidi](https://bitmidi.com/) or similar **free** repositories.
-- Test each bundled MIDI before committing — some have weird track structures (e.g. melody split across 4 tracks). Either pick clean MIDI files or write a track-merging step.
-- Keep MIDI files **under 200KB each** to keep the bundle small.
+`samples/` contains Jerry's old test artifacts — `test*.m4a` (his test inputs) and `test*_<instrument>.wav` (their morphed outputs) and `combined.wav` (his fixed-loop 8-bar arrangement). These are pure dev fixtures from before this spec existed. **Do not delete them** (useful as reference) but they are not part of the runtime.
+
+`pipeline.py`'s `if __name__ == "__main__"` block (the 8-bar fixed-loop demo) gets moved to `experiments/fixed_loop_demo.py` in mission N1. That demo was Jerry's end-to-end smoke test before the FastAPI layer existed.
 
 ---
 
-## Hackathon priorities (if you run out of time)
+## Hackathon priorities (if time runs out)
 
 Cut in this order:
-1. First, cut the **export to .wav** (judges can record demo audio if needed).
-2. Then cut **manual classification override** (auto-classify only).
-3. Then cut **tempo slider** (use original BPM always).
-4. Then cut **effects chain** (dry playback is fine).
+1. First, cut the **classifier hint** display under each slot (the value-add is small for the cost).
+2. Then cut the **tempo slider** (always render at 100%).
+3. Then cut **download** (judges can record demo audio).
+4. Then cut **manual cleanup of unused songs** in the MIDI library — ship 10 instead of 15.
 
-Do **not** cut: sound input, song picker, MIDI playback through user sounds. That's the demo.
-
-Good luck. Ship it.
+Do **NOT** cut: instrument slots, MIDI song picker, /render-song, audible playback. That's the demo.

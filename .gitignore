@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Next.js (web/)
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+web/.env.production.local
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Render outputs (regeneratable)
+combined.wav
+*_kickdrum.wav
+*_snaredrum.wav
+*_hihat.wav
+*_piano.wav
+*_violin.wav
+*_cello.wav
+*_aguitar.wav
+*_eguitar.wav
+*_bguitar.wav
+*_flute.wav
+*_trumpet.wav
+tmp/
+renders/
