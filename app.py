@@ -21,16 +21,16 @@ PANNS_SR = 32000
 # AudioSet label index → our instrument label
 # Indices from PANNs Cnn14 (527-class AudioSet model)
 _LABEL_MAP = {
-    142: "bass",     # Bass guitar
-    153: "piano",    # Piano
-    154: "piano",    # Electric piano
-    162: "drum",     # Drum kit
-    164: "drum",     # Drum
-    165: "snare",    # Snare drum
-    168: "drum",     # Bass drum
-    171: "cymbal",   # Cymbal
-    172: "hihat",    # Hi-hat
-    196: "flute",    # Flute
+    142: "bguitar",   # Bass guitar
+    153: "piano",     # Piano
+    154: "piano",     # Electric piano
+    162: "kickdrum",  # Drum kit
+    164: "kickdrum",  # Drum
+    165: "snaredrum", # Snare drum
+    168: "kickdrum",  # Bass drum
+    171: "hihat",     # Cymbal
+    172: "hihat",     # Hi-hat
+    196: "flute",     # Flute
 }
 
 _tagger = None
@@ -190,6 +190,38 @@ def parse_clips(clips: List[bytes]) -> List[dict]:
             })
 
     return results
+
+
+@app.post("/classify")
+async def classify(audio: UploadFile = File(...)):
+    audio_bytes = await audio.read()
+    y = _load_audio_bytes(audio_bytes)
+
+    if len(y) < N_FFT:
+        return {"scores": {}, "best_match": None}
+
+    tagger = _get_tagger()
+    y32 = librosa.resample(y, orig_sr=SR, target_sr=PANNS_SR)
+    min_len = PANNS_SR
+    if len(y32) < min_len:
+        y32 = np.pad(y32, (0, min_len - len(y32)))
+
+    with torch.no_grad():
+        (clipwise_output, _) = tagger.inference(y32[None, :])
+
+    probs = clipwise_output[0]
+    scores: dict[str, float] = {}
+    for idx, instrument in _LABEL_MAP.items():
+        p = float(probs[idx])
+        if p > scores.get(instrument, 0.0):
+            scores[instrument] = p
+
+    if not scores:
+        return {"scores": {}, "best_match": None}
+
+    best_match = max(scores, key=scores.get)
+    print(f"[classify] scores={{{', '.join(f'{k}: {v:.3f}' for k, v in sorted(scores.items(), key=lambda x: -x[1]))}}}, best={best_match}")
+    return {"scores": scores, "best_match": best_match}
 
 
 @app.post("/generate")
