@@ -1,0 +1,14 @@
+{
+  "midi": "web/public/midi/pirates-of-the-caribbean.mid",
+  "raw_mode": true,
+  "temperature": 0.3,
+  "tempo_percent": 100.0,
+  "selection_rule": "piano/violin: random labelled; bguitar: highest bguitar-score among remaining",
+  "picks": {
+    "piano": "Jacob_piano.wav",
+    "violin": "Atharv_violin.wav",
+    "bguitar": "University_of_Waterloo_23_cello.wav"
+  },
+  "output": "pirates_Jacob_Atharv_University.wav",
+  "duration_s": 78.62498866213151
+}
