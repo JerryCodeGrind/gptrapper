@@ -21,18 +21,19 @@ web/.env.production.local
 .vscode/
 .idea/
 
-# Render outputs (regeneratable)
-combined.wav
-*_kickdrum.wav
-*_snaredrum.wav
-*_hihat.wav
-*_piano.wav
-*_violin.wav
-*_cello.wav
-*_aguitar.wav
-*_eguitar.wav
-*_bguitar.wav
-*_flute.wav
-*_trumpet.wav
+# Render outputs at repo root (regeneratable). Leading slash anchors to root
+# so we don't ignore the same names inside samples/ (Jerry's reference files).
+/combined.wav
+/test*_kickdrum.wav
+/test*_snaredrum.wav
+/test*_hihat.wav
+/test*_piano.wav
+/test*_violin.wav
+/test*_cello.wav
+/test*_aguitar.wav
+/test*_eguitar.wav
+/test*_bguitar.wav
+/test*_flute.wav
+/test*_trumpet.wav
 tmp/
 renders/
