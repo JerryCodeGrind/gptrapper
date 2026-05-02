@@ -368,12 +368,23 @@ if __name__ == "__main__":
     cost             = np.stack([r["dists"] for r in recs])
     row_idx, col_idx = linear_sum_assignment(cost)
 
+    # ── forced assignments (delete to revert to automatic) ───────
+    FORCED = {
+        "test6": "piano",
+    }
+    # ─────────────────────────────────────────────────────────────
+
     print("\nOptimal assignment:")
     total    = 0.0
     segments = []
     for ri, ci in zip(row_idx, col_idx):
         rec    = recs[ri]
-        target = db[ci]
+        stem   = Path(rec["path"]).stem
+        if stem in FORCED:
+            forced_name = FORCED[stem]
+            target = next((r for r in db if r["instrument"] == forced_name), db[ci])
+        else:
+            target = db[ci]
         name   = target["instrument"]
         dist   = cost[ri, ci]
         total += dist
@@ -387,7 +398,6 @@ if __name__ == "__main__":
         if peak > 0:
             y_out *= 0.891 / peak
 
-        stem = Path(rec["path"]).stem
         sf.write(f"{stem}_{name}.wav", y_out, SR)
         segments.append((name, target["base_pitch_hz"], y_out))
         print(f"  {rec['path']}  →  {name:<12s}  dist={dist:.3f}  → {stem}_{name}.wav")
