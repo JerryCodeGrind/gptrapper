@@ -1,0 +1,7632 @@
+{
+  "*nsync::bye bye bye": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 86.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "*NSYNC",
+      "id": "484m1",
+      "title": "Bye Bye Bye"
+    }
+  },
+  "2 chainz::birthday song": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "2 Chainz",
+      "id": "JqrL4v",
+      "title": "Birthday Song"
+    }
+  },
+  "2 chainz::no lie": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "2 Chainz",
+      "id": "G5oG13",
+      "title": "No Lie"
+    }
+  },
+  "2 unlimited::get ready for this": {
+    "features": {
+      "duration_ms": null,
+      "key": "",
+      "mode": "minor",
+      "tempo": null,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "2 Unlimited",
+      "id": "0R2rV5",
+      "title": "Get Ready for This (orchestral mix)"
+    }
+  },
+  "21 savage::a lot": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 73.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "21 Savage",
+      "id": "PjOAR2",
+      "title": "a lot"
+    }
+  },
+  "50 cent::in da club": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "50 Cent",
+      "id": "wmmEqJ",
+      "title": "In da Club"
+    }
+  },
+  "a tribe called quest::scenario": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 102.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "A Tribe Called Quest",
+      "id": "rg7vL",
+      "title": "Scenario (remix)"
+    }
+  },
+  "a$ap rocky::pmw": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "A$AP Rocky",
+      "id": "OyNvwB",
+      "title": "PMW (All I Really Need)"
+    }
+  },
+  "abba::dancing queen": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "ABBA",
+      "id": "RoGw0E",
+      "title": "Dancing Queen"
+    }
+  },
+  "above & beyond::sun & moon": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 133.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Above & Beyond",
+      "id": "nrY6BD",
+      "title": "Sun & Moon"
+    }
+  },
+  "ac/dc::back in black": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "AC/DC",
+      "id": "gLmkR6",
+      "title": "Back in Black"
+    }
+  },
+  "ac/dc::highway to hell": {
+    "features": {
+      "duration_ms": null,
+      "key": null,
+      "mode": null,
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "AC/DC",
+      "id": "983pB",
+      "title": "Highway to Hell"
+    }
+  },
+  "adele::hello": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 98.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Madeleine Peyroux",
+      "id": "mqxA60",
+      "title": "Hello Babe"
+    }
+  },
+  "adele::rolling in the deep": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Adele",
+      "id": "jqW6Yl",
+      "title": "Rolling in the Deep"
+    }
+  },
+  "aerosmith::dream on": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 78.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Aerosmith",
+      "id": "OyPKN",
+      "title": "Dream On"
+    }
+  },
+  "aerosmith::sweet emotion": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Aerosmith",
+      "id": "l5PB8g",
+      "title": "Sweet Emotion"
+    }
+  },
+  "alanis morissette::ironic": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Alanis Morissette",
+      "id": "q8KM3",
+      "title": "Ironic"
+    }
+  },
+  "alesso::heroes (we could be)": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 125.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Alesso",
+      "id": "81wDjj",
+      "title": "Heroes (We Could Be)"
+    }
+  },
+  "alex g::forever": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Alex G",
+      "id": "jZNpoW",
+      "title": "Forever"
+    }
+  },
+  "alex g::kicker": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 90.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Alex G",
+      "id": "r22P8p",
+      "title": "Kicker"
+    }
+  },
+  "alice in chains::rooster": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 72.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Alice in Chains",
+      "id": "wpWrX",
+      "title": "Rooster"
+    }
+  },
+  "alice in chains::would?": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 198.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Alice in Chains",
+      "id": "ER4Pl",
+      "title": "Would?"
+    }
+  },
+  "alt-j::breezeblocks": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "alt-J",
+      "id": "XoE9p8",
+      "title": "Breezeblocks"
+    }
+  },
+  "alvvays::archie, marry me": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Alvvays",
+      "id": "K1vl58",
+      "title": "Archie, Marry Me"
+    }
+  },
+  "angel olsen::shut up kiss me": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 115.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Angel Olsen",
+      "id": "ywvLvP",
+      "title": "Shut Up Kiss Me"
+    }
+  },
+  "animal collective::my girls": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Animal Collective",
+      "id": "R6WAOz",
+      "title": "My Girls"
+    }
+  },
+  "arcade fire::wake up": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 138.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Arcade Fire",
+      "id": "W764Zv",
+      "title": "Wake Up"
+    }
+  },
+  "arctic monkeys::505": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Arctic Monkeys",
+      "id": "jRNQNl",
+      "title": "505"
+    }
+  },
+  "arctic monkeys::i bet you look good on the dancefloor": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 204.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Arctic Monkeys",
+      "id": "jq3QNR",
+      "title": "I Bet You Look Good on the Dancefloor"
+    }
+  },
+  "arctic monkeys::r u mine?": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Arctic Monkeys",
+      "id": "zvPyAZ",
+      "title": "R U Mine?"
+    }
+  },
+  "aretha franklin::respect": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Aretha Franklin",
+      "id": "yXMmR",
+      "title": "Respect"
+    }
+  },
+  "ariana grande::7 rings": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 70.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ariana Grande",
+      "id": "VvXjLM",
+      "title": "7 rings"
+    }
+  },
+  "ariana grande::thank u, next": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ariana Grande",
+      "id": "WPY0MJ",
+      "title": "thank u, next"
+    }
+  },
+  "ariel pink's haunted graffiti::among dreams": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ariel Pink's Haunted Graffiti",
+      "id": "qB8Bp",
+      "title": "Among Dreams"
+    }
+  },
+  "ariel pink::round and round": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 110.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ariel Pink's Haunted Graffiti",
+      "id": "j2ko05",
+      "title": "Round and Round"
+    }
+  },
+  "armin van buuren::burned with desire": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 138.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Armin van Buuren",
+      "id": "0VAW47",
+      "title": "Burned With Desire"
+    }
+  },
+  "armin van buuren::this is what it feels like": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 5
+    },
+    "track": {
+      "artist": "Armin van Buuren",
+      "id": "G5G9Rr",
+      "title": "This Is What It Feels Like"
+    }
+  },
+  "art blakey & the jazz messengers::blues march": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 131.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Art Blakey & The Jazz Messengers",
+      "id": "2RxGNK",
+      "title": "Blues March"
+    }
+  },
+  "art blakey & the jazz messengers::moanin'": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 126.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Art Blakey & The Jazz Messengers",
+      "id": "qZDM7",
+      "title": "Moanin'"
+    }
+  },
+  "atb::9 pm (till i come)": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "ATB",
+      "id": "jqY99B",
+      "title": "9 PM (Till I Come)"
+    }
+  },
+  "avicii::wake me up": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Avicii",
+      "id": "P716Dn",
+      "title": "Wake Me Up"
+    }
+  },
+  "axwell \u03bb ingrosso::more than you know": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Axwell \u039b Ingrosso",
+      "id": "NO4O92",
+      "title": "More Than You Know"
+    }
+  },
+  "backstreet boys::i want it that way": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Backstreet Boys",
+      "id": "27Zz",
+      "title": "I Want It That Way"
+    }
+  },
+  "beabadoobee::care": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Beabadoobee",
+      "id": "gpBpRj",
+      "title": "Care"
+    }
+  },
+  "beach house::space song": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 73.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Beach House",
+      "id": "VAgGwz",
+      "title": "Space Song"
+    }
+  },
+  "beastie boys::fight for your right": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Beastie Boys",
+      "id": "NxENK",
+      "title": "Fight for Your Right"
+    }
+  },
+  "beat happening::indian summer": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 139.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Beat Happening",
+      "id": "ROQgK",
+      "title": "Indian Summer"
+    }
+  },
+  "beck::loser": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Beck",
+      "id": "VmkD1",
+      "title": "Loser"
+    }
+  },
+  "belle and sebastian::the boy with the arab strap": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Belle and Sebastian",
+      "id": "mQZj2E",
+      "title": "The Boy With the Arab Strap"
+    }
+  },
+  "benny goodman::sing, sing, sing": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 113.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Benny Goodman",
+      "id": "8qPOLL",
+      "title": "Sing, Sing, Sing"
+    }
+  },
+  "benny goodman::stompin' at the savoy": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 156.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Benny Goodman",
+      "id": "X1Xkk",
+      "title": "Stompin' at the Savoy"
+    }
+  },
+  "best coast::boyfriend": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 114.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Best Coast",
+      "id": "Z4KrBR",
+      "title": "Boyfriend"
+    }
+  },
+  "beyonc\u00e9::crazy in love": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 51.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Beyonc\u00e9",
+      "id": "nrRk97",
+      "title": "Crazy in Love"
+    }
+  },
+  "bicep::glue": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bicep",
+      "id": "qQvElR",
+      "title": "Glue"
+    }
+  },
+  "big daddy kane::ain't no half-steppin'": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Big Daddy Kane",
+      "id": "vRkmm",
+      "title": "Ain't No Half-Steppin'"
+    }
+  },
+  "big sean::i don't fuck with you": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Big Sean",
+      "id": "WLMXyg",
+      "title": "I Don't Fuck With You"
+    }
+  },
+  "big thief::not": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Big Thief",
+      "id": "OgmwmB",
+      "title": "Not"
+    }
+  },
+  "bill evans trio::autumn leaves": {
+    "features": {
+      "duration_ms": null,
+      "key": "",
+      "mode": "minor",
+      "tempo": null,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bill Evans Trio",
+      "id": "8DB8L",
+      "title": "Autumn Leaves (take 1 stereo)"
+    }
+  },
+  "bill evans::peace piece": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 132.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Bill Evans",
+      "id": "kWAz6",
+      "title": "Peace Piece"
+    }
+  },
+  "billie eilish::bad guy": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Billie Eilish",
+      "id": "XQZzVA",
+      "title": "bad guy"
+    }
+  },
+  "billie holiday::all of me": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 5
+    },
+    "track": {
+      "artist": "Billie Holiday",
+      "id": "v2vomV",
+      "title": "All of Me"
+    }
+  },
+  "billie holiday::god bless the child": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 75.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Billie Holiday",
+      "id": "OqQGN",
+      "title": "God Bless the Child"
+    }
+  },
+  "billie holiday::lady sings the blues": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 121.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Billie Holiday",
+      "id": "GgGA0",
+      "title": "Lady Sings the Blues"
+    }
+  },
+  "billie holiday::strange fruit": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 97.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Billie Holiday",
+      "id": "Mo0X3",
+      "title": "Strange Fruit"
+    }
+  },
+  "billy joel::piano man": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 176.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Billy Joel",
+      "id": "nZVlR",
+      "title": "Piano Man"
+    }
+  },
+  "billy strayhorn::a flower is a lovesome thing": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 77.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Billy Strayhorn",
+      "id": "lxPD9M",
+      "title": "A Flower Is a Lovesome Thing"
+    }
+  },
+  "billy strayhorn::lush life": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 102.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Billy Strayhorn",
+      "id": "ElPNW",
+      "title": "Lush Life"
+    }
+  },
+  "black sabbath::iron man": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Black Sabbath",
+      "id": "rRY8lL",
+      "title": "Iron Man"
+    }
+  },
+  "black sabbath::paranoid": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Black Sabbath",
+      "id": "pQz8jy",
+      "title": "Paranoid"
+    }
+  },
+  "blocboy jb::look alive": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "BlocBoy JB",
+      "id": "r2jxrK",
+      "title": "Look Alive (feat. Drake)"
+    }
+  },
+  "blondie::heart of glass": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Blondie",
+      "id": "4RJ13g",
+      "title": "Heart of Glass"
+    }
+  },
+  "blueface::thotiana": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 104.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Blueface",
+      "id": "krRkZY",
+      "title": "Thotiana"
+    }
+  },
+  "blur::song 2": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Blur",
+      "id": "0REG",
+      "title": "Song 2"
+    }
+  },
+  "bobby timmons::dat dere": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 134.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bobby Timmons",
+      "id": "oVOQ3",
+      "title": "Dat Dere"
+    }
+  },
+  "bombay bicycle club::shuffle": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bombay Bicycle Club",
+      "id": "BgK9Yk",
+      "title": "Shuffle"
+    }
+  },
+  "bon iver::skinny love": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bon Iver",
+      "id": "xkAMAr",
+      "title": "Skinny Love"
+    }
+  },
+  "bon jovi::livin' on a prayer": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 122.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bon Jovi",
+      "id": "wArwR",
+      "title": "Livin' on a Prayer"
+    }
+  },
+  "boris brejcha::purple noise": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Boris Brejcha",
+      "id": "wV7Y31",
+      "title": "Purple Noise"
+    }
+  },
+  "bright eyes::bowl of oranges": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 105.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bright Eyes",
+      "id": "j0WxW",
+      "title": "Bowl of Oranges"
+    }
+  },
+  "bright eyes::lua": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 104.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Bright Eyes",
+      "id": "ozoV3",
+      "title": "Lua"
+    }
+  },
+  "britney spears::...baby one more time": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Britney Spears",
+      "id": "nrkYEP",
+      "title": "...Baby One More Time"
+    }
+  },
+  "bruce springsteen::born to run": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bruce Springsteen",
+      "id": "qj6l2",
+      "title": "Born to Run"
+    }
+  },
+  "bruce springsteen::thunder road": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bruce Springsteen",
+      "id": "mw8YO",
+      "title": "Thunder Road"
+    }
+  },
+  "bruno mars::just the way you are": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bruno Mars",
+      "id": "Xoq1vl",
+      "title": "Just the Way You Are"
+    }
+  },
+  "bud powell::cleopatra's dream": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bud Powell",
+      "id": "rR6O2",
+      "title": "Cleopatra's Dream"
+    }
+  },
+  "bud powell::un poco loco": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 138.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Bud Powell",
+      "id": "AP8gqB",
+      "title": "Un poco loco (alternate take 1)"
+    }
+  },
+  "buddy holly::that'll be the day": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 114.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Buddy Holly",
+      "id": "Ro6Rwz",
+      "title": "That'll Be the Day"
+    }
+  },
+  "built to spill::carry the zero": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 94.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Built to Spill",
+      "id": "0Y0mX",
+      "title": "Carry the Zero"
+    }
+  },
+  "calvin harris::feel so close": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Calvin Harris",
+      "id": "gLq4ED",
+      "title": "Feel So Close (radio edit)"
+    }
+  },
+  "calvin harris::summer": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Calvin Harris",
+      "id": "oV4Lk3",
+      "title": "Summer"
+    }
+  },
+  "camila cabello::havana": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Camila Cabello",
+      "id": "6W3NNz",
+      "title": "Havana"
+    }
+  },
+  "camp cope::the opener": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Camp Cope",
+      "id": "Qk9jWY",
+      "title": "The Opener"
+    }
+  },
+  "car seat headrest::drunk drivers/killer whales": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Car Seat Headrest",
+      "id": "16njRG",
+      "title": "Drunk Drivers/Killer Whales"
+    }
+  },
+  "cardi b::bodak yellow": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Cardi B",
+      "id": "lRBN25",
+      "title": "Bodak Yellow"
+    }
+  },
+  "casiotone for the painfully alone::new year's kiss": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 179.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Casiotone for the Painfully Alone",
+      "id": "lY2myl",
+      "title": "New Year's Kiss"
+    }
+  },
+  "cat power::cross bones style": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Cat Power",
+      "id": "yrZLz",
+      "title": "Cross Bones Style"
+    }
+  },
+  "celine dion::my heart will go on": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 98.0,
+      "time_signature": 1
+    },
+    "track": {
+      "artist": "C\u00e9line Dion",
+      "id": "rRnA92",
+      "title": "My Heart Will Go On"
+    }
+  },
+  "chamillionaire::ridin'": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 143.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Chamillionaire",
+      "id": "73O92G",
+      "title": "Ridin'"
+    }
+  },
+  "charles mingus::fables of faubus": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 63.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charles Mingus",
+      "id": "kRy45",
+      "title": "Fables of Faubus"
+    }
+  },
+  "charles mingus::goodbye pork pie hat": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Charles Mingus",
+      "id": "rkJxK",
+      "title": "Goodbye Pork Pie Hat"
+    }
+  },
+  "charles mingus::haitian fight song": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charles Mingus",
+      "id": "gkP1Ek",
+      "title": "haitian Fight Song"
+    }
+  },
+  "charlie parker::anthropology": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Charlie Parker",
+      "id": "0YJz5y",
+      "title": "Anthropology (Gillespie \u2013 Parker)"
+    }
+  },
+  "charlie parker::cherokee": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 150.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charlie Parker",
+      "id": "Dkvnoq",
+      "title": "Cherokee"
+    }
+  },
+  "charlie parker::donna lee": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 226.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charlie Parker",
+      "id": "NkB0XK",
+      "title": "Donna Lee"
+    }
+  },
+  "charlie parker::embraceable you": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 63.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charlie Parker",
+      "id": "Vm2XqW",
+      "title": "Embraceable You"
+    }
+  },
+  "charlie parker::ko-ko": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 151.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charlie Parker",
+      "id": "BBm6On",
+      "title": "Ko-Ko"
+    }
+  },
+  "charlie parker::ornithology": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charlie Parker",
+      "id": "JZ7g5D",
+      "title": "Ornithology"
+    }
+  },
+  "charlie puth::attention": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 98.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Charlie Puth",
+      "id": "36Z9BO",
+      "title": "Attention"
+    }
+  },
+  "chick corea::500 miles high": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 148.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Chick Corea",
+      "id": "x6gP2r",
+      "title": "500 Miles High"
+    }
+  },
+  "chick corea::la fiesta": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Chick Corea",
+      "id": "RkOzq",
+      "title": "La Fiesta"
+    }
+  },
+  "chick corea::spain": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 138.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Chick Corea Akoustic Band",
+      "id": "0AP55",
+      "title": "Spain"
+    }
+  },
+  "childish gambino::redbone": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 81.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Childish Gambino",
+      "id": "EqwvJW",
+      "title": "Redbone"
+    }
+  },
+  "christina aguilera::beautiful": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Christina Aguilera",
+      "id": "wmZ8Mz",
+      "title": "Beautiful"
+    }
+  },
+  "chuck berry::johnny b. goode": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 83.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Chuck Berry",
+      "id": "xyx2J",
+      "title": "Johnny B. Goode"
+    }
+  },
+  "citizen::roam the room": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Citizen",
+      "id": "q7pYVr",
+      "title": "Roam the Room"
+    }
+  },
+  "coleman hawkins::body and soul": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 94.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Coleman Hawkins",
+      "id": "2wrNv",
+      "title": "Body and Soul"
+    }
+  },
+  "common::the light": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Common",
+      "id": "G58QmJ",
+      "title": "The Light"
+    }
+  },
+  "corona::the rhythm of the night": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Corona",
+      "id": "mQQYyp",
+      "title": "The Rhythm of the Night"
+    }
+  },
+  "courtney barnett::pedestrian at best": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Courtney Barnett",
+      "id": "p8JvrQ",
+      "title": "Pedestrian at Best"
+    }
+  },
+  "cream::sunshine of your love": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Cream",
+      "id": "YE2Kp",
+      "title": "Sunshine of Your Love"
+    }
+  },
+  "crystal waters::gypsy woman (she's homeless)": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Crystal Waters",
+      "id": "22pON",
+      "title": "Gypsy Woman (She's Homeless) (radio mix)"
+    }
+  },
+  "cults::go outside": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Cults",
+      "id": "j2E2Y4",
+      "title": "Go Outside"
+    }
+  },
+  "cyndi lauper::girls just want to have fun": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Cyndi Lauper",
+      "id": "oKX",
+      "title": "Girls Just Want to Have Fun"
+    }
+  },
+  "dababy::rockstar": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 89.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "DaBaby",
+      "id": "pZEq6X",
+      "title": "ROCKSTAR (feat. Roddy Ricch)"
+    }
+  },
+  "dababy::suge": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 150.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "DaBaby",
+      "id": "x6R3EP",
+      "title": "Suge"
+    }
+  },
+  "daft punk::around the world": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Daft Punk",
+      "id": "j2PvW",
+      "title": "Around the World"
+    }
+  },
+  "daft punk::get lucky": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Daft Punk",
+      "id": "E9Dq14",
+      "title": "Get Lucky"
+    }
+  },
+  "daft punk::harder, better, faster, stronger": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Daft Punk",
+      "id": "Z4n5J",
+      "title": "Harder, Better, Faster, Stronger"
+    }
+  },
+  "daft punk::one more time": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Daft Punk",
+      "id": "Wn02J",
+      "title": "One More Time"
+    }
+  },
+  "daniel johnston::true love will find you in the end": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 118.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Daniel Johnston",
+      "id": "1wYzR",
+      "title": "True Love Will Find You in the End"
+    }
+  },
+  "darude::sandstorm": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Darude",
+      "id": "l2rAr",
+      "title": "Sandstorm"
+    }
+  },
+  "dave brubeck quartet::take five": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 174.0,
+      "time_signature": 5
+    },
+    "track": {
+      "artist": "The Dave Brubeck Quartet",
+      "id": "E7Z3l",
+      "title": "Take Five"
+    }
+  },
+  "david bowie::heroes": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "David Bowie",
+      "id": "z7lKr",
+      "title": "\u201cHeroes\u201d"
+    }
+  },
+  "david bowie::ziggy stardust": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "David Bowie",
+      "id": "gLPkj",
+      "title": "Ziggy Stardust"
+    }
+  },
+  "david guetta::when love takes over": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "David Guetta",
+      "id": "pQ8PKm",
+      "title": "When Love Takes Over"
+    }
+  },
+  "de la soul::me myself and i": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "De La Soul",
+      "id": "qYmAjD",
+      "title": "Me Myself and I"
+    }
+  },
+  "deadmau5::i remember": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 128.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "deadmau5",
+      "id": "l5joEg",
+      "title": "I Remember"
+    }
+  },
+  "deadmau5::strobe": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 128.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "deadmau5",
+      "id": "jqMpPB",
+      "title": "Strobe"
+    }
+  },
+  "deafheaven::irresistible": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 102.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Deafheaven",
+      "id": "5Ror2K",
+      "title": "Irresistible"
+    }
+  },
+  "death cab for cutie::soul meets body": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Death Cab for Cutie",
+      "id": "kzBAr",
+      "title": "Soul Meets Body"
+    }
+  },
+  "deerhunter::helicopter": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 73.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Deerhunter",
+      "id": "qj0rmr",
+      "title": "Helicopter"
+    }
+  },
+  "depeche mode::personal jesus": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Depeche Mode",
+      "id": "zpDv8",
+      "title": "Personal Jesus"
+    }
+  },
+  "destiny's child::say my name": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 138.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Destiny's Child",
+      "id": "kZKVm6",
+      "title": "Say My Name"
+    }
+  },
+  "diana ross::ain't no mountain high enough": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Diana Ross",
+      "id": "mZJDXO",
+      "title": "Ain't No Mountain High Enough"
+    }
+  },
+  "disclosure::latch": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 121.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Disclosure",
+      "id": "wmYDzM",
+      "title": "Latch"
+    }
+  },
+  "disclosure::white noise": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Disclosure",
+      "id": "yr1GGP",
+      "title": "White Noise"
+    }
+  },
+  "dizzy gillespie::a night in tunisia": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Dizzy Gillespie",
+      "id": "Dljn6",
+      "title": "A Night in Tunisia"
+    }
+  },
+  "dizzy gillespie::groovin' high": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 95.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Dizzy Gillespie",
+      "id": "r0Mvr4",
+      "title": "Groovin' High"
+    }
+  },
+  "drake::god's plan": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Drake",
+      "id": "99k1mZ",
+      "title": "God's Plan"
+    }
+  },
+  "drake::hotline bling": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Drake",
+      "id": "w0v8q1",
+      "title": "Hotline Bling"
+    }
+  },
+  "drake::one dance": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Drake",
+      "id": "lRNV9g",
+      "title": "One Dance"
+    }
+  },
+  "drake::started from the bottom": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Drake",
+      "id": "0YYyB3",
+      "title": "Started From the Bottom"
+    }
+  },
+  "dua lipa::don't start now": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Dua Lipa",
+      "id": "Z83vV2",
+      "title": "Don't Start Now"
+    }
+  },
+  "dua lipa::levitating": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Dua Lipa",
+      "id": "364E24",
+      "title": "Levitating"
+    }
+  },
+  "ducktails::hamilton road": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ducktails",
+      "id": "9843ZY",
+      "title": "Hamilton Road"
+    }
+  },
+  "duke ellington::caravan": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Duke Ellington",
+      "id": "6y7YR",
+      "title": "Caravan"
+    }
+  },
+  "duke ellington::come sunday": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 88.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Duke Ellington",
+      "id": "68v2qL",
+      "title": "Come Sunday"
+    }
+  },
+  "duke ellington::it don't mean a thing (if it ain't got that swing)": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 106.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Duke Ellington",
+      "id": "gpMAJr",
+      "title": "It Don't Mean A Thing (If It Ain't Got That Swing)"
+    }
+  },
+  "duke ellington::mood indigo": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 87.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Duke Ellington",
+      "id": "G6g80y",
+      "title": "Mood Indigo"
+    }
+  },
+  "duke ellington::sophisticated lady": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Duke Ellington",
+      "id": "W7Y04",
+      "title": "Sophisticated Lady"
+    }
+  },
+  "duke ellington::take the a train": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 154.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Duke Ellington & His Orchestra",
+      "id": "mZWow3",
+      "title": "Take the A Train"
+    }
+  },
+  "eagles::hotel california": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 75.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Eagles",
+      "id": "wjAM8",
+      "title": "Hotel California"
+    }
+  },
+  "ed sheeran::shape of you": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ed Sheeran",
+      "id": "x6gjyP",
+      "title": "Shape of You"
+    }
+  },
+  "ed sheeran::thinking out loud": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 78.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ed Sheeran",
+      "id": "jZkJYP",
+      "title": "Thinking Out Loud"
+    }
+  },
+  "elastica::connection": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 121.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Elastica",
+      "id": "8ONK5",
+      "title": "Connection"
+    }
+  },
+  "elliott smith::between the bars": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 67.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Elliott Smith",
+      "id": "lO2rg",
+      "title": "Between the Bars"
+    }
+  },
+  "elton john::rocket man (i think it's going to be a long, long time)": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Elton John",
+      "id": "Q6MnM",
+      "title": "Rocket Man (I Think It's Going to Be a Long, Long Time)"
+    }
+  },
+  "elvis presley::hound dog": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Elvis Presley",
+      "id": "KqXrr",
+      "title": "Hound Dog"
+    }
+  },
+  "eminem::stan": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Eminem",
+      "id": "Yv8OOW",
+      "title": "Stan"
+    }
+  },
+  "eric b. & rakim::paid in full": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Eric B. & Rakim",
+      "id": "AnAjl",
+      "title": "Paid in Full"
+    }
+  },
+  "eric prydz::opus": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 125.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Eric Prydz",
+      "id": "ywAMpz",
+      "title": "Opus"
+    }
+  },
+  "erroll garner::misty": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 101.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Erroll Garner",
+      "id": "m7zM3",
+      "title": "Misty"
+    }
+  },
+  "faithless::god is a dj": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Faithless",
+      "id": "mqMR3",
+      "title": "God Is a DJ"
+    }
+  },
+  "faithless::insomnia": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Faithless",
+      "id": "66Q1O",
+      "title": "Insomnia"
+    }
+  },
+  "fatboy slim::praise you": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fatboy Slim",
+      "id": "NkZ7v",
+      "title": "Praise You"
+    }
+  },
+  "fatboy slim::the rockafeller skank": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fatboy Slim",
+      "id": "DkMwK",
+      "title": "The Rockafeller Skank"
+    }
+  },
+  "faye webster::kingston": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 142.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Faye Webster",
+      "id": "vQWY7n",
+      "title": "Kingston"
+    }
+  },
+  "faye webster::room temperature": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Faye Webster",
+      "id": "nRLYVp",
+      "title": "Room Temperature"
+    }
+  },
+  "fetty wap::trap queen": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 148.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fetty Wap",
+      "id": "57RjYv",
+      "title": "Trap Queen"
+    }
+  },
+  "fleet foxes::white winter hymnal": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fleet Foxes",
+      "id": "5yDMA8",
+      "title": "White Winter Hymnal"
+    }
+  },
+  "fleetwood mac::go your own way": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fleetwood Mac",
+      "id": "59JWKY",
+      "title": "Go Your Own Way"
+    }
+  },
+  "fleetwood mac::the chain": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fleetwood Mac",
+      "id": "r8kJz2",
+      "title": "The Chain"
+    }
+  },
+  "flume::never be like you": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Flume",
+      "id": "MZ6O0P",
+      "title": "Never Be Like You"
+    }
+  },
+  "flume::say it": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 149.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Flume",
+      "id": "Pj8XRy",
+      "title": "Say It"
+    }
+  },
+  "foals::mountain at my gates": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 104.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Foals",
+      "id": "x6qDDJ",
+      "title": "Mountain at My Gates"
+    }
+  },
+  "foo fighters::best of you": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Foo Fighters",
+      "id": "9kMQ8",
+      "title": "Best of You"
+    }
+  },
+  "foo fighters::everlong": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 156.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Foo Fighters",
+      "id": "9rlk4",
+      "title": "Everlong"
+    }
+  },
+  "four tet::two thousand and seventeen": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 75.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Four Tet",
+      "id": "VvBMYW",
+      "title": "Two Thousand and Seventeen"
+    }
+  },
+  "frank sinatra::fly me to the moon": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 61.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Frank Sinatra",
+      "id": "q1D2r",
+      "title": "Fly Me to the Moon (In Other Words)"
+    }
+  },
+  "frank sinatra::the best is yet to come": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 109.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Frank Sinatra",
+      "id": "ApAmz",
+      "title": "The Best Is Yet to Come"
+    }
+  },
+  "frankie cosmos::embody": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 125.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Frankie Cosmos",
+      "id": "mOJxZA",
+      "title": "Embody"
+    }
+  },
+  "frankie cosmos::leonie": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Frankie Cosmos",
+      "id": "YWXW3W",
+      "title": "Leonie"
+    }
+  },
+  "fugees::killing me softly": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Fugees",
+      "id": "3yLJO",
+      "title": "Killing Me Softly"
+    }
+  },
+  "future::low life": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 143.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Future",
+      "id": "83zBEW",
+      "title": "Low Life"
+    }
+  },
+  "future::mask off": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Future",
+      "id": "r23Mo6",
+      "title": "Mask Off"
+    }
+  },
+  "future::move that dope": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 65.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Future",
+      "id": "gZXxZY",
+      "title": "Move That Dope"
+    }
+  },
+  "future::turn on the lights": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 131.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Future",
+      "id": "wmRyzw",
+      "title": "Turn On the Lights"
+    }
+  },
+  "g-eazy::me, myself & i": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "G-Eazy",
+      "id": "k2D52N",
+      "title": "Me, Myself & I"
+    }
+  },
+  "galaxie 500::tugboat": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 115.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Galaxie 500",
+      "id": "vo4WWm",
+      "title": "Tugboat"
+    }
+  },
+  "george michael::faith": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "George Michael",
+      "id": "KrPDVR",
+      "title": "Faith"
+    }
+  },
+  "gesaffelstein::pursuit": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Gesaffelstein",
+      "id": "gZnyqY",
+      "title": "Pursuit"
+    }
+  },
+  "girlpool::before the world was big": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 100.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Girlpool",
+      "id": "lxj1jj",
+      "title": "Before the World Was Big"
+    }
+  },
+  "glenn miller orchestra::in the mood": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 164.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Glenn Miller Orchestra",
+      "id": "16zvq",
+      "title": "In the Mood"
+    }
+  },
+  "glenn miller orchestra::moonlight serenade": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 71.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Glenn Miller Orchestra",
+      "id": "57j5Y",
+      "title": "Moonlight Serenade"
+    }
+  },
+  "green day::basket case": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 170.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Green Day",
+      "id": "N7rQD",
+      "title": "Basket Case"
+    }
+  },
+  "green day::boulevard of broken dreams": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 82.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Green Day",
+      "id": "598nYZ",
+      "title": "Boulevard of Broken Dreams"
+    }
+  },
+  "greta van fleet::highway tune": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Greta Van Fleet",
+      "id": "Og34YN",
+      "title": "Highway Tune"
+    }
+  },
+  "grizzly bear::two weeks": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 159.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Grizzly Bear",
+      "id": "MjjvN5",
+      "title": "Two Weeks"
+    }
+  },
+  "gucci mane::lemonade": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Gucci Mane",
+      "id": "Y6XlOp",
+      "title": "Lemonade"
+    }
+  },
+  "gucci mane::wasted": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 155.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Gucci Mane",
+      "id": "98XLV3",
+      "title": "Wasted"
+    }
+  },
+  "guided by voices::tractor rape chain": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 113.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Guided by Voices",
+      "id": "YWWO0",
+      "title": "Tractor Rape Chain"
+    }
+  },
+  "guns n' roses::november rain": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 78.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Guns N' Roses",
+      "id": "v20qV",
+      "title": "November Rain"
+    }
+  },
+  "guns n' roses::sweet child o' mine": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Guns N' Roses",
+      "id": "L9zxp",
+      "title": "Sweet Child o' Mine"
+    }
+  },
+  "guns n' roses::welcome to the jungle": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Guns N' Roses",
+      "id": "zpzL5",
+      "title": "Welcome to the Jungle"
+    }
+  },
+  "haddaway::what is love": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Haddaway",
+      "id": "1rmg13",
+      "title": "What Is Love"
+    }
+  },
+  "haim::the wire": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 113.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "HAIM",
+      "id": "k8ZjN6",
+      "title": "The Wire"
+    }
+  },
+  "halsey::without me": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Halsey",
+      "id": "NOVlVm",
+      "title": "Without Me"
+    }
+  },
+  "herbie hancock::actual proof": {
+    "features": {
+      "duration_ms": null,
+      "key": "",
+      "mode": "minor",
+      "tempo": null,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Herbie Hancock",
+      "id": "AAERz1",
+      "title": "Actual Proof"
+    }
+  },
+  "herbie hancock::butterfly": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 118.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Herbie Hancock",
+      "id": "9g3Nz",
+      "title": "Butterfly"
+    }
+  },
+  "herbie hancock::cantaloupe island": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Herbie Hancock",
+      "id": "oOKkXj",
+      "title": "Cantaloupe Island - Remastered 1999/Rudy Van Gelder Edition"
+    }
+  },
+  "herbie hancock::chameleon": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Herbie Hancock",
+      "id": "p2VWEQ",
+      "title": "Mega Mix (Includes: Rockit, Autodrive, Future Shock, TFS, Rough, & Chameleon)"
+    }
+  },
+  "herbie hancock::maiden voyage": {
+    "features": {
+      "duration_ms": null,
+      "key": "",
+      "mode": "minor",
+      "tempo": null,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Herbie Hancock",
+      "id": "j0njv",
+      "title": "Maiden Voyage / B-Bop"
+    }
+  },
+  "herbie hancock::watermelon man": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Herbie Hancock",
+      "id": "qQ3j93",
+      "title": "Watermelon Man - 2007 - Remaster"
+    }
+  },
+  "hippo campus::way it goes": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Hippo Campus",
+      "id": "36W5pA",
+      "title": "Way It Goes"
+    }
+  },
+  "illenium::beautiful creatures": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Illenium",
+      "id": "LZomGw",
+      "title": "Beautiful Creatures (feat. MAX)"
+    }
+  },
+  "inner city::big fun": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Inner City",
+      "id": "vM9LL",
+      "title": "Big Fun"
+    }
+  },
+  "interpol::obstacle 1": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Interpol",
+      "id": "7pK2B",
+      "title": "Obstacle 1"
+    }
+  },
+  "iron & wine::naked as we came": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Iron & Wine",
+      "id": "nVQ7W",
+      "title": "Naked as We Came"
+    }
+  },
+  "j. cole::love yourz": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 75.0,
+      "time_signature": 1
+    },
+    "track": {
+      "artist": "J. Cole",
+      "id": "p83PmX",
+      "title": "Love Yourz"
+    }
+  },
+  "j. cole::no role modelz": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 102.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "J. Cole",
+      "id": "mO3PjE",
+      "title": "No Role Modelz"
+    }
+  },
+  "jack white::lazaretto": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 59.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Jack White",
+      "id": "VAr769",
+      "title": "Lazaretto"
+    }
+  },
+  "jamie xx::loud places": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 109.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Jamie xx",
+      "id": "vlOlgn",
+      "title": "Loud Places"
+    }
+  },
+  "jandek::european jewel": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Jandek",
+      "id": "JE0r9",
+      "title": "European Jewel (Incomplete Take)"
+    }
+  },
+  "janet jackson::rhythm nation": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Janet Jackson",
+      "id": "vBEnV",
+      "title": "Rhythm Nation"
+    }
+  },
+  "janis joplin::me and bobby mcgee": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Janis Joplin",
+      "id": "rR5vJp",
+      "title": "Me and Bobby McGee"
+    }
+  },
+  "japanese breakfast::everybody wants to love you": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Japanese Breakfast",
+      "id": "z6EEV2",
+      "title": "Everybody Wants to Love You"
+    }
+  },
+  "jimi hendrix::all along the watchtower": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Jimi Hendrix Experience",
+      "id": "Brq2vn",
+      "title": "All Along the Watchtower"
+    }
+  },
+  "jimi hendrix::purple haze": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Jimi Hendrix Experience",
+      "id": "76XLG",
+      "title": "Purple Haze"
+    }
+  },
+  "joe henderson::inner urge": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 79.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Joe Henderson",
+      "id": "Zkjy5",
+      "title": "Inner Urge"
+    }
+  },
+  "joe henderson::isotope": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Joe Henderson",
+      "id": "Yjgx2",
+      "title": "Isotope"
+    }
+  },
+  "joey bada$$::land of the free": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 95.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Joey Bada$$",
+      "id": "6WEjJn",
+      "title": "LAND OF THE FREE"
+    }
+  },
+  "john coltrane::alabama": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 107.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "John Coltrane",
+      "id": "J8JMWv",
+      "title": "Alabama - Live At Birdland Jazzclub, New York City, NY, 10/18/1963"
+    }
+  },
+  "john coltrane::giant steps": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 148.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "John Coltrane",
+      "id": "9QLB8",
+      "title": "Giant Steps"
+    }
+  },
+  "john coltrane::impressions": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "John Coltrane",
+      "id": "oZw8nK",
+      "title": "Impressions - Take 3"
+    }
+  },
+  "john coltrane::my favorite things": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 175.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "John Coltrane",
+      "id": "5Qy0V8",
+      "title": "My Favorite Things"
+    }
+  },
+  "john coltrane::naima": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 85.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "John Coltrane",
+      "id": "l5ML7",
+      "title": "Naima"
+    }
+  },
+  "john coltrane::nature boy": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 107.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "John Coltrane",
+      "id": "lRqXk6",
+      "title": "Nature Boy"
+    }
+  },
+  "juice wrld::all girls are the same": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 162.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Juice WRLD",
+      "id": "572rmK",
+      "title": "All Girls Are The Same"
+    }
+  },
+  "juice wrld::lucid dreams": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Juice WRLD",
+      "id": "6W3vnV",
+      "title": "Lucid Dreams"
+    }
+  },
+  "julia jacklin::pool party": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Julia Jacklin",
+      "id": "28ZL0M",
+      "title": "Pool Party"
+    }
+  },
+  "julien baker::sprained ankle": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Julien Baker",
+      "id": "Br8ZgQ",
+      "title": "Sprained Ankle"
+    }
+  },
+  "justin bieber::baby": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Justin Bieber",
+      "id": "Bg7y42",
+      "title": "Baby"
+    }
+  },
+  "justin bieber::sorry": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Justin Bieber",
+      "id": "gp7Dxk",
+      "title": "Sorry"
+    }
+  },
+  "justin timberlake::cry me a river": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 146.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Justin Timberlake",
+      "id": "R404z",
+      "title": "Cry Me a River"
+    }
+  },
+  "kanye west::gold digger": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kanye West",
+      "id": "BL3KqQ",
+      "title": "Gold Digger"
+    }
+  },
+  "kanye west::jesus walks": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 85.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kanye West",
+      "id": "2AX9A",
+      "title": "Jesus Walks"
+    }
+  },
+  "kanye west::power": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kanye West",
+      "id": "1jLQym",
+      "title": "Power"
+    }
+  },
+  "katy perry::roar": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 88.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Katy Perry",
+      "id": "VAv7lz",
+      "title": "Roar"
+    }
+  },
+  "katy perry::teenage dream": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Katy Perry",
+      "id": "6RXvJ7",
+      "title": "Teenage Dream"
+    }
+  },
+  "kelly clarkson::since u been gone": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 68.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kelly Clarkson",
+      "id": "goW0Z",
+      "title": "Since U Been Gone"
+    }
+  },
+  "kendrick lamar::alright": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kendrick Lamar",
+      "id": "3Qkrzn",
+      "title": "Alright"
+    }
+  },
+  "kendrick lamar::backseat freestyle": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kendrick Lamar",
+      "id": "MQPQ2A",
+      "title": "Backseat Freestyle"
+    }
+  },
+  "kendrick lamar::humble.": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kendrick Lamar",
+      "id": "NOvRVm",
+      "title": "HUMBLE."
+    }
+  },
+  "kendrick lamar::m.a.a.d city": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 91.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kendrick Lamar",
+      "id": "Romo0q",
+      "title": "m.A.A.d city"
+    }
+  },
+  "kendrick lamar::money trees": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kendrick Lamar",
+      "id": "Oyjy2p",
+      "title": "Money Trees"
+    }
+  },
+  "kesha::tik tok": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kesha",
+      "id": "k2zLPX",
+      "title": "TiK ToK"
+    }
+  },
+  "kevin gates::2 phones": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 121.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kevin Gates",
+      "id": "NOWD8K",
+      "title": "2 Phones"
+    }
+  },
+  "kid cudi::pursuit of happiness": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 230.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kid Cudi",
+      "id": "l5rq45",
+      "title": "Pursuit of Happiness (Nightmare)"
+    }
+  },
+  "kimya dawson::tire swing": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 165.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Kimya Dawson",
+      "id": "gJQ71j",
+      "title": "Tire Swing"
+    }
+  },
+  "kodak black::tunnel vision": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 171.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kodak Black",
+      "id": "NO4Xpz",
+      "title": "Tunnel Vision"
+    }
+  },
+  "kygo::firestone": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kygo",
+      "id": "VvKGV5",
+      "title": "Firestone"
+    }
+  },
+  "kygo::stole the show": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Kygo",
+      "id": "PjAyVz",
+      "title": "Stole the Show"
+    }
+  },
+  "lady gaga::bad romance": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 234.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lady Gaga",
+      "id": "pgr20r",
+      "title": "Bad Romance"
+    }
+  },
+  "lady gaga::poker face": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 234.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lady Gaga",
+      "id": "DkGKvK",
+      "title": "Poker Face"
+    }
+  },
+  "laurent garnier::the man with the red face": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 131.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Laurent Garnier",
+      "id": "08vp7G",
+      "title": "The Man With the Red Face"
+    }
+  },
+  "lauryn hill::doo wop (that thing)": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lauryn Hill",
+      "id": "Mw77G",
+      "title": "Doo Wop (That Thing)"
+    }
+  },
+  "lcd soundsystem::all my friends": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "LCD Soundsystem",
+      "id": "BBpDNJ",
+      "title": "All My Friends"
+    }
+  },
+  "led zeppelin::kashmir": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Led Zeppelin",
+      "id": "vQ3ypL",
+      "title": "Kashmir"
+    }
+  },
+  "led zeppelin::stairway to heaven": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 82.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Led Zeppelin",
+      "id": "lYoG5",
+      "title": "Stairway to Heaven"
+    }
+  },
+  "led zeppelin::whole lotta love": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 178.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Led Zeppelin",
+      "id": "L9jqv",
+      "title": "Whole Lotta Love"
+    }
+  },
+  "lil baby::emotionally scarred": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 88.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Baby",
+      "id": "364Plr",
+      "title": "Emotionally Scarred"
+    }
+  },
+  "lil baby::yes indeed": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Baby",
+      "id": "79g05y",
+      "title": "Yes Indeed"
+    }
+  },
+  "lil durk::india": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 74.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Durk",
+      "id": "VvXZxo",
+      "title": "India Pt. II"
+    }
+  },
+  "lil jon & the east side boyz::get low": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 1
+    },
+    "track": {
+      "artist": "Lil Jon & The East Side Boyz",
+      "id": "KZZA5J",
+      "title": "Chris Rock Get Lower"
+    }
+  },
+  "lil keed::nameless": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Keed",
+      "id": "Eqnx4K",
+      "title": "Nameless"
+    }
+  },
+  "lil pump::esskeetit": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Pump",
+      "id": "Brww7N",
+      "title": "Esskeetit"
+    }
+  },
+  "lil pump::gucci gang": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Pump",
+      "id": "nRp1Xp",
+      "title": "Gucci Gang"
+    }
+  },
+  "lil uzi vert::xo tour llif3": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Uzi Vert",
+      "id": "w0B5Gz",
+      "title": "XO TOUR Llif3"
+    }
+  },
+  "lil wayne::a milli": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 151.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lil Wayne",
+      "id": "W7WZBn",
+      "title": "A Milli"
+    }
+  },
+  "little richard::tutti frutti": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Little Richard",
+      "id": "RoYW3V",
+      "title": "Tutti Frutti"
+    }
+  },
+  "liz phair::fuck and run": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Liz Phair",
+      "id": "jq3D45",
+      "title": "Fuck and Run"
+    }
+  },
+  "liz phair::supernova": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Liz Phair",
+      "id": "OyPKWY",
+      "title": "Supernova"
+    }
+  },
+  "ll cool j::rock the bells": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "LL Cool J",
+      "id": "wY8mR",
+      "title": "Rock the Bells"
+    }
+  },
+  "lmfao::party rock anthem": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "LMFAO",
+      "id": "6Rq7yN",
+      "title": "Party Rock Anthem"
+    }
+  },
+  "logic::1-800-273-8255": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Logic",
+      "id": "pZ3M8p",
+      "title": "1-800-273-8255"
+    }
+  },
+  "lomelda::bam sha klam": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 109.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lomelda",
+      "id": "16JrZZ",
+      "title": "Bam Sha Klam"
+    }
+  },
+  "lomelda::interstate vision": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 82.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lomelda",
+      "id": "Z87VMQ",
+      "title": "Interstate Vision"
+    }
+  },
+  "lorde::royals": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lorde",
+      "id": "wVmAmw",
+      "title": "Royals"
+    }
+  },
+  "lou barlow::legendary": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lou Barlow",
+      "id": "n1jxp",
+      "title": "Legendary"
+    }
+  },
+  "louis armstrong::what a wonderful world": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Louis Armstrong",
+      "id": "jR5lmz",
+      "title": "What a Wonderful World"
+    }
+  },
+  "lucy dacus::night shift": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lucy Dacus",
+      "id": "LZxqvg",
+      "title": "Night Shift"
+    }
+  },
+  "ludacris::roll out (my business)": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 131.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ludacris",
+      "id": "gL83D",
+      "title": "Roll Out (My Business)"
+    }
+  },
+  "lynyrd skynyrd::free bird": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 118.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lynyrd Skynyrd",
+      "id": "j0REl",
+      "title": "Free Bird"
+    }
+  },
+  "lynyrd skynyrd::sweet home alabama": {
+    "features": {
+      "duration_ms": null,
+      "key": null,
+      "mode": null,
+      "tempo": 49.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Lynyrd Skynyrd",
+      "id": "2RjLN",
+      "title": "Sweet Home Alabama"
+    }
+  },
+  "mac demarco::salad days": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 100.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mac DeMarco",
+      "id": "r8XLRK",
+      "title": "Salad Days"
+    }
+  },
+  "mac miller::self care": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mac Miller",
+      "id": "qQKn7p",
+      "title": "Self Care"
+    }
+  },
+  "madonna::like a prayer": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Madonna",
+      "id": "1j56lZ",
+      "title": "Like a Prayer"
+    }
+  },
+  "madonna::material girl": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Madonna",
+      "id": "vowQm5",
+      "title": "Material Girl"
+    }
+  },
+  "mariah carey::we belong together": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 69.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mariah Carey",
+      "id": "Q0RvYl",
+      "title": "We Belong Together"
+    }
+  },
+  "massive attack::teardrop": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Massive Attack",
+      "id": "5Nq",
+      "title": "Teardrop"
+    }
+  },
+  "mc hammer::u can't touch this": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "MC Hammer",
+      "id": "71XEB",
+      "title": "U Can't Touch This"
+    }
+  },
+  "megan thee stallion::savage": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Megan Thee Stallion",
+      "id": "EqAp7W",
+      "title": "Savage"
+    }
+  },
+  "men i trust::tailwhip": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 113.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Men I Trust",
+      "id": "08w5XN",
+      "title": "Tailwhip (Album V)"
+    }
+  },
+  "metallica::enter sandman": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Metallica",
+      "id": "gJopD",
+      "title": "Enter Sandman"
+    }
+  },
+  "metallica::master of puppets": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 220.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Metallica",
+      "id": "o2r0L",
+      "title": "Master of Puppets"
+    }
+  },
+  "metallica::one": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Metallica",
+      "id": "GQlNy",
+      "title": "Tuesday's Gone"
+    }
+  },
+  "mgmt::kids": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "MGMT",
+      "id": "lYo5gr",
+      "title": "Kids"
+    }
+  },
+  "michael jackson::billie jean": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 232.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Michael Jackson",
+      "id": "voKlYL",
+      "title": "Billie Jean"
+    }
+  },
+  "michael jackson::thriller": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 232.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Michael Jackson",
+      "id": "qYw7VD",
+      "title": "Thriller"
+    }
+  },
+  "microwave::vomit": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 135.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Microwave",
+      "id": "57GPw8",
+      "title": "Vomit"
+    }
+  },
+  "migos::bad and boujee": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Migos",
+      "id": "RlNBDE",
+      "title": "Bad and Boujee (feat. Lil Uzi Vert)"
+    }
+  },
+  "migos::t-shirt": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 69.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Migos",
+      "id": "PjLJA4",
+      "title": "T-Shirt"
+    }
+  },
+  "migos::versace": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 66.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Migos",
+      "id": "D1kLnY",
+      "title": "Versace"
+    }
+  },
+  "miles davis::all blues": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 139.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "83J38j",
+      "title": "All Blues"
+    }
+  },
+  "miles davis::bitches brew": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "X5ooQl",
+      "title": "Bitches Brew (feat. John McLaughlin, Wayne Shorter, Chick Corea & Joe Zawinul)"
+    }
+  },
+  "miles davis::blue in green": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "E9KNl",
+      "title": "Blue in Green"
+    }
+  },
+  "miles davis::four": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 105.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "r8x8w",
+      "title": "Four"
+    }
+  },
+  "miles davis::freddie freeloader": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "6WEWoO",
+      "title": "Freddie Freeloader"
+    }
+  },
+  "miles davis::in a silent way": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "OZzg3r",
+      "title": "In a Silent Way (Rehearsal) - New Mix"
+    }
+  },
+  "miles davis::nefertiti": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 107.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "qQ3xqp",
+      "title": "Nefertiti"
+    }
+  },
+  "miles davis::so what": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miles Davis",
+      "id": "57D7nY",
+      "title": "So What"
+    }
+  },
+  "miley cyrus::wrecking ball": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Miley Cyrus",
+      "id": "lxxDAr",
+      "title": "Wrecking Ball"
+    }
+  },
+  "missy elliott::get ur freak on": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 88.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Missy Elliott",
+      "id": "l2Jzg",
+      "title": "Get Ur Freak On"
+    }
+  },
+  "mitski::townie": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 137.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mitski",
+      "id": "ZYLYM5",
+      "title": "Townie"
+    }
+  },
+  "mitski::your best american girl": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mitski",
+      "id": "GR2B87",
+      "title": "Your Best American Girl"
+    }
+  },
+  "moby::go": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Moby",
+      "id": "mw7NO",
+      "title": "Go"
+    }
+  },
+  "moby::porcelain": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Moby",
+      "id": "OYDGE",
+      "title": "Porcelain"
+    }
+  },
+  "modern baseball::your graduation": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 184.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Modern Baseball",
+      "id": "q7D1Dp",
+      "title": "Your Graduation"
+    }
+  },
+  "modest mouse::bankrupt on selling": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 153.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Modest Mouse",
+      "id": "0V3AX",
+      "title": "Bankrupt on Selling"
+    }
+  },
+  "modest mouse::float on": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Modest Mouse",
+      "id": "0BVgN",
+      "title": "Float On"
+    }
+  },
+  "moldy peaches::anyone else but you": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 145.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Moldy Peaches",
+      "id": "0Y96X",
+      "title": "Anyone Else but You"
+    }
+  },
+  "mom jeans.::death cup": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mom Jeans.",
+      "id": "qQKvGp",
+      "title": "Death Cup"
+    }
+  },
+  "mos def::ms. fat booty": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 90.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mos Def",
+      "id": "mwLJXR",
+      "title": "Ms. Fat Booty"
+    }
+  },
+  "mount eerie::forest fire": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mount Eerie",
+      "id": "jY1gKB",
+      "title": "Forest Fire"
+    }
+  },
+  "mozzy::dead homies": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 90.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Mozzy",
+      "id": "GRpOv0",
+      "title": "Dead Homies (feat. E Mozzy)"
+    }
+  },
+  "muse::supermassive black hole": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Muse",
+      "id": "BBOBok",
+      "title": "Supermassive Black Hole"
+    }
+  },
+  "muse::uprising": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Muse",
+      "id": "OyWJEg",
+      "title": "Uprising"
+    }
+  },
+  "n.w.a::straight outta compton": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "N.W.A",
+      "id": "VPw47z",
+      "title": "Straight Outta Compton"
+    }
+  },
+  "nas::n.y. state of mind": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nas",
+      "id": "JqLgX2",
+      "title": "N.Y. State of Mind"
+    }
+  },
+  "nat king cole::route 66": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 146.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nat King Cole",
+      "id": "voLyv8",
+      "title": "(Get Your Kicks on) Route 66"
+    }
+  },
+  "nelly::hot in herre": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 107.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nelly",
+      "id": "83VDZg",
+      "title": "Hot In Herre"
+    }
+  },
+  "neon indian::deadbeat summer": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Neon Indian",
+      "id": "X6MVm8",
+      "title": "Deadbeat Summer"
+    }
+  },
+  "neon trees::animal": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Neon Trees",
+      "id": "zmNJ2Y",
+      "title": "Animal"
+    }
+  },
+  "nero::promises": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "NERO",
+      "id": "JZL4Rv",
+      "title": "Promises"
+    }
+  },
+  "neutral milk hotel::in the aeroplane over the sea": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 188.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Neutral Milk Hotel",
+      "id": "E9gEN",
+      "title": "In the Aeroplane Over the Sea"
+    }
+  },
+  "nicki minaj::anaconda": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nicki Minaj",
+      "id": "mO3PgE",
+      "title": "Anaconda"
+    }
+  },
+  "nicki minaj::only": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 179.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Nicki Minaj",
+      "id": "vl3krg",
+      "title": "Only"
+    }
+  },
+  "nine inch nails::hurt": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 79.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nine Inch Nails",
+      "id": "gZN7G",
+      "title": "Hurt"
+    }
+  },
+  "nirvana::come as you are": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nirvana",
+      "id": "wpoo1",
+      "title": "Come as You Are"
+    }
+  },
+  "nirvana::heart-shaped box": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nirvana",
+      "id": "Gv8nGy",
+      "title": "Heart-Shaped Box"
+    }
+  },
+  "nirvana::smells like teen spirit": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nirvana",
+      "id": "rkjj4",
+      "title": "Smells Like Teen Spirit"
+    }
+  },
+  "nite jewel::what did he say": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Nite Jewel",
+      "id": "1jrKOG",
+      "title": "What Did He Say"
+    }
+  },
+  "no doubt::don't speak": {
+    "features": {
+      "duration_ms": null,
+      "key": null,
+      "mode": null,
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "No Doubt",
+      "id": "rkDz2",
+      "title": "Don't Speak"
+    }
+  },
+  "oasis::champagne supernova": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 150.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Oasis",
+      "id": "VPD3gv",
+      "title": "Champagne Supernova"
+    }
+  },
+  "oasis::wonderwall": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 87.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Oasis",
+      "id": "Jqn3VJ",
+      "title": "Wonderwall"
+    }
+  },
+  "odesza::say my name": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 115.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "ODESZA",
+      "id": "OMzRng",
+      "title": "Say My Name"
+    }
+  },
+  "of montreal::heimdalsgate like a promethean curse": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 149.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "of Montreal",
+      "id": "qxpYPR",
+      "title": "Heimdalsgate Like a Promethean Curse"
+    }
+  },
+  "orbital::halcyon + on + on": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Orbital",
+      "id": "Ro9qZO",
+      "title": "Halcyon + On + On"
+    }
+  },
+  "outkast::rosa parks": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "OutKast",
+      "id": "oQMlB",
+      "title": "Rosa Parks"
+    }
+  },
+  "p!nk::just give me a reason": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "P!nk",
+      "id": "vorygL",
+      "title": "Just Give Me a Reason"
+    }
+  },
+  "palehound::dry food": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 93.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Palehound",
+      "id": "k28A65",
+      "title": "Dry Food"
+    }
+  },
+  "pat metheny::bright size life": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pat Metheny",
+      "id": "VoQ4o",
+      "title": "Bright Size Life"
+    }
+  },
+  "paul van dyk::for an angel": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Paul van Dyk",
+      "id": "gLDpml",
+      "title": "For an Angel"
+    }
+  },
+  "pavement::cut your hair": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 110.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pavement",
+      "id": "JwwO9",
+      "title": "Cut Your Hair"
+    }
+  },
+  "pavement::summer babe (winter version)": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pavement",
+      "id": "x1WWr",
+      "title": "Summer Babe (Winter version)"
+    }
+  },
+  "pearl jam::alive": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 75.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pearl Jam",
+      "id": "l5kYV",
+      "title": "Alive"
+    }
+  },
+  "pearl jam::jeremy": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pearl Jam",
+      "id": "oQn2k",
+      "title": "Jeremy"
+    }
+  },
+  "pharrell williams::happy": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pharrell Williams",
+      "id": "XLqMo8",
+      "title": "Happy (From \"Despicable Me 2\")"
+    }
+  },
+  "phoebe bridgers::funeral": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Phoebe Bridgers",
+      "id": "A6wRG7",
+      "title": "Funeral"
+    }
+  },
+  "phoenix::1901": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Phoenix",
+      "id": "58Q4XK",
+      "title": "1901"
+    }
+  },
+  "pinegrove::old friends": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 147.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pinegrove",
+      "id": "Dqx9L6",
+      "title": "Old Friends"
+    }
+  },
+  "pixies::where is my mind?": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 162.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pixies",
+      "id": "gk0lD",
+      "title": "Where Is My Mind?"
+    }
+  },
+  "playboi carti::magnolia": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 161.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Playboi Carti",
+      "id": "WP46Px",
+      "title": "Magnolia"
+    }
+  },
+  "playboi carti::wokeuplikethis*": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 156.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Playboi Carti",
+      "id": "Y7gE72",
+      "title": "wokeuplikethis*"
+    }
+  },
+  "polo g::heartless": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 160.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Polo G",
+      "id": "DqB0QB",
+      "title": "Heartless (feat. Mustard)"
+    }
+  },
+  "polo g::pop out": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 168.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Polo G",
+      "id": "oZEOjz",
+      "title": "Pop Out (feat. Lil Tjay)"
+    }
+  },
+  "pop smoke::dior": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pop Smoke",
+      "id": "LZN74g",
+      "title": "Dior - Bonus"
+    }
+  },
+  "pop smoke::for the night": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pop Smoke",
+      "id": "oZEVqz",
+      "title": "For The Night (feat. Lil Baby & DaBaby)"
+    }
+  },
+  "porches::hour": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Porches",
+      "id": "46YAzx",
+      "title": "Hour"
+    }
+  },
+  "porches::underwater": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 84.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Porches",
+      "id": "Z8mA85",
+      "title": "Underwater"
+    }
+  },
+  "post malone::circles": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Post Malone",
+      "id": "1605DG",
+      "title": "Circles"
+    }
+  },
+  "post malone::congratulations": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 61.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Post Malone",
+      "id": "XQElV8",
+      "title": "Congratulations"
+    }
+  },
+  "prince::purple rain": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 170.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Prince",
+      "id": "XQNZkk",
+      "title": "Purple Rain - Piano & A Microphone 1983 Version"
+    }
+  },
+  "public enemy::fight the power": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Public Enemy",
+      "id": "wjLp8",
+      "title": "Fight the Power"
+    }
+  },
+  "pulp::common people": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Pulp",
+      "id": "Xomov8",
+      "title": "Common People"
+    }
+  },
+  "pusha t::infrared": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 112.0,
+      "time_signature": 5
+    },
+    "track": {
+      "artist": "Pusha T",
+      "id": "46Am22",
+      "title": "Infrared"
+    }
+  },
+  "queen::bohemian rhapsody": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Queen",
+      "id": "Y69Dp",
+      "title": "Bohemian Rhapsody"
+    }
+  },
+  "queen::somebody to love": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 55.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Queen",
+      "id": "LZAmX",
+      "title": "Somebody to Love"
+    }
+  },
+  "queen::we will rock you": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 81.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Queen",
+      "id": "XqWv8",
+      "title": "We Will Rock You"
+    }
+  },
+  "queens of the stone age::go with the flow": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 159.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Queens of the Stone Age",
+      "id": "OgVkYQ",
+      "title": "Go With The Flow"
+    }
+  },
+  "queens of the stone age::no one knows": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 170.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Queens of the Stone Age",
+      "id": "GRyx63",
+      "title": "No One Knows"
+    }
+  },
+  "r. stevie moore::goodbye piano": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 95.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "R. Stevie Moore",
+      "id": "G65PPQ",
+      "title": "Goodbye Piano"
+    }
+  },
+  "r.e.m.::everybody hurts": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 94.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "R.E.M.",
+      "id": "Nkvov",
+      "title": "Everybody Hurts"
+    }
+  },
+  "r.e.m.::losing my religion": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "R.E.M.",
+      "id": "0R4jN",
+      "title": "Losing My Religion"
+    }
+  },
+  "radiohead::creep": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Radiohead",
+      "id": "KZE3Vr",
+      "title": "Creep"
+    }
+  },
+  "radiohead::karma police": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 74.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Radiohead",
+      "id": "3lGgx",
+      "title": "Karma Police"
+    }
+  },
+  "radiohead::paranoid android": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 84.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Radiohead",
+      "id": "Y6Rwn",
+      "title": "Paranoid Android"
+    }
+  },
+  "rae sremmurd::black beatles": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 145.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Rae Sremmurd",
+      "id": "r2oKOB",
+      "title": "Black Beatles"
+    }
+  },
+  "rae sremmurd::no flex zone": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Rae Sremmurd",
+      "id": "XL450o",
+      "title": "No Flex Zone"
+    }
+  },
+  "ratboys::alien with a sleep mask": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ratboys",
+      "id": "mqBMPO",
+      "title": "Alien With a Sleep Mask On"
+    }
+  },
+  "real estate::easy": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Real Estate",
+      "id": "KZXOzn",
+      "title": "Easy"
+    }
+  },
+  "rick ross::hustlin'": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 135.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Rick Ross",
+      "id": "9Q0pE4",
+      "title": "Hustlin'"
+    }
+  },
+  "rihanna::umbrella": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 174.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Rihanna",
+      "id": "WngMrE",
+      "title": "Umbrella"
+    }
+  },
+  "rihanna::we found love": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Rihanna",
+      "id": "kZRkMJ",
+      "title": "We Found Love"
+    }
+  },
+  "robert miles::children": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 137.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Robert Miles",
+      "id": "P1G8A",
+      "title": "Children (Dream version)"
+    }
+  },
+  "robin s.::show me love": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Robin S.",
+      "id": "Oz49N",
+      "title": "Show Me Love"
+    }
+  },
+  "roddy ricch::the box": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Roddy Ricch",
+      "id": "99qkZ4",
+      "title": "The Box"
+    }
+  },
+  "sam smith::stay with me": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sam Smith",
+      "id": "MwgLRA",
+      "title": "Stay With Me"
+    }
+  },
+  "sarah vaughan::lullaby of birdland": {
+    "features": {
+      "duration_ms": null,
+      "key": "",
+      "mode": "minor",
+      "tempo": null,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sarah Vaughan",
+      "id": "k26Q6",
+      "title": "Lullaby of Birdland (composite master take)"
+    }
+  },
+  "schoolboy q::man of the year": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "ScHoolboy Q",
+      "id": "xn8l5q",
+      "title": "Man of the Year"
+    }
+  },
+  "sebadoh::the freed pig": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 134.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sebadoh",
+      "id": "ZVG0L5",
+      "title": "The Freed Pig"
+    }
+  },
+  "sex pistols::anarchy in the u.k.": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 134.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sex Pistols",
+      "id": "n55rXW",
+      "title": "Anarchy in the U.K."
+    }
+  },
+  "sharon van etten::comeback kid": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sharon Van Etten",
+      "id": "RlQm3q",
+      "title": "Comeback Kid"
+    }
+  },
+  "shawn mendes::stitches": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Shawn Mendes",
+      "id": "71g0R8",
+      "title": "Stitches"
+    }
+  },
+  "sheff g::no suburban": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 143.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sheff G",
+      "id": "NOPR8z",
+      "title": "No Suburban, Pt. 2"
+    }
+  },
+  "shoreline mafia::spaceship": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Shoreline Mafia",
+      "id": "OgmvJR",
+      "title": "Spaceship (feat. Stinc Team)"
+    }
+  },
+  "smashing pumpkins::bullet with butterfly wings": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 121.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Smashing Pumpkins",
+      "id": "98r3x",
+      "title": "Bullet With Butterfly Wings"
+    }
+  },
+  "smog::bathysphere": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 105.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Smog",
+      "id": "pz8Wy",
+      "title": "Bathysphere"
+    }
+  },
+  "snail mail::pristine": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 126.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Snail Mail",
+      "id": "x6JDkB",
+      "title": "Pristine"
+    }
+  },
+  "snail mail::thinning": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 132.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Snail Mail",
+      "id": "yXq9OR",
+      "title": "Thinning"
+    }
+  },
+  "snap!::the power": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Snap!",
+      "id": "XpGgo",
+      "title": "The Power"
+    }
+  },
+  "soccer mommy::circle the drain": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 169.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Soccer Mommy",
+      "id": "6Wg0oz",
+      "title": "circle the drain"
+    }
+  },
+  "soccer mommy::your dog": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Soccer Mommy",
+      "id": "nRv3GY",
+      "title": "Your Dog"
+    }
+  },
+  "songs: ohia::farewell transmission": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 148.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Songs: Ohia",
+      "id": "o675z",
+      "title": "Farewell Transmission"
+    }
+  },
+  "sonny rollins::doxy": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 133.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sonny Rollins",
+      "id": "4x4OLk",
+      "title": "Doxy"
+    }
+  },
+  "sonny rollins::oleo": {
+    "features": {
+      "duration_ms": null,
+      "key": "",
+      "mode": "minor",
+      "tempo": null,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sonny Rollins",
+      "id": "53ok9v",
+      "title": "Oleo"
+    }
+  },
+  "sonny rollins::st. thomas": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 110.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sonny Rollins",
+      "id": "RgM59z",
+      "title": "St. Thomas"
+    }
+  },
+  "sorority noise::no halo": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 176.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sorority Noise",
+      "id": "K8Dkvx",
+      "title": "No Halo"
+    }
+  },
+  "soundgarden::black hole sun": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 105.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Soundgarden",
+      "id": "3lNEx",
+      "title": "Black Hole Sun"
+    }
+  },
+  "soundgarden::spoonman": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Soundgarden",
+      "id": "48OVn",
+      "title": "Spoonman"
+    }
+  },
+  "sparklehorse::homecoming queen": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Sparklehorse",
+      "id": "vQkO5",
+      "title": "Homecoming Queen"
+    }
+  },
+  "spice girls::wannabe": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 110.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Spice Girls",
+      "id": "DREq5",
+      "title": "Wannabe"
+    }
+  },
+  "squirrel flower::i-80": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Squirrel Flower",
+      "id": "w0XM5g",
+      "title": "I-80"
+    }
+  },
+  "stevie wonder::superstition": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 102.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Stevie Wonder",
+      "id": "LZXgg",
+      "title": "Superstition"
+    }
+  },
+  "stone temple pilots::plush": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Stone Temple Pilots",
+      "id": "1wK20",
+      "title": "Plush"
+    }
+  },
+  "sub focus::rock it": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 174.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sub Focus",
+      "id": "DRwzvK",
+      "title": "Rock It"
+    }
+  },
+  "sufjan stevens::chicago": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 124.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Sufjan Stevens",
+      "id": "gAoLY",
+      "title": "Chicago"
+    }
+  },
+  "sugarhill gang::rapper's delight": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Sugarhill Gang",
+      "id": "JAA32",
+      "title": "Kid's Rapper's Delight (Kid's Rap-Along)"
+    }
+  },
+  "supergrass::alright": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 145.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Supergrass",
+      "id": "g7QDZ",
+      "title": "Alright"
+    }
+  },
+  "surf curse::freaks": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 179.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Surf Curse",
+      "id": "08BwGG",
+      "title": "Freaks"
+    }
+  },
+  "swedish house mafia::don't you worry child": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Swedish House Mafia",
+      "id": "oQ1Omk",
+      "title": "Don't You Worry Child (radio edit)"
+    }
+  },
+  "swedish house mafia::save the world": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 124.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Swedish House Mafia",
+      "id": "yrjmzg",
+      "title": "Save the World (Knife Party remix)"
+    }
+  },
+  "t.i.::rubber band man": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "T.I.",
+      "id": "6R5PzL",
+      "title": "Rubber Band Man"
+    }
+  },
+  "t.i.::what you know": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 146.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "T.I.",
+      "id": "D9gjmA",
+      "title": "What You Know"
+    }
+  },
+  "t.i.::whatever you like": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 150.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "T.I.",
+      "id": "6RXMpR",
+      "title": "Whatever You Like"
+    }
+  },
+  "talib kweli::get by": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 90.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Talib Kweli",
+      "id": "JQVLK",
+      "title": "Get By"
+    }
+  },
+  "talking heads::psycho killer": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Talking Heads",
+      "id": "OJrKr",
+      "title": "Psycho Killer"
+    }
+  },
+  "talking heads::this must be the place (naive melody)": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Talking Heads",
+      "id": "O7P8r",
+      "title": "This Must Be the Place (Naive Melody)"
+    }
+  },
+  "tall dwarfs::nothing's going to happen": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 127.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tall Dwarfs",
+      "id": "DZyZy",
+      "title": "Nothing's Going to Happen"
+    }
+  },
+  "tame impala::elephant": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tame Impala",
+      "id": "kZ0pwr",
+      "title": "Elephant"
+    }
+  },
+  "tame impala::the less i know the better": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tame Impala",
+      "id": "XLj9nv",
+      "title": "The Less I Know the Better"
+    }
+  },
+  "taylor swift::cruel summer": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Taylor Swift",
+      "id": "mqBjn0",
+      "title": "Cruel Summer"
+    }
+  },
+  "taylor swift::love story": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Taylor Swift",
+      "id": "l5Dk7M",
+      "title": "Love Story"
+    }
+  },
+  "taylor swift::shake it off": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 162.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Taylor Swift",
+      "id": "BNZ6QW",
+      "title": "Shake It Off"
+    }
+  },
+  "teenage fanclub::the concept": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Teenage Fanclub",
+      "id": "9Dmy8",
+      "title": "The Concept"
+    }
+  },
+  "the beach boys::good vibrations": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 133.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Beach Boys",
+      "id": "ZE0Q8",
+      "title": "Good Vibrations"
+    }
+  },
+  "the beatles::a day in the life": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 81.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Beatles",
+      "id": "865Lkl",
+      "title": "A Day in the Life"
+    }
+  },
+  "the beatles::come together": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Beatles",
+      "id": "wjPZkJ",
+      "title": "Come Together"
+    }
+  },
+  "the beatles::let it be": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Beatles",
+      "id": "mwB9mO",
+      "title": "Let It Be"
+    }
+  },
+  "the chemical brothers::block rockin' beats": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 109.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Chemical Brothers",
+      "id": "vo3nkX",
+      "title": "Block Rockin' Beats"
+    }
+  },
+  "the chemical brothers::galvanize": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 103.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Chemical Brothers",
+      "id": "5DKzY",
+      "title": "Galvanize"
+    }
+  },
+  "the clash::london calling": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Clash",
+      "id": "oQv4P3",
+      "title": "London Calling"
+    }
+  },
+  "the cure::boys don't cry": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 168.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Cure",
+      "id": "XoOgl8",
+      "title": "Boys Don't Cry"
+    }
+  },
+  "the cure::friday i'm in love": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Cure",
+      "id": "oQOnLK",
+      "title": "Friday I'm in Love"
+    }
+  },
+  "the doors::light my fire": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Doors",
+      "id": "1r85Eo",
+      "title": "Light My Fire"
+    }
+  },
+  "the doors::riders on the storm": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Doors",
+      "id": "kZWGpX",
+      "title": "Riders on the Storm"
+    }
+  },
+  "the jesus and mary chain::just like honey": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Jesus and Mary Chain",
+      "id": "mOvQn",
+      "title": "Just Like Honey"
+    }
+  },
+  "the mountain goats::no children": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Mountain Goats",
+      "id": "KAgkR",
+      "title": "No Children"
+    }
+  },
+  "the national::bloodbuzz ohio": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 157.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The National",
+      "id": "X6A3wA",
+      "title": "Bloodbuzz Ohio"
+    }
+  },
+  "the notorious b.i.g.::big poppa": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Notorious B.I.G.",
+      "id": "JyjNv",
+      "title": "Big Poppa"
+    }
+  },
+  "the notorious b.i.g.::juicy": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Notorious B.I.G.",
+      "id": "D17Q5",
+      "title": "Juicy"
+    }
+  },
+  "the postal service::such great heights": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 174.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Postal Service",
+      "id": "LY4KW",
+      "title": "Such Great Heights"
+    }
+  },
+  "the prodigy::breathe": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Prodigy",
+      "id": "o2l7A",
+      "title": "Breathe"
+    }
+  },
+  "the prodigy::firestarter": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Prodigy",
+      "id": "xkx9z",
+      "title": "Firestarter"
+    }
+  },
+  "the rolling stones::paint it black": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Rolling Stones",
+      "id": "vQ1LmM",
+      "title": "Paint It Black"
+    }
+  },
+  "the rolling stones::sympathy for the devil": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Rolling Stones",
+      "id": "2kzLA",
+      "title": "Sympathy for the Devil"
+    }
+  },
+  "the shins::new slang": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Shins",
+      "id": "rRk9k",
+      "title": "New Slang"
+    }
+  },
+  "the smiths::there is a light that never goes out": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 68.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Smiths",
+      "id": "2vgjpz",
+      "title": "There Is a Light That Never Goes Out"
+    }
+  },
+  "the strokes::last nite": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 206.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Strokes",
+      "id": "BLJ3X",
+      "title": "Last Nite"
+    }
+  },
+  "the strokes::reptilia": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "minor",
+      "tempo": 156.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Strokes",
+      "id": "7L7YAQ",
+      "title": "Reptilia"
+    }
+  },
+  "the verve::bitter sweet symphony": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Verve",
+      "id": "j2jVW",
+      "title": "Bitter Sweet Symphony"
+    }
+  },
+  "the weeknd::blinding lights": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 172.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Weeknd",
+      "id": "57633B",
+      "title": "Blinding Lights"
+    }
+  },
+  "the weeknd::can't feel my face": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Weeknd",
+      "id": "A6Nm77",
+      "title": "Can't Feel My Face"
+    }
+  },
+  "the white stripes::ball and biscuit": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 78.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The White Stripes",
+      "id": "NOJ1zK",
+      "title": "Ball And Biscuit"
+    }
+  },
+  "the white stripes::seven nation army": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The White Stripes",
+      "id": "DqvEmY",
+      "title": "Seven Nation Army"
+    }
+  },
+  "the who::baba o'riley": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Who",
+      "id": "W74jPo",
+      "title": "Baba O'Riley"
+    }
+  },
+  "the who::won't get fooled again": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "The Who",
+      "id": "59Y17X",
+      "title": "Won't Get Fooled Again"
+    }
+  },
+  "thelonious monk::blue monk": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Thelonious Monk",
+      "id": "v2m3w5",
+      "title": "Blue Monk"
+    }
+  },
+  "thelonious monk::brilliant corners": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "major",
+      "tempo": 106.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Thelonious Monk",
+      "id": "AD8Vrl",
+      "title": "Brilliant Corners"
+    }
+  },
+  "thelonious monk::round midnight": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 116.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Thelonious Monk",
+      "id": "mKPz0",
+      "title": "'Round Midnight"
+    }
+  },
+  "thelonious monk::straight no chaser": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 93.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Thelonious Monk",
+      "id": "vQ1g0",
+      "title": "Straight No Chaser"
+    }
+  },
+  "thelonious monk::well you needn't": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Thelonious Monk",
+      "id": "ERNKVm",
+      "title": "Well You Needn't"
+    }
+  },
+  "three 6 mafia::stay fly": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Three 6 Mafia",
+      "id": "W6oMvo",
+      "title": "Stay Fly"
+    }
+  },
+  "tina turner::what's love got to do with it": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tina Turner",
+      "id": "YW3DO",
+      "title": "What's Love Got to Do With It"
+    }
+  },
+  "title fight::numb, but i still feel it": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 155.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Title Fight",
+      "id": "jq9J3z",
+      "title": "Numb, but I Still Feel It"
+    }
+  },
+  "ti\u00ebsto::adagio for strings": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 139.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ti\u00ebsto",
+      "id": "QzNWY",
+      "title": "Adagio for Strings"
+    }
+  },
+  "ti\u00ebsto::red lights": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 124.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Ti\u00ebsto",
+      "id": "gZVLMr",
+      "title": "Red Lights"
+    }
+  },
+  "tlc::waterfalls": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "TLC",
+      "id": "pQy21",
+      "title": "Waterfalls"
+    }
+  },
+  "tom petty and the heartbreakers::american girl": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 114.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tom Petty and the Heartbreakers",
+      "id": "zKX0xy",
+      "title": "American Girl"
+    }
+  },
+  "toro y moi::blessa": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Toro y Moi",
+      "id": "Q1LpXq",
+      "title": "Blessa"
+    }
+  },
+  "travis scott::antidote": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 66.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Travis Scott",
+      "id": "z66QjY",
+      "title": "Antidote"
+    }
+  },
+  "travis scott::butterfly effect": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 72.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Travis Scott",
+      "id": "Z82nQ5",
+      "title": "BUTTERFLY EFFECT"
+    }
+  },
+  "travis scott::goosebumps": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Travis Scott",
+      "id": "08zW4G",
+      "title": "goosebumps"
+    }
+  },
+  "travis scott::sicko mode": {
+    "features": {
+      "duration_ms": null,
+      "key": null,
+      "mode": null,
+      "tempo": 78.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Travis Scott",
+      "id": "K8Jyxx",
+      "title": "SICKO MODE"
+    }
+  },
+  "trippie redd::love scars": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Trippie Redd",
+      "id": "w0W7Dz",
+      "title": "Love Scars"
+    }
+  },
+  "two door cinema club::something good can work": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Two Door Cinema Club",
+      "id": "98B1oD",
+      "title": "Something Good Can Work"
+    }
+  },
+  "tyler, the creator::earfquake": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tyler, the Creator",
+      "id": "lRZQ8r",
+      "title": "EARFQUAKE"
+    }
+  },
+  "tyler, the creator::yonkers": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 158.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Tyler, the Creator",
+      "id": "wm0DoR",
+      "title": "Yonkers"
+    }
+  },
+  "u2::where the streets have no name": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "U2",
+      "id": "315jO",
+      "title": "Where the Streets Have No Name"
+    }
+  },
+  "u2::with or without you": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "U2",
+      "id": "5y5lK",
+      "title": "With or Without You"
+    }
+  },
+  "vampire weekend::a-punk": {
+    "features": {
+      "duration_ms": null,
+      "key": "D",
+      "mode": "major",
+      "tempo": 174.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Vampire Weekend",
+      "id": "R6V5oz",
+      "title": "A-Punk"
+    }
+  },
+  "van halen::jump": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Van Halen",
+      "id": "o2wnk",
+      "title": "Jump"
+    }
+  },
+  "vanilla ice::ice ice baby": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Vanilla Ice",
+      "id": "vg4p0",
+      "title": "Ice Ice Baby"
+    }
+  },
+  "vic chesnutt::flirted with you all my life": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Vic Chesnutt",
+      "id": "zmBOYY",
+      "title": "Flirted With You All My Life"
+    }
+  },
+  "vince staples::norf norf": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Vince Staples",
+      "id": "EqR99W",
+      "title": "Norf Norf"
+    }
+  },
+  "waka flocka flame::grove st. party": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "minor",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Waka Flocka Flame",
+      "id": "Y6LG2Y",
+      "title": "Grove St. Party"
+    }
+  },
+  "waka flocka flame::hard in da paint": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 71.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Waka Flocka Flame",
+      "id": "O7xrOE",
+      "title": "Hard in da Paint"
+    }
+  },
+  "wale::the need to know": {
+    "features": {
+      "duration_ms": null,
+      "key": "G",
+      "mode": "major",
+      "tempo": 94.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wale",
+      "id": "3Q4yJr",
+      "title": "The Need to Know"
+    }
+  },
+  "wallows::are you bored yet?": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 120.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wallows",
+      "id": "83m692",
+      "title": "Are You Bored Yet? (feat. Clairo)"
+    }
+  },
+  "wavves::so bored": {
+    "features": {
+      "duration_ms": null,
+      "key": "A",
+      "mode": "major",
+      "tempo": 79.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wavves",
+      "id": "GZ6k7K",
+      "title": "So Bored"
+    }
+  },
+  "waxahatchee::silver": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Waxahatchee",
+      "id": "gpg8Ll",
+      "title": "Silver"
+    }
+  },
+  "wayne shorter::infant eyes": {
+    "features": {
+      "duration_ms": null,
+      "key": "D#",
+      "mode": "major",
+      "tempo": 138.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Wayne Shorter",
+      "id": "Y5QVZ2",
+      "title": "Infant Eyes - Remastered1998/Rudy Van Gelder Edition"
+    }
+  },
+  "wayne shorter::speak no evil": {
+    "features": {
+      "duration_ms": null,
+      "key": "F",
+      "mode": "minor",
+      "tempo": 106.0,
+      "time_signature": 3
+    },
+    "track": {
+      "artist": "Wayne Shorter",
+      "id": "WqwW1x",
+      "title": "Speak No Evil - Remastered 1998 / Rudy Van Gelder Edition"
+    }
+  },
+  "weather report::birdland": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 161.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Weather Report",
+      "id": "l5rVPM",
+      "title": "Birdland"
+    }
+  },
+  "weezer::buddy holly": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Weezer",
+      "id": "XM2kv",
+      "title": "Buddy Holly"
+    }
+  },
+  "weyes blood::andromeda": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 131.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Weyes Blood",
+      "id": "pZJxL2",
+      "title": "Andromeda"
+    }
+  },
+  "wham!::wake me up before you go-go": {
+    "features": {
+      "duration_ms": null,
+      "key": "C",
+      "mode": "major",
+      "tempo": 81.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wham!",
+      "id": "P1j2y",
+      "title": "Wake Me Up Before You Go-Go"
+    }
+  },
+  "wild nothing::chinatown": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "major",
+      "tempo": 126.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wild Nothing",
+      "id": "O7D2xg",
+      "title": "Chinatown"
+    }
+  },
+  "will oldham::i see a darkness": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Will Oldham",
+      "id": "x6KX5B",
+      "title": "I See a Darkness"
+    }
+  },
+  "wiz khalifa::work hard, play hard": {
+    "features": {
+      "duration_ms": null,
+      "key": "B",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wiz Khalifa",
+      "id": "1rZYKq",
+      "title": "Work Hard, Play Hard"
+    }
+  },
+  "wu-tang clan::c.r.e.a.m.": {
+    "features": {
+      "duration_ms": null,
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Wu-Tang Clan",
+      "id": "oWKZ3",
+      "title": "C.R.E.A.M."
+    }
+  },
+  "yo gotti::down in the dm": {
+    "features": {
+      "duration_ms": null,
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Yo Gotti",
+      "id": "ywA5nz",
+      "title": "Down In the DM"
+    }
+  },
+  "yo la tengo::sugarcube": {
+    "features": {
+      "duration_ms": null,
+      "key": "E",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Yo La Tengo",
+      "id": "VPL8l9",
+      "title": "Sugarcube"
+    }
+  },
+  "young jeezy::soul survivor": {
+    "features": {
+      "duration_ms": null,
+      "key": "A#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Young Jeezy",
+      "id": "kZymDx",
+      "title": "Soul Survivor (remix)"
+    }
+  },
+  "zedd::clarity": {
+    "features": {
+      "duration_ms": null,
+      "key": "G#",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4
+    },
+    "track": {
+      "artist": "Zedd",
+      "id": "oQg11A",
+      "title": "Clarity"
+    }
+  }
+}

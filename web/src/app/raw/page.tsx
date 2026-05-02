@@ -57,7 +57,7 @@ export default function RawPage() {
   async function fillSlot(key: InstrumentKey, audio: Blob, source: 'recorded' | 'uploaded') {
     setSlot(key, { loading: true });
     try {
-      const wav = await prepRaw(audio);
+      const { wav } = await prepRaw(audio);
       setSlot(key, { wav, source });
     } catch (e) {
       alert(`${key}: ${e instanceof Error ? e.message : 'failed'}`);

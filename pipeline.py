@@ -1,3 +1,4 @@
+import base64
 import csv
 import io
 import os
@@ -424,6 +425,81 @@ def classify_sound(audio_input: AudioInput) -> dict:
     return {"scores": scores, "best_match": best}
 
 
+def segment_sounds(
+    audio_input: AudioInput,
+    *,
+    top_db: float = 30.0,
+    min_duration_s: float = 0.06,
+    min_peak_ratio_db: float = -25.0,
+    max_segments: int = 32,
+) -> list[dict]:
+    """Split a long recording into discrete sounds and classify each.
+
+    Quiet/short segments (likely room noise) are filtered out via
+    `min_duration_s` and `min_peak_ratio_db` (vs the loudest peak in the take).
+    Returns a list ordered by occurrence in the recording.
+    """
+    y = _load_y_from_input(audio_input)
+    if len(y) == 0:
+        return []
+
+    intervals = librosa.effects.split(
+        y, top_db=top_db, frame_length=N_FFT, hop_length=HOP
+    )
+    if len(intervals) == 0:
+        return []
+
+    overall_peak = float(np.max(np.abs(y))) or 1e-9
+
+    db = load_db()
+    mat = np.array([[row[c] for c in ALL_COLS] for row in db])
+    mean = mat.mean(0)
+    std = mat.std(0) + 1e-9
+    weights = np.where([c.startswith("mfcc_") for c in ALL_COLS], 2.0, 1.0)
+    db_n = (mat - mean) / std
+
+    out: list[dict] = []
+    for start, end in intervals:
+        seg = y[int(start):int(end)]
+        dur = (int(end) - int(start)) / SR
+        if dur < min_duration_s:
+            continue
+        seg_peak = float(np.max(np.abs(seg)))
+        peak_db = 20.0 * float(np.log10(max(seg_peak / overall_peak, 1e-9)))
+        if peak_db < min_peak_ratio_db:
+            continue
+
+        try:
+            q_n = (feat_vec(extract(seg)) - mean) / std
+            dists = np.sqrt(np.sum(weights * (db_n - q_n) ** 2, axis=1))
+            sims = 1.0 / (1.0 + dists)
+            sims = sims / sims.sum()
+            scores = {row["instrument"]: float(s) for row, s in zip(db, sims)}
+            best = max(scores, key=scores.get)
+        except Exception:
+            scores = {}
+            best = None
+
+        buf = io.BytesIO()
+        sf.write(buf, seg.astype(np.float32), SR, subtype="PCM_16", format="WAV")
+        wav_b64 = base64.b64encode(buf.getvalue()).decode("ascii")
+
+        out.append({
+            "index": len(out),
+            "start_s": float(int(start)) / SR,
+            "end_s": float(int(end)) / SR,
+            "duration_s": float(dur),
+            "peak_db": float(peak_db),
+            "scores": scores,
+            "best_match": best,
+            "audio_wav_b64": wav_b64,
+        })
+        if len(out) >= max_segments:
+            break
+
+    return out
+
+
 def process_sound(audio_input: AudioInput, target_instrument: str) -> bytes:
     """Morph + pitch-adjust a sound toward target. Returns 16-bit PCM mono WAV bytes."""
     if target_instrument not in INSTRUMENT_PITCH:
@@ -602,14 +678,27 @@ def render_song(
                     except Exception:
                         blended_samples[k] = arr
 
+    # Build pool of user-filled melodic slots, ordered by INSTRUMENT_PITCH ascending
+    # so we can pick a sensible fallback (lowest filled pitched slot for bass etc.)
+    melodic_filled = [
+        k for k in slot_samples.keys()
+        if INSTRUMENT_PITCH.get(k) is not None and len(np.asarray(slot_samples[k])) > 0
+    ]
+    melodic_filled.sort(key=lambda k: INSTRUMENT_PITCH[k] or 0.0)
+
     shift_cache: dict = {}
     melodic_slot_keys = [k for k in track_map.keys() if k != "__drums__"]
     for slot_key in melodic_slot_keys:
-        if slot_key not in slot_samples:
-            continue
-        sample = slot_samples[slot_key].astype(np.float32)
-        if raw_mode and slot_key in blended_samples:
-            sample = blended_samples[slot_key].astype(np.float32)
+        # Fallback: if the assigned slot isn't filled, pick a sensible filled slot.
+        render_slot_key = slot_key
+        if slot_key not in slot_samples or len(np.asarray(slot_samples[slot_key])) == 0:
+            if not melodic_filled:
+                continue
+            # Bass track ("bguitar") → lowest filled pitched slot. Others → highest.
+            render_slot_key = melodic_filled[0] if slot_key == "bguitar" else melodic_filled[-1]
+        sample = slot_samples[render_slot_key].astype(np.float32)
+        if raw_mode and render_slot_key in blended_samples:
+            sample = blended_samples[render_slot_key].astype(np.float32)
         if len(sample) == 0:
             continue
         inst = track_map[slot_key]
@@ -618,7 +707,7 @@ def render_song(
         chord_position = 0
         CHORD_WINDOW_S = 0.012
         CHORD_STAGGER_S = 0.005
-        src_override = detected_src_hz.get(slot_key) if raw_mode else None
+        src_override = detected_src_hz.get(render_slot_key) if raw_mode else None
         # Pitch always tracks MIDI fully — temperature only blends timbre.
         slot_pitch_strength = 1.0
 
@@ -633,12 +722,12 @@ def render_song(
             note_n_samples = int(note_dur_sec * SR)
             if note_n_samples <= 0:
                 continue
-            cache_key = (slot_key, int(note.pitch))
+            cache_key = (render_slot_key, int(note.pitch))
             shifted = shift_cache.get(cache_key)
             if shifted is None:
                 target_hz = _midi_pitch_to_hz(int(note.pitch))
                 shifted = pitch_shift_to_hz(
-                    sample, target_hz, slot_key,
+                    sample, target_hz, render_slot_key,
                     src_hz_override=src_override,
                     pitch_strength=slot_pitch_strength,
                 )
@@ -647,27 +736,40 @@ def render_song(
             start_idx = int(note_start * SR)
             end_idx = min(start_idx + len(trimmed), out_len)
             if end_idx > start_idx:
-                gain = (note.velocity / 127.0) * SLOT_GAIN.get(slot_key, 0.6)
+                gain = (note.velocity / 127.0) * SLOT_GAIN.get(render_slot_key, 0.6)
                 out[start_idx:end_idx] += trimmed[: end_idx - start_idx] * gain
 
     drum_inst = track_map.get("__drums__")
     if drum_inst is not None:
+        # Fallback chain: if a specific drum slot isn't filled, pick any filled drum
+        # slot. If no drum slots are filled at all, fall back to any filled slot.
+        drum_filled = [k for k in GM_DRUM_NOTES.keys()
+                       if k in slot_samples and len(np.asarray(slot_samples[k])) > 0]
+        any_filled = [k for k in slot_samples.keys()
+                      if len(np.asarray(slot_samples[k])) > 0]
         for note in drum_inst.notes:
+            target_slot = None
             for slot_key, drum_pitches in GM_DRUM_NOTES.items():
                 if int(note.pitch) not in drum_pitches:
                     continue
-                if slot_key not in slot_samples:
-                    continue
-                sample = slot_samples[slot_key].astype(np.float32)
-                if len(sample) == 0:
-                    continue
-                note_start = note.start / tempo_factor
-                start_idx = int(note_start * SR)
-                end_idx = min(start_idx + len(sample), out_len)
-                if end_idx > start_idx:
-                    gain = (note.velocity / 127.0) * SLOT_GAIN.get(slot_key, 0.6)
-                    out[start_idx:end_idx] += sample[: end_idx - start_idx] * gain
+                if slot_key in slot_samples and len(np.asarray(slot_samples[slot_key])) > 0:
+                    target_slot = slot_key
+                elif drum_filled:
+                    target_slot = drum_filled[0]
+                elif any_filled:
+                    target_slot = any_filled[0]
                 break
+            if target_slot is None:
+                continue
+            sample = slot_samples[target_slot].astype(np.float32)
+            if len(sample) == 0:
+                continue
+            note_start = note.start / tempo_factor
+            start_idx = int(note_start * SR)
+            end_idx = min(start_idx + len(sample), out_len)
+            if end_idx > start_idx:
+                gain = (note.velocity / 127.0) * SLOT_GAIN.get(target_slot, 0.6)
+                out[start_idx:end_idx] += sample[: end_idx - start_idx] * gain
 
     peak = float(np.max(np.abs(out)))
     if peak > 0:

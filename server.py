@@ -48,12 +48,14 @@ from pipeline import (
     identify_tracks,
     process_sound,
     render_song,
+    segment_sounds,
     strip_silence,
     load_audio,
     _load_y_from_input,
 )
 from claude_client import ClaudeError, apply_edit, classify_prompt
-from spotify_client import SpotifyError, lookup_song
+from getsongbpm_client import GetSongBPMError, lookup_song
+from song_db import random_song as random_song_from_db, total_songs as song_db_total
 
 REPO_ROOT = Path(__file__).parent.resolve()
 MIDI_DIR = (REPO_ROOT / "web" / "public" / "midi").resolve()
@@ -95,7 +97,11 @@ def _wav_bytes(y: np.ndarray) -> bytes:
 
 @app.get("/health")
 def health():
-    return {"ok": True, "instruments_loaded": len(INSTRUMENT_PITCH)}
+    return {
+        "ok": True,
+        "instruments_loaded": len(INSTRUMENT_PITCH),
+        "song_db_count": song_db_total(),
+    }
 
 
 @app.get("/defaults-available")
@@ -135,10 +141,12 @@ async def classify_endpoint(audio: UploadFile = File(...)):
 
 @app.post("/prep-raw")
 async def prep_raw_endpoint(audio: UploadFile = File(...)):
-    """Decode any audio (webm/ogg/wav/m4a/etc) → mono float32 SR WAV bytes.
-    Used by the /raw page to convert recordings into a format /render-song can read.
-    No morphing — preserves the user's natural timbre.
+    """Decode any audio (webm/ogg/wav/m4a/etc) → mono float32 SR WAV bytes,
+    AND return its detected fundamental pitch in the X-Detected-Pitch-Hz header
+    (used by /studio to pick a key for Magenta generation).
     """
+    from pipeline import _detect_pitch  # local import — avoids extra top-level coupling
+
     raw = await audio.read()
     if len(raw) > MAX_UPLOAD_BYTES:
         raise HTTPException(status_code=413, detail="audio over 20 MB")
@@ -150,7 +158,58 @@ async def prep_raw_endpoint(audio: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=f"prep failed: {e}")
     if len(y) == 0:
         raise HTTPException(status_code=400, detail="audio is silent after trimming")
-    return Response(content=_wav_bytes(y), media_type="audio/wav")
+    try:
+        pitch_hz = float(_detect_pitch(y))
+    except Exception:
+        pitch_hz = 0.0
+    return Response(
+        content=_wav_bytes(y),
+        media_type="audio/wav",
+        headers={
+            "X-Detected-Pitch-Hz": f"{pitch_hz:.2f}",
+            # Without this CORS-Expose header, browser JS can't read X-Detected-Pitch-Hz.
+            "Access-Control-Expose-Headers": "X-Detected-Pitch-Hz",
+        },
+    )
+
+
+@app.post("/segment")
+async def segment_endpoint(
+    audio: UploadFile = File(...),
+    top_db: float = Form(30.0),
+    min_duration_s: float = Form(0.06),
+    min_peak_ratio_db: float = Form(-25.0),
+    max_segments: int = Form(32),
+):
+    """Split a long recording into discrete sounds, classify each.
+
+    Body: multipart `audio` file. Optional form fields tune the splitter:
+      - top_db: dB below the recording's peak that counts as silence (default 30)
+      - min_duration_s: drop chunks shorter than this (default 0.06 s)
+      - min_peak_ratio_db: drop chunks quieter than this vs overall peak (default -25 dB)
+      - max_segments: hard cap on returned segments (default 32)
+    Response: { "count": int, "segments": [ { index, start_s, end_s, duration_s,
+                                               peak_db, scores, best_match,
+                                               audio_wav_b64 } ] }
+    `audio_wav_b64` is a 16-bit PCM mono WAV at SR — pass it straight to /morph
+    or /render-song as a slot sample.
+    """
+    raw = await audio.read()
+    if len(raw) > MAX_UPLOAD_BYTES:
+        raise HTTPException(status_code=413, detail="audio over 20 MB")
+    if len(raw) == 0:
+        raise HTTPException(status_code=400, detail="empty audio")
+    try:
+        segments = segment_sounds(
+            raw,
+            top_db=top_db,
+            min_duration_s=min_duration_s,
+            min_peak_ratio_db=min_peak_ratio_db,
+            max_segments=max_segments,
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"segment failed: {e}")
+    return {"count": len(segments), "segments": segments}
 
 
 @app.post("/morph")
@@ -209,7 +268,8 @@ def analyze_midi(filename: str):
 
 
 class RenderRequest(BaseModel):
-    midi_filename: str
+    midi_filename: str | None = None
+    midi_b64: str | None = None  # alternative to midi_filename — used by /studio for Magenta-generated MIDI
     slots: dict[str, str] = Field(default_factory=dict)
     tempo_percent: float = Field(default=100.0, ge=50.0, le=200.0)
     raw_mode: bool = False
@@ -218,15 +278,34 @@ class RenderRequest(BaseModel):
 
 @app.post("/render-song")
 def render_endpoint(req: RenderRequest):
-    if "/" in req.midi_filename or "\\" in req.midi_filename or ".." in req.midi_filename:
-        raise HTTPException(status_code=400, detail="invalid midi_filename")
-    midi_path = (MIDI_DIR / req.midi_filename).resolve()
-    try:
-        midi_path.relative_to(MIDI_DIR)
-    except ValueError:
-        raise HTTPException(status_code=400, detail="midi_filename outside midi dir")
-    if not midi_path.exists():
-        raise HTTPException(status_code=404, detail=f"midi not found: {req.midi_filename}")
+    # Accept either midi_filename (server-side .mid in web/public/midi) or midi_b64
+    # (raw MIDI bytes, e.g. from Magenta-generated NoteSequence).
+    midi_path: Path
+    midi_temp: Path | None = None
+    if req.midi_b64:
+        try:
+            midi_bytes = base64.b64decode(req.midi_b64)
+        except Exception:
+            raise HTTPException(status_code=400, detail="bad midi_b64")
+        if not midi_bytes:
+            raise HTTPException(status_code=400, detail="empty midi_b64")
+        if len(midi_bytes) > 5 * 1024 * 1024:
+            raise HTTPException(status_code=413, detail="midi over 5 MB")
+        midi_temp = MIDI_DIR / f".tmp-{os.getpid()}-{int.from_bytes(os.urandom(4), 'big'):08x}.mid"
+        midi_temp.write_bytes(midi_bytes)
+        midi_path = midi_temp
+    elif req.midi_filename:
+        if "/" in req.midi_filename or "\\" in req.midi_filename or ".." in req.midi_filename:
+            raise HTTPException(status_code=400, detail="invalid midi_filename")
+        midi_path = (MIDI_DIR / req.midi_filename).resolve()
+        try:
+            midi_path.relative_to(MIDI_DIR)
+        except ValueError:
+            raise HTTPException(status_code=400, detail="midi_filename outside midi dir")
+        if not midi_path.exists():
+            raise HTTPException(status_code=404, detail=f"midi not found: {req.midi_filename}")
+    else:
+        raise HTTPException(status_code=400, detail="provide midi_filename or midi_b64")
 
     slot_samples: dict[str, np.ndarray] = {}
     for slot_key, b64 in req.slots.items():
@@ -251,6 +330,26 @@ def render_endpoint(req: RenderRequest):
     if not slot_samples:
         raise HTTPException(status_code=400, detail="no slots filled — fill at least 1")
 
+    # Diagnostic — log what the MIDI actually contains so we can debug silent output.
+    try:
+        import pretty_midi as _pm
+        _m = _pm.PrettyMIDI(str(midi_path))
+        logger.info("MIDI loaded: %d insts, end=%.2fs", len(_m.instruments), _m.get_end_time())
+        for _i, _inst in enumerate(_m.instruments):
+            if len(_inst.notes) == 0:
+                logger.info("  inst[%d] is_drum=%s program=%d notes=0", _i, _inst.is_drum, _inst.program)
+            else:
+                pitches = [n.pitch for n in _inst.notes]
+                logger.info("  inst[%d] is_drum=%s program=%d notes=%d pitches=%d–%d avg=%.1f",
+                            _i, _inst.is_drum, _inst.program, len(_inst.notes),
+                            min(pitches), max(pitches), sum(pitches) / len(pitches))
+        logger.info("slots filled: %s", list(slot_samples.keys()))
+        from pipeline import identify_tracks as _id_tr
+        _tm = _id_tr(_m)
+        logger.info("track_map: %s", {k: getattr(v, 'name', '?') for k, v in _tm.items()})
+    except Exception as _e:
+        logger.warning("MIDI diagnostic failed: %s", _e)
+
     try:
         out = render_song(
             str(midi_path),
@@ -259,11 +358,22 @@ def render_endpoint(req: RenderRequest):
             raw_mode=req.raw_mode,
             temperature=req.temperature,
         )
+        logger.info("render_song output: peak=%.4f rms=%.4f len=%.2fs",
+                    float(np.max(np.abs(out))) if len(out) else 0.0,
+                    float(np.sqrt(np.mean(out ** 2))) if len(out) else 0.0,
+                    len(out) / SR if len(out) else 0.0)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"render failed: {e}")
+    finally:
+        if midi_temp is not None:
+            try:
+                midi_temp.unlink()
+            except OSError:
+                pass
 
     wav_bytes = _wav_bytes(out)
-    title_slug = _slug(req.midi_filename.rsplit(".", 1)[0])
+    base_name = req.midi_filename or "generated"
+    title_slug = _slug(base_name.rsplit(".", 1)[0])
     return Response(
         content=wav_bytes,
         media_type="audio/wav",
@@ -283,32 +393,56 @@ class TextToParamsRequest(BaseModel):
 
 
 def _params_from_intent(intent: dict, bars: int) -> dict:
-    """Merge Claude intent + Spotify lookup (if available) into final render params."""
+    """Build render params from Claude's intent.
+
+    Resolution order for tempo/key/mode/artist/title:
+      1. Specific song named → live getsongbpm lookup (fresh data)
+      2. Genre matches our 566-song local DB → random real song from that bucket
+      3. Fallback → Claude's own tempo/key/mode estimates
+    """
     artist = intent.get("artist")
     title = intent.get("title")
-    spotify_data: dict | None = None
-    spotify_error: str | None = None
+    lookup_data: dict | None = None
+    lookup_error: str | None = None
 
     if artist and title:
         try:
-            spotify_data = lookup_song(artist, title)
-        except SpotifyError as e:
-            spotify_error = str(e)
+            lookup_data = lookup_song(artist, title)
+        except GetSongBPMError as e:
+            lookup_error = str(e)
 
-    # Spotify wins for tempo/key/mode if it found the track; otherwise use Claude hints.
-    if spotify_data and spotify_data.get("features"):
-        f = spotify_data["features"]
-        tempo = float(f.get("tempo") or intent.get("tempo_hint") or 110)
-        key = f.get("key") or intent.get("key_hint") or "C"
-        mode = f.get("mode") or intent.get("mode_hint") or "major"
+    # 1. Live API hit on a named song.
+    if lookup_data and lookup_data.get("features"):
+        f = lookup_data["features"]
+        tempo = float(f.get("tempo") or intent.get("tempo") or 110)
+        key = f.get("key") or intent.get("key") or "C"
+        mode = f.get("mode") or intent.get("mode") or "major"
         time_signature = int(f.get("time_signature") or 4)
-        source = "spotify"
+        source = "getsongbpm"
     else:
-        tempo = float(intent.get("tempo_hint") or 110)
-        key = intent.get("key_hint") or "C"
-        mode = intent.get("mode_hint") or "major"
-        time_signature = 4
-        source = "claude"
+        # 2. Try the local DB if Claude gave us a genre/subgenre (no specific song).
+        #    Search subgenre first (more specific), then top-level genre.
+        db_pick: dict | None = None
+        for q in (intent.get("subgenre"), intent.get("genre")):
+            if q:
+                db_pick = random_song_from_db(q)
+                if db_pick:
+                    break
+        if db_pick:
+            tempo = db_pick["tempo"]
+            key = db_pick["key"]
+            mode = db_pick["mode"]
+            time_signature = db_pick["time_signature"]
+            artist = db_pick["artist"]
+            title = db_pick["title"]
+            source = f"song_db:{db_pick['genre_bucket']}"
+        else:
+            # 3. Fallback to Claude's own values.
+            tempo = float(intent.get("tempo") or 110)
+            key = intent.get("key") or "C"
+            mode = intent.get("mode") or "major"
+            time_signature = 4
+            source = "claude"
 
     return {
         "tempo": tempo,
@@ -323,8 +457,7 @@ def _params_from_intent(intent: dict, bars: int) -> dict:
         "artist": artist,
         "title": title,
         "source": source,
-        "spotify_error": spotify_error,
-        "spotify_features": spotify_data.get("features") if spotify_data else None,
+        "lookup_error": lookup_error,
     }
 
 

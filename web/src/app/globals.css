@@ -53,3 +53,42 @@ button.big { padding: 0.8rem 1.4rem; font-size: 1rem; }
 .temp input[type="range"] { width: 100%; accent-color: #fbbf24; height: 6px; }
 .temp-readout { display: flex; justify-content: space-between; align-items: center; color: #9ca3af; font-size: 0.8rem; }
 .temp-readout .temp-value { color: #fbbf24; font-weight: 700; font-size: 1.1rem; min-width: 2.5rem; text-align: center; }
+
+.prompt {
+  width: 100%;
+  background: #16171c;
+  color: #e5e7eb;
+  border: 1px solid #2a2a30;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+.prompt:focus { outline: none; border-color: #fbbf24; }
+
+.row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.bars-toggle { display: flex; gap: 4px; }
+.bars-toggle button { padding: 0.4rem 0.7rem; font-size: 0.85rem; }
+
+.params { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.param { background: #16171c; border: 1px solid #2a2a30; border-radius: 8px; padding: 10px 12px; }
+.param-k { color: #9ca3af; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.param-v { color: #e5e7eb; font-weight: 600; margin-top: 2px; }
+
+.codeblock {
+  background: #0a0b0e;
+  border: 1px solid #2a2a30;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 8px;
+  color: #d1d5db;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.78rem;
+  overflow-x: auto;
+}
+
+.history { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.history li { background: #16171c; border: 1px solid #2a2a30; border-radius: 8px; padding: 8px 12px; font-size: 0.85rem; }
+.hist-prompt { color: #fbbf24; font-weight: 600; }
+.hist-meta { color: #9ca3af; }

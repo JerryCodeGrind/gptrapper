@@ -69,18 +69,19 @@ _CLASSIFY_TOOL = {
                 "type": "string",
                 "description": "One short phrase: 'melancholic', 'upbeat', 'dreamy', 'energetic', etc.",
             },
-            "tempo_hint": {
-                "type": ["number", "null"],
-                "description": "BPM hint when no specific song matches. 60–200. Null if a real song is named (we'll use Spotify's value).",
+            "tempo": {
+                "type": "number",
+                "description": "BPM. If a famous song is named, use your training-data knowledge of that track's actual tempo. Otherwise pick a value typical for the genre/mood. Range 50–200.",
             },
-            "key_hint": {
-                "type": ["string", "null"],
-                "description": "Musical key letter (e.g. 'C', 'F#') if implied. Null otherwise.",
+            "key": {
+                "type": "string",
+                "description": "Musical key letter. If a famous song is named, use that song's actual key. Otherwise pick a sensible default. One of: C, C#, D, D#, E, F, F#, G, G#, A, A#, B.",
+                "enum": ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"],
             },
-            "mode_hint": {
-                "type": ["string", "null"],
-                "enum": ["major", "minor", None],
-                "description": "Major or minor if implied. Null otherwise.",
+            "mode": {
+                "type": "string",
+                "enum": ["major", "minor"],
+                "description": "Major or minor. Use the named song's actual mode if known; otherwise pick what fits the mood (minor for melancholic/dark, major for upbeat/dreamy).",
             },
             "instruments": {
                 "type": "array",
@@ -91,7 +92,7 @@ _CLASSIFY_TOOL = {
                 "description": "2–5 instrument slot keys that suit the song. Always include at least one rhythm element (kickdrum/hihat/snaredrum) and one melodic element (piano/aguitar/etc).",
             },
         },
-        "required": ["genre", "subgenre", "mood", "instruments"],
+        "required": ["genre", "subgenre", "mood", "tempo", "key", "mode", "instruments"],
         "additionalProperties": False,
     },
 }

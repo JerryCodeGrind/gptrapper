@@ -1,0 +1,4546 @@
+{
+  "edm": [
+    {
+      "artist": "Daft Punk",
+      "key": "G",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4,
+      "title": "Around the World"
+    },
+    {
+      "artist": "Daft Punk",
+      "key": "D",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4,
+      "title": "One More Time"
+    },
+    {
+      "artist": "Daft Punk",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4,
+      "title": "Get Lucky"
+    },
+    {
+      "artist": "Daft Punk",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Harder, Better, Faster, Stronger"
+    },
+    {
+      "artist": "The Prodigy",
+      "key": "B",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "Firestarter"
+    },
+    {
+      "artist": "The Prodigy",
+      "key": "A",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Breathe"
+    },
+    {
+      "artist": "The Chemical Brothers",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 109.0,
+      "time_signature": 4,
+      "title": "Block Rockin' Beats"
+    },
+    {
+      "artist": "The Chemical Brothers",
+      "key": "G",
+      "mode": "major",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Galvanize"
+    },
+    {
+      "artist": "Fatboy Slim",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Praise You"
+    },
+    {
+      "artist": "Fatboy Slim",
+      "key": "G",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "The Rockafeller Skank"
+    },
+    {
+      "artist": "Massive Attack",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Teardrop"
+    },
+    {
+      "artist": "Orbital",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Halcyon + On + On"
+    },
+    {
+      "artist": "Moby",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Porcelain"
+    },
+    {
+      "artist": "Moby",
+      "key": "D",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4,
+      "title": "Go"
+    },
+    {
+      "artist": "Robert Miles",
+      "key": "C",
+      "mode": "major",
+      "tempo": 137.0,
+      "time_signature": 4,
+      "title": "Children (Dream version)"
+    },
+    {
+      "artist": "Corona",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "The Rhythm of the Night"
+    },
+    {
+      "artist": "Snap!",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "The Power"
+    },
+    {
+      "artist": "Haddaway",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "What Is Love"
+    },
+    {
+      "artist": "Robin S.",
+      "key": "F",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Show Me Love"
+    },
+    {
+      "artist": "Crystal Waters",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "Gypsy Woman (She's Homeless) (radio mix)"
+    },
+    {
+      "artist": "Inner City",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Big Fun"
+    },
+    {
+      "artist": "Laurent Garnier",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 131.0,
+      "time_signature": 4,
+      "title": "The Man With the Red Face"
+    },
+    {
+      "artist": "Faithless",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Insomnia"
+    },
+    {
+      "artist": "Faithless",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "God Is a DJ"
+    },
+    {
+      "artist": "ATB",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "9 PM (Till I Come)"
+    },
+    {
+      "artist": "Darude",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Sandstorm"
+    },
+    {
+      "artist": "Paul van Dyk",
+      "key": "A",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "For an Angel"
+    },
+    {
+      "artist": "Ti\u00ebsto",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 139.0,
+      "time_signature": 4,
+      "title": "Adagio for Strings"
+    },
+    {
+      "artist": "Ti\u00ebsto",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 124.0,
+      "time_signature": 4,
+      "title": "Red Lights"
+    },
+    {
+      "artist": "Armin van Buuren",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 138.0,
+      "time_signature": 4,
+      "title": "Burned With Desire"
+    },
+    {
+      "artist": "Armin van Buuren",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 5,
+      "title": "This Is What It Feels Like"
+    },
+    {
+      "artist": "Above & Beyond",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 133.0,
+      "time_signature": 4,
+      "title": "Sun & Moon"
+    },
+    {
+      "artist": "deadmau5",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 128.0,
+      "time_signature": 4,
+      "title": "Strobe"
+    },
+    {
+      "artist": "deadmau5",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 128.0,
+      "time_signature": 4,
+      "title": "I Remember"
+    },
+    {
+      "artist": "Eric Prydz",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 125.0,
+      "time_signature": 4,
+      "title": "Opus"
+    },
+    {
+      "artist": "Swedish House Mafia",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Don't You Worry Child (radio edit)"
+    },
+    {
+      "artist": "Swedish House Mafia",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 124.0,
+      "time_signature": 4,
+      "title": "Save the World (Knife Party remix)"
+    },
+    {
+      "artist": "Avicii",
+      "key": "D",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Wake Me Up"
+    },
+    {
+      "artist": "Calvin Harris",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Summer"
+    },
+    {
+      "artist": "Calvin Harris",
+      "key": "G",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Feel So Close (radio edit)"
+    },
+    {
+      "artist": "David Guetta",
+      "key": "B",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "When Love Takes Over"
+    },
+    {
+      "artist": "NERO",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Promises"
+    },
+    {
+      "artist": "Sub Focus",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 174.0,
+      "time_signature": 4,
+      "title": "Rock It"
+    },
+    {
+      "artist": "Disclosure",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 121.0,
+      "time_signature": 4,
+      "title": "Latch"
+    },
+    {
+      "artist": "Disclosure",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "White Noise"
+    },
+    {
+      "artist": "Axwell \u039b Ingrosso",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "More Than You Know"
+    },
+    {
+      "artist": "Alesso",
+      "key": "F",
+      "mode": "major",
+      "tempo": 125.0,
+      "time_signature": 4,
+      "title": "Heroes (We Could Be)"
+    },
+    {
+      "artist": "Zedd",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4,
+      "title": "Clarity"
+    },
+    {
+      "artist": "Kygo",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Firestone"
+    },
+    {
+      "artist": "Kygo",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4,
+      "title": "Stole the Show"
+    },
+    {
+      "artist": "Flume",
+      "key": "C",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "Never Be Like You"
+    },
+    {
+      "artist": "Flume",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 149.0,
+      "time_signature": 4,
+      "title": "Say It"
+    },
+    {
+      "artist": "ODESZA",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 115.0,
+      "time_signature": 4,
+      "title": "Say My Name"
+    },
+    {
+      "artist": "Illenium",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Beautiful Creatures (feat. MAX)"
+    },
+    {
+      "artist": "Four Tet",
+      "key": "D",
+      "mode": "major",
+      "tempo": 75.0,
+      "time_signature": 4,
+      "title": "Two Thousand and Seventeen"
+    },
+    {
+      "artist": "Jamie xx",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 109.0,
+      "time_signature": 4,
+      "title": "Loud Places"
+    },
+    {
+      "artist": "Bicep",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Glue"
+    },
+    {
+      "artist": "Gesaffelstein",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 3,
+      "title": "Pursuit"
+    },
+    {
+      "artist": "Boris Brejcha",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Purple Noise"
+    }
+  ],
+  "hip-hop": [
+    {
+      "artist": "The Sugarhill Gang",
+      "key": "A",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Kid's Rapper's Delight (Kid's Rap-Along)"
+    },
+    {
+      "artist": "LL Cool J",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Rock the Bells"
+    },
+    {
+      "artist": "Public Enemy",
+      "key": "D",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Fight the Power"
+    },
+    {
+      "artist": "N.W.A",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Straight Outta Compton"
+    },
+    {
+      "artist": "De La Soul",
+      "key": "F",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Me Myself and I"
+    },
+    {
+      "artist": "A Tribe Called Quest",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 102.0,
+      "time_signature": 4,
+      "title": "Scenario (remix)"
+    },
+    {
+      "artist": "Eric B. & Rakim",
+      "key": "G",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Paid in Full"
+    },
+    {
+      "artist": "Big Daddy Kane",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Ain't No Half-Steppin'"
+    },
+    {
+      "artist": "Beastie Boys",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Fight for Your Right"
+    },
+    {
+      "artist": "MC Hammer",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "U Can't Touch This"
+    },
+    {
+      "artist": "Vanilla Ice",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Ice Ice Baby"
+    },
+    {
+      "artist": "The Notorious B.I.G.",
+      "key": "E",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Juicy"
+    },
+    {
+      "artist": "The Notorious B.I.G.",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4,
+      "title": "Big Poppa"
+    },
+    {
+      "artist": "Wu-Tang Clan",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "C.R.E.A.M."
+    },
+    {
+      "artist": "Nas",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4,
+      "title": "N.Y. State of Mind"
+    },
+    {
+      "artist": "Missy Elliott",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 88.0,
+      "time_signature": 4,
+      "title": "Get Ur Freak On"
+    },
+    {
+      "artist": "Lauryn Hill",
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Doo Wop (That Thing)"
+    },
+    {
+      "artist": "Fugees",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Killing Me Softly"
+    },
+    {
+      "artist": "OutKast",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Rosa Parks"
+    },
+    {
+      "artist": "Lil Wayne",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 151.0,
+      "time_signature": 4,
+      "title": "A Milli"
+    },
+    {
+      "artist": "Kanye West",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Gold Digger"
+    },
+    {
+      "artist": "Kanye West",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "Power"
+    },
+    {
+      "artist": "Eminem",
+      "key": "E",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 4,
+      "title": "Stan"
+    },
+    {
+      "artist": "50 Cent",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 4,
+      "title": "In da Club"
+    },
+    {
+      "artist": "Nelly",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 107.0,
+      "time_signature": 4,
+      "title": "Hot In Herre"
+    },
+    {
+      "artist": "Ludacris",
+      "key": "F",
+      "mode": "major",
+      "tempo": 131.0,
+      "time_signature": 4,
+      "title": "Roll Out (My Business)"
+    },
+    {
+      "artist": "T.I.",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 150.0,
+      "time_signature": 4,
+      "title": "Whatever You Like"
+    },
+    {
+      "artist": "Young Jeezy",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4,
+      "title": "Soul Survivor (remix)"
+    },
+    {
+      "artist": "Lil Jon & The East Side Boyz",
+      "key": "F",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 1,
+      "title": "Chris Rock Get Lower"
+    },
+    {
+      "artist": "Three 6 Mafia",
+      "key": "B",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Stay Fly"
+    },
+    {
+      "artist": "Chamillionaire",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 143.0,
+      "time_signature": 4,
+      "title": "Ridin'"
+    },
+    {
+      "artist": "Common",
+      "key": "G",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "The Light"
+    },
+    {
+      "artist": "Mos Def",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 90.0,
+      "time_signature": 4,
+      "title": "Ms. Fat Booty"
+    },
+    {
+      "artist": "Talib Kweli",
+      "key": "G",
+      "mode": "major",
+      "tempo": 90.0,
+      "time_signature": 4,
+      "title": "Get By"
+    },
+    {
+      "artist": "Kanye West",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Jesus Walks"
+    },
+    {
+      "artist": "Kid Cudi",
+      "key": "C",
+      "mode": "major",
+      "tempo": 230.0,
+      "time_signature": 4,
+      "title": "Pursuit of Happiness (Nightmare)"
+    },
+    {
+      "artist": "Drake",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Hotline Bling"
+    },
+    {
+      "artist": "Drake",
+      "key": "G",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "God's Plan"
+    },
+    {
+      "artist": "Nicki Minaj",
+      "key": "A",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Anaconda"
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "HUMBLE."
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Alright"
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "key": "G",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Money Trees"
+    },
+    {
+      "artist": "J. Cole",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 102.0,
+      "time_signature": 4,
+      "title": "No Role Modelz"
+    },
+    {
+      "artist": "J. Cole",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 75.0,
+      "time_signature": 1,
+      "title": "Love Yourz"
+    },
+    {
+      "artist": "Big Sean",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4,
+      "title": "I Don't Fuck With You"
+    },
+    {
+      "artist": "Future",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Mask Off"
+    },
+    {
+      "artist": "Travis Scott",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "goosebumps"
+    },
+    {
+      "artist": "Post Malone",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 61.0,
+      "time_signature": 4,
+      "title": "Congratulations"
+    },
+    {
+      "artist": "Cardi B",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Bodak Yellow"
+    },
+    {
+      "artist": "Megan Thee Stallion",
+      "key": "B",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Savage"
+    },
+    {
+      "artist": "Lil Uzi Vert",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "XO TOUR Llif3"
+    },
+    {
+      "artist": "Juice WRLD",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4,
+      "title": "Lucid Dreams"
+    },
+    {
+      "artist": "Roddy Ricch",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4,
+      "title": "The Box"
+    },
+    {
+      "artist": "DaBaby",
+      "key": "B",
+      "mode": "major",
+      "tempo": 89.0,
+      "time_signature": 4,
+      "title": "ROCKSTAR (feat. Roddy Ricch)"
+    },
+    {
+      "artist": "Polo G",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 168.0,
+      "time_signature": 4,
+      "title": "Pop Out (feat. Lil Tjay)"
+    },
+    {
+      "artist": "Lil Baby",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 88.0,
+      "time_signature": 4,
+      "title": "Emotionally Scarred"
+    },
+    {
+      "artist": "Lil Durk",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 74.0,
+      "time_signature": 4,
+      "title": "India Pt. II"
+    },
+    {
+      "artist": "Tyler, the Creator",
+      "key": "A",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 4,
+      "title": "EARFQUAKE"
+    },
+    {
+      "artist": "Tyler, the Creator",
+      "key": "B",
+      "mode": "major",
+      "tempo": 158.0,
+      "time_signature": 4,
+      "title": "Yonkers"
+    },
+    {
+      "artist": "Childish Gambino",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 81.0,
+      "time_signature": 4,
+      "title": "Redbone"
+    },
+    {
+      "artist": "Vince Staples",
+      "key": "G",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Norf Norf"
+    },
+    {
+      "artist": "Joey Bada$$",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 95.0,
+      "time_signature": 4,
+      "title": "LAND OF THE FREE"
+    },
+    {
+      "artist": "Pusha T",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 112.0,
+      "time_signature": 5,
+      "title": "Infrared"
+    },
+    {
+      "artist": "Rick Ross",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 135.0,
+      "time_signature": 4,
+      "title": "Hustlin'"
+    },
+    {
+      "artist": "Wale",
+      "key": "G",
+      "mode": "major",
+      "tempo": 94.0,
+      "time_signature": 4,
+      "title": "The Need to Know"
+    },
+    {
+      "artist": "Mac Miller",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "Self Care"
+    },
+    {
+      "artist": "Logic",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4,
+      "title": "1-800-273-8255"
+    },
+    {
+      "artist": "G-Eazy",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Me, Myself & I"
+    },
+    {
+      "artist": "Wiz Khalifa",
+      "key": "B",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Work Hard, Play Hard"
+    },
+    {
+      "artist": "2 Chainz",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Birthday Song"
+    },
+    {
+      "artist": "ScHoolboy Q",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Man of the Year"
+    }
+  ],
+  "indie pop": [
+    {
+      "artist": "The Smiths",
+      "key": "E",
+      "mode": "major",
+      "tempo": 68.0,
+      "time_signature": 4,
+      "title": "There Is a Light That Never Goes Out"
+    },
+    {
+      "artist": "R.E.M.",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Losing My Religion"
+    },
+    {
+      "artist": "Talking Heads",
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "This Must Be the Place (Naive Melody)"
+    },
+    {
+      "artist": "The Cure",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Friday I'm in Love"
+    },
+    {
+      "artist": "Belle and Sebastian",
+      "key": "G",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4,
+      "title": "The Boy With the Arab Strap"
+    },
+    {
+      "artist": "Arcade Fire",
+      "key": "C",
+      "mode": "major",
+      "tempo": 138.0,
+      "time_signature": 4,
+      "title": "Wake Up"
+    },
+    {
+      "artist": "Vampire Weekend",
+      "key": "D",
+      "mode": "major",
+      "tempo": 174.0,
+      "time_signature": 4,
+      "title": "A-Punk"
+    },
+    {
+      "artist": "Tame Impala",
+      "key": "E",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "The Less I Know the Better"
+    },
+    {
+      "artist": "Sufjan Stevens",
+      "key": "G",
+      "mode": "major",
+      "tempo": 124.0,
+      "time_signature": 4,
+      "title": "Chicago"
+    },
+    {
+      "artist": "The Shins",
+      "key": "C",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "New Slang"
+    },
+    {
+      "artist": "Modest Mouse",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4,
+      "title": "Float On"
+    },
+    {
+      "artist": "Interpol",
+      "key": "F",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Obstacle 1"
+    },
+    {
+      "artist": "LCD Soundsystem",
+      "key": "D",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4,
+      "title": "All My Friends"
+    },
+    {
+      "artist": "Animal Collective",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "My Girls"
+    },
+    {
+      "artist": "Fleet Foxes",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "White Winter Hymnal"
+    },
+    {
+      "artist": "Neutral Milk Hotel",
+      "key": "G",
+      "mode": "major",
+      "tempo": 188.0,
+      "time_signature": 3,
+      "title": "In the Aeroplane Over the Sea"
+    },
+    {
+      "artist": "Pavement",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 110.0,
+      "time_signature": 4,
+      "title": "Cut Your Hair"
+    },
+    {
+      "artist": "Blur",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Song 2"
+    },
+    {
+      "artist": "Pulp",
+      "key": "C",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Common People"
+    },
+    {
+      "artist": "Elastica",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 121.0,
+      "time_signature": 4,
+      "title": "Connection"
+    },
+    {
+      "artist": "Supergrass",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 145.0,
+      "time_signature": 4,
+      "title": "Alright"
+    },
+    {
+      "artist": "Teenage Fanclub",
+      "key": "D",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "The Concept"
+    },
+    {
+      "artist": "The Jesus and Mary Chain",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Just Like Honey"
+    },
+    {
+      "artist": "Pixies",
+      "key": "E",
+      "mode": "major",
+      "tempo": 162.0,
+      "time_signature": 4,
+      "title": "Where Is My Mind?"
+    },
+    {
+      "artist": "Yo La Tengo",
+      "key": "E",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "Sugarcube"
+    },
+    {
+      "artist": "Built to Spill",
+      "key": "E",
+      "mode": "major",
+      "tempo": 94.0,
+      "time_signature": 4,
+      "title": "Carry the Zero"
+    },
+    {
+      "artist": "Elliott Smith",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 67.0,
+      "time_signature": 3,
+      "title": "Between the Bars"
+    },
+    {
+      "artist": "Cat Power",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Cross Bones Style"
+    },
+    {
+      "artist": "Liz Phair",
+      "key": "A",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "Supernova"
+    },
+    {
+      "artist": "Death Cab for Cutie",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Soul Meets Body"
+    },
+    {
+      "artist": "The Postal Service",
+      "key": "F",
+      "mode": "major",
+      "tempo": 174.0,
+      "time_signature": 4,
+      "title": "Such Great Heights"
+    },
+    {
+      "artist": "Bright Eyes",
+      "key": "C",
+      "mode": "major",
+      "tempo": 105.0,
+      "time_signature": 4,
+      "title": "Bowl of Oranges"
+    },
+    {
+      "artist": "The National",
+      "key": "A",
+      "mode": "major",
+      "tempo": 157.0,
+      "time_signature": 4,
+      "title": "Bloodbuzz Ohio"
+    },
+    {
+      "artist": "Bon Iver",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Skinny Love"
+    },
+    {
+      "artist": "Grizzly Bear",
+      "key": "F",
+      "mode": "major",
+      "tempo": 159.0,
+      "time_signature": 4,
+      "title": "Two Weeks"
+    },
+    {
+      "artist": "Beach House",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 73.0,
+      "time_signature": 4,
+      "title": "Space Song"
+    },
+    {
+      "artist": "Deerhunter",
+      "key": "E",
+      "mode": "major",
+      "tempo": 73.0,
+      "time_signature": 4,
+      "title": "Helicopter"
+    },
+    {
+      "artist": "Real Estate",
+      "key": "C",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Easy"
+    },
+    {
+      "artist": "Mac DeMarco",
+      "key": "F",
+      "mode": "major",
+      "tempo": 100.0,
+      "time_signature": 4,
+      "title": "Salad Days"
+    },
+    {
+      "artist": "HAIM",
+      "key": "D",
+      "mode": "major",
+      "tempo": 113.0,
+      "time_signature": 4,
+      "title": "The Wire"
+    },
+    {
+      "artist": "Foals",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 104.0,
+      "time_signature": 4,
+      "title": "Mountain at My Gates"
+    },
+    {
+      "artist": "alt-J",
+      "key": "F",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "Breezeblocks"
+    },
+    {
+      "artist": "Bombay Bicycle Club",
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Shuffle"
+    },
+    {
+      "artist": "Two Door Cinema Club",
+      "key": "C",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "Something Good Can Work"
+    },
+    {
+      "artist": "Phoenix",
+      "key": "C",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "1901"
+    },
+    {
+      "artist": "of Montreal",
+      "key": "E",
+      "mode": "major",
+      "tempo": 149.0,
+      "time_signature": 4,
+      "title": "Heimdalsgate Like a Promethean Curse"
+    },
+    {
+      "artist": "MGMT",
+      "key": "A",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Kids"
+    },
+    {
+      "artist": "Neon Trees",
+      "key": "F",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "Animal"
+    },
+    {
+      "artist": "Wild Nothing",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 126.0,
+      "time_signature": 4,
+      "title": "Chinatown"
+    },
+    {
+      "artist": "Cults",
+      "key": "D",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "Go Outside"
+    },
+    {
+      "artist": "Lorde",
+      "key": "G",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4,
+      "title": "Royals"
+    },
+    {
+      "artist": "Alvvays",
+      "key": "G",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Archie, Marry Me"
+    },
+    {
+      "artist": "Courtney Barnett",
+      "key": "B",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Pedestrian at Best"
+    },
+    {
+      "artist": "Car Seat Headrest",
+      "key": "D",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Drunk Drivers/Killer Whales"
+    },
+    {
+      "artist": "Mitski",
+      "key": "G",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Your Best American Girl"
+    },
+    {
+      "artist": "Snail Mail",
+      "key": "C",
+      "mode": "major",
+      "tempo": 126.0,
+      "time_signature": 4,
+      "title": "Pristine"
+    },
+    {
+      "artist": "Soccer Mommy",
+      "key": "A",
+      "mode": "major",
+      "tempo": 169.0,
+      "time_signature": 4,
+      "title": "circle the drain"
+    },
+    {
+      "artist": "Phoebe Bridgers",
+      "key": "B",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Funeral"
+    },
+    {
+      "artist": "Big Thief",
+      "key": "B",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Not"
+    },
+    {
+      "artist": "Julien Baker",
+      "key": "D",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Sprained Ankle"
+    },
+    {
+      "artist": "Japanese Breakfast",
+      "key": "G",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Everybody Wants to Love You"
+    },
+    {
+      "artist": "Weyes Blood",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 131.0,
+      "time_signature": 4,
+      "title": "Andromeda"
+    },
+    {
+      "artist": "Angel Olsen",
+      "key": "G",
+      "mode": "major",
+      "tempo": 115.0,
+      "time_signature": 4,
+      "title": "Shut Up Kiss Me"
+    },
+    {
+      "artist": "Sharon Van Etten",
+      "key": "C",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Comeback Kid"
+    },
+    {
+      "artist": "Waxahatchee",
+      "key": "F",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Silver"
+    },
+    {
+      "artist": "Lucy Dacus",
+      "key": "A",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4,
+      "title": "Night Shift"
+    },
+    {
+      "artist": "Wallows",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Are You Bored Yet? (feat. Clairo)"
+    },
+    {
+      "artist": "Hippo Campus",
+      "key": "A",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Way It Goes"
+    },
+    {
+      "artist": "Frankie Cosmos",
+      "key": "A",
+      "mode": "major",
+      "tempo": 125.0,
+      "time_signature": 4,
+      "title": "Embody"
+    },
+    {
+      "artist": "Palehound",
+      "key": "C",
+      "mode": "major",
+      "tempo": 93.0,
+      "time_signature": 3,
+      "title": "Dry Food"
+    },
+    {
+      "artist": "Porches",
+      "key": "G",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 3,
+      "title": "Hour"
+    },
+    {
+      "artist": "Squirrel Flower",
+      "key": "D",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "I-80"
+    },
+    {
+      "artist": "Beabadoobee",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Care"
+    },
+    {
+      "artist": "Faye Webster",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 142.0,
+      "time_signature": 4,
+      "title": "Kingston"
+    },
+    {
+      "artist": "Men I Trust",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 113.0,
+      "time_signature": 4,
+      "title": "Tailwhip (Album V)"
+    },
+    {
+      "artist": "Lomelda",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 82.0,
+      "time_signature": 4,
+      "title": "Interstate Vision"
+    }
+  ],
+  "jazz": [
+    {
+      "artist": "Miles Davis",
+      "key": "C",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "So What"
+    },
+    {
+      "artist": "The Dave Brubeck Quartet",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 174.0,
+      "time_signature": 5,
+      "title": "Take Five"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 116.0,
+      "time_signature": 4,
+      "title": "'Round Midnight"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "B",
+      "mode": "major",
+      "tempo": 175.0,
+      "time_signature": 3,
+      "title": "My Favorite Things"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Blue in Green"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 148.0,
+      "time_signature": 4,
+      "title": "Giant Steps"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "C",
+      "mode": "major",
+      "tempo": 139.0,
+      "time_signature": 3,
+      "title": "All Blues"
+    },
+    {
+      "artist": "Louis Armstrong",
+      "key": "F",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "What a Wonderful World"
+    },
+    {
+      "artist": "Benny Goodman",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 113.0,
+      "time_signature": 4,
+      "title": "Sing, Sing, Sing"
+    },
+    {
+      "artist": "Duke Ellington & His Orchestra",
+      "key": "F",
+      "mode": "major",
+      "tempo": 154.0,
+      "time_signature": 4,
+      "title": "Take the A Train"
+    },
+    {
+      "artist": "Duke Ellington",
+      "key": "F",
+      "mode": "major",
+      "tempo": 87.0,
+      "time_signature": 4,
+      "title": "Mood Indigo"
+    },
+    {
+      "artist": "Coleman Hawkins",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 94.0,
+      "time_signature": 4,
+      "title": "Body and Soul"
+    },
+    {
+      "artist": "Benny Goodman",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 156.0,
+      "time_signature": 4,
+      "title": "Stompin' at the Savoy"
+    },
+    {
+      "artist": "Charlie Parker",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 150.0,
+      "time_signature": 4,
+      "title": "Cherokee"
+    },
+    {
+      "artist": "Charlie Parker",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 151.0,
+      "time_signature": 4,
+      "title": "Ko-Ko"
+    },
+    {
+      "artist": "Charlie Parker",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Ornithology"
+    },
+    {
+      "artist": "Charlie Parker",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 226.0,
+      "time_signature": 4,
+      "title": "Donna Lee"
+    },
+    {
+      "artist": "Dizzy Gillespie",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 95.0,
+      "time_signature": 4,
+      "title": "Groovin' High"
+    },
+    {
+      "artist": "Dizzy Gillespie",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "A Night in Tunisia"
+    },
+    {
+      "artist": "Weather Report",
+      "key": "C",
+      "mode": "major",
+      "tempo": 161.0,
+      "time_signature": 4,
+      "title": "Birdland"
+    },
+    {
+      "artist": "Herbie Hancock",
+      "key": "B",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Mega Mix (Includes: Rockit, Autodrive, Future Shock, TFS, Rough, & Chameleon)"
+    },
+    {
+      "artist": "Herbie Hancock",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4,
+      "title": "Cantaloupe Island - Remastered 1999/Rudy Van Gelder Edition"
+    },
+    {
+      "artist": "Herbie Hancock",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Watermelon Man - 2007 - Remaster"
+    },
+    {
+      "artist": "Wayne Shorter",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 138.0,
+      "time_signature": 3,
+      "title": "Infant Eyes - Remastered1998/Rudy Van Gelder Edition"
+    },
+    {
+      "artist": "Wayne Shorter",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 106.0,
+      "time_signature": 3,
+      "title": "Speak No Evil - Remastered 1998 / Rudy Van Gelder Edition"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 107.0,
+      "time_signature": 4,
+      "title": "Nefertiti"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Bitches Brew (feat. John McLaughlin, Wayne Shorter, Chick Corea & Joe Zawinul)"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "A",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "In a Silent Way (Rehearsal) - New Mix"
+    },
+    {
+      "artist": "Chick Corea Akoustic Band",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 138.0,
+      "time_signature": 4,
+      "title": "Spain"
+    },
+    {
+      "artist": "Chick Corea",
+      "key": "A",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 3,
+      "title": "La Fiesta"
+    },
+    {
+      "artist": "Chick Corea",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 148.0,
+      "time_signature": 4,
+      "title": "500 Miles High"
+    },
+    {
+      "artist": "Pat Metheny",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 4,
+      "title": "Bright Size Life"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "C",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Impressions - Take 3"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 85.0,
+      "time_signature": 3,
+      "title": "Naima"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 107.0,
+      "time_signature": 4,
+      "title": "Alabama - Live At Birdland Jazzclub, New York City, NY, 10/18/1963"
+    },
+    {
+      "artist": "Bill Evans",
+      "key": "C",
+      "mode": "major",
+      "tempo": 132.0,
+      "time_signature": 3,
+      "title": "Peace Piece"
+    },
+    {
+      "artist": "Charlie Parker",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 3,
+      "title": "Anthropology (Gillespie \u2013 Parker)"
+    },
+    {
+      "artist": "Art Blakey & The Jazz Messengers",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 126.0,
+      "time_signature": 4,
+      "title": "Moanin'"
+    },
+    {
+      "artist": "Art Blakey & The Jazz Messengers",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 131.0,
+      "time_signature": 4,
+      "title": "Blues March"
+    },
+    {
+      "artist": "Bobby Timmons",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 134.0,
+      "time_signature": 4,
+      "title": "Dat Dere"
+    },
+    {
+      "artist": "Charles Mingus",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 3,
+      "title": "Goodbye Pork Pie Hat"
+    },
+    {
+      "artist": "Charles Mingus",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 63.0,
+      "time_signature": 4,
+      "title": "Fables of Faubus"
+    },
+    {
+      "artist": "Charles Mingus",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "haitian Fight Song"
+    },
+    {
+      "artist": "Erroll Garner",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 101.0,
+      "time_signature": 4,
+      "title": "Misty"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4,
+      "title": "Freddie Freeloader"
+    },
+    {
+      "artist": "Miles Davis",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 105.0,
+      "time_signature": 4,
+      "title": "Four"
+    },
+    {
+      "artist": "Billie Holiday",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 5,
+      "title": "All of Me"
+    },
+    {
+      "artist": "Billie Holiday",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 97.0,
+      "time_signature": 4,
+      "title": "Strange Fruit"
+    },
+    {
+      "artist": "Billie Holiday",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 75.0,
+      "time_signature": 4,
+      "title": "God Bless the Child"
+    },
+    {
+      "artist": "Billie Holiday",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 121.0,
+      "time_signature": 4,
+      "title": "Lady Sings the Blues"
+    },
+    {
+      "artist": "Frank Sinatra",
+      "key": "G",
+      "mode": "major",
+      "tempo": 61.0,
+      "time_signature": 4,
+      "title": "Fly Me to the Moon (In Other Words)"
+    },
+    {
+      "artist": "Frank Sinatra",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 109.0,
+      "time_signature": 3,
+      "title": "The Best Is Yet to Come"
+    },
+    {
+      "artist": "Nat King Cole",
+      "key": "G",
+      "mode": "major",
+      "tempo": 146.0,
+      "time_signature": 4,
+      "title": "(Get Your Kicks on) Route 66"
+    },
+    {
+      "artist": "John Coltrane",
+      "key": "C",
+      "mode": "major",
+      "tempo": 107.0,
+      "time_signature": 3,
+      "title": "Nature Boy"
+    },
+    {
+      "artist": "Duke Ellington",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Sophisticated Lady"
+    },
+    {
+      "artist": "Duke Ellington",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 106.0,
+      "time_signature": 3,
+      "title": "It Don't Mean A Thing (If It Ain't Got That Swing)"
+    },
+    {
+      "artist": "Duke Ellington",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Caravan"
+    },
+    {
+      "artist": "Glenn Miller Orchestra",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 164.0,
+      "time_signature": 4,
+      "title": "In the Mood"
+    },
+    {
+      "artist": "Glenn Miller Orchestra",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 71.0,
+      "time_signature": 4,
+      "title": "Moonlight Serenade"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 93.0,
+      "time_signature": 4,
+      "title": "Straight No Chaser"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 89.0,
+      "time_signature": 4,
+      "title": "Well You Needn't"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4,
+      "title": "Blue Monk"
+    },
+    {
+      "artist": "Thelonious Monk",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 106.0,
+      "time_signature": 4,
+      "title": "Brilliant Corners"
+    },
+    {
+      "artist": "Bud Powell",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "Cleopatra's Dream"
+    },
+    {
+      "artist": "Bud Powell",
+      "key": "G",
+      "mode": "major",
+      "tempo": 138.0,
+      "time_signature": 4,
+      "title": "Un poco loco (alternate take 1)"
+    },
+    {
+      "artist": "Joe Henderson",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 79.0,
+      "time_signature": 3,
+      "title": "Inner Urge"
+    },
+    {
+      "artist": "Joe Henderson",
+      "key": "F",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Isotope"
+    },
+    {
+      "artist": "Billy Strayhorn",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "A Flower Is a Lovesome Thing"
+    },
+    {
+      "artist": "Billy Strayhorn",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 102.0,
+      "time_signature": 4,
+      "title": "Lush Life"
+    },
+    {
+      "artist": "Sonny Rollins",
+      "key": "G",
+      "mode": "major",
+      "tempo": 110.0,
+      "time_signature": 4,
+      "title": "St. Thomas"
+    },
+    {
+      "artist": "Sonny Rollins",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 133.0,
+      "time_signature": 4,
+      "title": "Doxy"
+    },
+    {
+      "artist": "Charlie Parker",
+      "key": "F",
+      "mode": "major",
+      "tempo": 63.0,
+      "time_signature": 4,
+      "title": "Embraceable You"
+    },
+    {
+      "artist": "Duke Ellington",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 88.0,
+      "time_signature": 4,
+      "title": "Come Sunday"
+    },
+    {
+      "artist": "Herbie Hancock",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 118.0,
+      "time_signature": 4,
+      "title": "Butterfly"
+    }
+  ],
+  "lo-fi": [
+    {
+      "artist": "Daniel Johnston",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 118.0,
+      "time_signature": 4,
+      "title": "True Love Will Find You in the End"
+    },
+    {
+      "artist": "Guided by Voices",
+      "key": "A",
+      "mode": "major",
+      "tempo": 113.0,
+      "time_signature": 4,
+      "title": "Tractor Rape Chain"
+    },
+    {
+      "artist": "Pavement",
+      "key": "D",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4,
+      "title": "Summer Babe (Winter version)"
+    },
+    {
+      "artist": "Beck",
+      "key": "D",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Loser"
+    },
+    {
+      "artist": "Sebadoh",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 134.0,
+      "time_signature": 4,
+      "title": "The Freed Pig"
+    },
+    {
+      "artist": "Neutral Milk Hotel",
+      "key": "G",
+      "mode": "major",
+      "tempo": 188.0,
+      "time_signature": 3,
+      "title": "In the Aeroplane Over the Sea"
+    },
+    {
+      "artist": "Smog",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 105.0,
+      "time_signature": 4,
+      "title": "Bathysphere"
+    },
+    {
+      "artist": "Bright Eyes",
+      "key": "D",
+      "mode": "major",
+      "tempo": 104.0,
+      "time_signature": 3,
+      "title": "Lua"
+    },
+    {
+      "artist": "Mount Eerie",
+      "key": "C",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Forest Fire"
+    },
+    {
+      "artist": "R. Stevie Moore",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 95.0,
+      "time_signature": 4,
+      "title": "Goodbye Piano"
+    },
+    {
+      "artist": "Jandek",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4,
+      "title": "European Jewel (Incomplete Take)"
+    },
+    {
+      "artist": "Sparklehorse",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 3,
+      "title": "Homecoming Queen"
+    },
+    {
+      "artist": "Galaxie 500",
+      "key": "C",
+      "mode": "major",
+      "tempo": 115.0,
+      "time_signature": 4,
+      "title": "Tugboat"
+    },
+    {
+      "artist": "Tall Dwarfs",
+      "key": "C",
+      "mode": "major",
+      "tempo": 127.0,
+      "time_signature": 4,
+      "title": "Nothing's Going to Happen"
+    },
+    {
+      "artist": "Lou Barlow",
+      "key": "A",
+      "mode": "major",
+      "tempo": 128.0,
+      "time_signature": 4,
+      "title": "Legendary"
+    },
+    {
+      "artist": "Beat Happening",
+      "key": "A",
+      "mode": "major",
+      "tempo": 139.0,
+      "time_signature": 4,
+      "title": "Indian Summer"
+    },
+    {
+      "artist": "Liz Phair",
+      "key": "D",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Fuck and Run"
+    },
+    {
+      "artist": "The Moldy Peaches",
+      "key": "G",
+      "mode": "major",
+      "tempo": 145.0,
+      "time_signature": 4,
+      "title": "Anyone Else but You"
+    },
+    {
+      "artist": "Kimya Dawson",
+      "key": "F",
+      "mode": "major",
+      "tempo": 165.0,
+      "time_signature": 3,
+      "title": "Tire Swing"
+    },
+    {
+      "artist": "Casiotone for the Painfully Alone",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 179.0,
+      "time_signature": 4,
+      "title": "New Year's Kiss"
+    },
+    {
+      "artist": "The Mountain Goats",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4,
+      "title": "No Children"
+    },
+    {
+      "artist": "Iron & Wine",
+      "key": "E",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Naked as We Came"
+    },
+    {
+      "artist": "Songs: Ohia",
+      "key": "B",
+      "mode": "major",
+      "tempo": 148.0,
+      "time_signature": 4,
+      "title": "Farewell Transmission"
+    },
+    {
+      "artist": "Will Oldham",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "I See a Darkness"
+    },
+    {
+      "artist": "Modest Mouse",
+      "key": "C",
+      "mode": "major",
+      "tempo": 153.0,
+      "time_signature": 3,
+      "title": "Bankrupt on Selling"
+    },
+    {
+      "artist": "Vic Chesnutt",
+      "key": "F",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Flirted With You All My Life"
+    },
+    {
+      "artist": "Ariel Pink's Haunted Graffiti",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 110.0,
+      "time_signature": 4,
+      "title": "Round and Round"
+    },
+    {
+      "artist": "Ariel Pink's Haunted Graffiti",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Among Dreams"
+    },
+    {
+      "artist": "Ducktails",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Hamilton Road"
+    },
+    {
+      "artist": "Neon Indian",
+      "key": "F",
+      "mode": "major",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "Deadbeat Summer"
+    },
+    {
+      "artist": "Toro y Moi",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Blessa"
+    },
+    {
+      "artist": "Nite Jewel",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4,
+      "title": "What Did He Say"
+    },
+    {
+      "artist": "Best Coast",
+      "key": "C",
+      "mode": "major",
+      "tempo": 114.0,
+      "time_signature": 4,
+      "title": "Boyfriend"
+    },
+    {
+      "artist": "Wavves",
+      "key": "A",
+      "mode": "major",
+      "tempo": 79.0,
+      "time_signature": 4,
+      "title": "So Bored"
+    },
+    {
+      "artist": "Surf Curse",
+      "key": "A",
+      "mode": "major",
+      "tempo": 179.0,
+      "time_signature": 4,
+      "title": "Freaks"
+    },
+    {
+      "artist": "Porches",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 84.0,
+      "time_signature": 4,
+      "title": "Underwater"
+    },
+    {
+      "artist": "Alex G",
+      "key": "D",
+      "mode": "major",
+      "tempo": 90.0,
+      "time_signature": 4,
+      "title": "Kicker"
+    },
+    {
+      "artist": "Men I Trust",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 113.0,
+      "time_signature": 4,
+      "title": "Tailwhip (Album V)"
+    },
+    {
+      "artist": "Snail Mail",
+      "key": "E",
+      "mode": "major",
+      "tempo": 132.0,
+      "time_signature": 4,
+      "title": "Thinning"
+    },
+    {
+      "artist": "Soccer Mommy",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Your Dog"
+    },
+    {
+      "artist": "Beabadoobee",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Care"
+    },
+    {
+      "artist": "Phoebe Bridgers",
+      "key": "B",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Funeral"
+    },
+    {
+      "artist": "Julien Baker",
+      "key": "D",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Sprained Ankle"
+    },
+    {
+      "artist": "Julia Jacklin",
+      "key": "C",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 3,
+      "title": "Pool Party"
+    },
+    {
+      "artist": "Palehound",
+      "key": "C",
+      "mode": "major",
+      "tempo": 93.0,
+      "time_signature": 3,
+      "title": "Dry Food"
+    },
+    {
+      "artist": "Mitski",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 137.0,
+      "time_signature": 4,
+      "title": "Townie"
+    },
+    {
+      "artist": "Frankie Cosmos",
+      "key": "A",
+      "mode": "major",
+      "tempo": 125.0,
+      "time_signature": 4,
+      "title": "Embody"
+    },
+    {
+      "artist": "Girlpool",
+      "key": "D",
+      "mode": "major",
+      "tempo": 100.0,
+      "time_signature": 4,
+      "title": "Before the World Was Big"
+    },
+    {
+      "artist": "Lomelda",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 109.0,
+      "time_signature": 4,
+      "title": "Bam Sha Klam"
+    },
+    {
+      "artist": "Ratboys",
+      "key": "A",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Alien With a Sleep Mask On"
+    },
+    {
+      "artist": "Faye Webster",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 111.0,
+      "time_signature": 4,
+      "title": "Room Temperature"
+    },
+    {
+      "artist": "Mom Jeans.",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Death Cup"
+    },
+    {
+      "artist": "Pinegrove",
+      "key": "E",
+      "mode": "major",
+      "tempo": 147.0,
+      "time_signature": 4,
+      "title": "Old Friends"
+    },
+    {
+      "artist": "Camp Cope",
+      "key": "G",
+      "mode": "major",
+      "tempo": 97.0,
+      "time_signature": 4,
+      "title": "The Opener"
+    },
+    {
+      "artist": "Deafheaven",
+      "key": "G",
+      "mode": "major",
+      "tempo": 102.0,
+      "time_signature": 4,
+      "title": "Irresistible"
+    },
+    {
+      "artist": "Title Fight",
+      "key": "E",
+      "mode": "major",
+      "tempo": 155.0,
+      "time_signature": 4,
+      "title": "Numb, but I Still Feel It"
+    },
+    {
+      "artist": "Modern Baseball",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 184.0,
+      "time_signature": 4,
+      "title": "Your Graduation"
+    },
+    {
+      "artist": "Sorority Noise",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 176.0,
+      "time_signature": 4,
+      "title": "No Halo"
+    },
+    {
+      "artist": "Microwave",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 135.0,
+      "time_signature": 3,
+      "title": "Vomit"
+    },
+    {
+      "artist": "Citizen",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Roam the Room"
+    },
+    {
+      "artist": "Frankie Cosmos",
+      "key": "B",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Leonie"
+    },
+    {
+      "artist": "Alex G",
+      "key": "A",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Forever"
+    }
+  ],
+  "pop": [
+    {
+      "artist": "Elvis Presley",
+      "key": "C",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Hound Dog"
+    },
+    {
+      "artist": "Chuck Berry",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 83.0,
+      "time_signature": 4,
+      "title": "Johnny B. Goode"
+    },
+    {
+      "artist": "The Beatles",
+      "key": "C",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "Let It Be"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4,
+      "title": "Paint It Black"
+    },
+    {
+      "artist": "The Beach Boys",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 133.0,
+      "time_signature": 4,
+      "title": "Good Vibrations"
+    },
+    {
+      "artist": "Michael Jackson",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 232.0,
+      "time_signature": 4,
+      "title": "Billie Jean"
+    },
+    {
+      "artist": "Michael Jackson",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 232.0,
+      "time_signature": 4,
+      "title": "Thriller"
+    },
+    {
+      "artist": "Madonna",
+      "key": "F",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Like a Prayer"
+    },
+    {
+      "artist": "Madonna",
+      "key": "C",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Material Girl"
+    },
+    {
+      "artist": "Prince",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 170.0,
+      "time_signature": 4,
+      "title": "Purple Rain - Piano & A Microphone 1983 Version"
+    },
+    {
+      "artist": "Mariah Carey",
+      "key": "C",
+      "mode": "major",
+      "tempo": 69.0,
+      "time_signature": 4,
+      "title": "We Belong Together"
+    },
+    {
+      "artist": "C\u00e9line Dion",
+      "key": "E",
+      "mode": "major",
+      "tempo": 98.0,
+      "time_signature": 1,
+      "title": "My Heart Will Go On"
+    },
+    {
+      "artist": "George Michael",
+      "key": "B",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Faith"
+    },
+    {
+      "artist": "Wham!",
+      "key": "C",
+      "mode": "major",
+      "tempo": 81.0,
+      "time_signature": 4,
+      "title": "Wake Me Up Before You Go-Go"
+    },
+    {
+      "artist": "Cyndi Lauper",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Girls Just Want to Have Fun"
+    },
+    {
+      "artist": "Tina Turner",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "What's Love Got to Do With It"
+    },
+    {
+      "artist": "Janet Jackson",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Rhythm Nation"
+    },
+    {
+      "artist": "Elton John",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Rocket Man (I Think It's Going to Be a Long, Long Time)"
+    },
+    {
+      "artist": "David Bowie",
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "\u201cHeroes\u201d"
+    },
+    {
+      "artist": "ABBA",
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Dancing Queen"
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "key": "F",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Go Your Own Way"
+    },
+    {
+      "artist": "Stevie Wonder",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 102.0,
+      "time_signature": 4,
+      "title": "Superstition"
+    },
+    {
+      "artist": "Diana Ross",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Ain't No Mountain High Enough"
+    },
+    {
+      "artist": "Aretha Franklin",
+      "key": "C",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Respect"
+    },
+    {
+      "artist": "Billy Joel",
+      "key": "C",
+      "mode": "major",
+      "tempo": 176.0,
+      "time_signature": 3,
+      "title": "Piano Man"
+    },
+    {
+      "artist": "Bruce Springsteen",
+      "key": "E",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Born to Run"
+    },
+    {
+      "artist": "Bon Jovi",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 122.0,
+      "time_signature": 4,
+      "title": "Livin' on a Prayer"
+    },
+    {
+      "artist": "U2",
+      "key": "D",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "With or Without You"
+    },
+    {
+      "artist": "R.E.M.",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Losing My Religion"
+    },
+    {
+      "artist": "Nirvana",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Smells Like Teen Spirit"
+    },
+    {
+      "artist": "Alanis Morissette",
+      "key": "B",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Ironic"
+    },
+    {
+      "artist": "TLC",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Waterfalls"
+    },
+    {
+      "artist": "Destiny's Child",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 138.0,
+      "time_signature": 4,
+      "title": "Say My Name"
+    },
+    {
+      "artist": "Backstreet Boys",
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "I Want It That Way"
+    },
+    {
+      "artist": "*NSYNC",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 86.0,
+      "time_signature": 4,
+      "title": "Bye Bye Bye"
+    },
+    {
+      "artist": "Britney Spears",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "...Baby One More Time"
+    },
+    {
+      "artist": "Christina Aguilera",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Beautiful"
+    },
+    {
+      "artist": "Spice Girls",
+      "key": "B",
+      "mode": "major",
+      "tempo": 110.0,
+      "time_signature": 4,
+      "title": "Wannabe"
+    },
+    {
+      "artist": "Nelly",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 107.0,
+      "time_signature": 4,
+      "title": "Hot In Herre"
+    },
+    {
+      "artist": "Beyonc\u00e9",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 51.0,
+      "time_signature": 4,
+      "title": "Crazy in Love"
+    },
+    {
+      "artist": "Rihanna",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 174.0,
+      "time_signature": 4,
+      "title": "Umbrella"
+    },
+    {
+      "artist": "Rihanna",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "We Found Love"
+    },
+    {
+      "artist": "Lady Gaga",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 234.0,
+      "time_signature": 4,
+      "title": "Bad Romance"
+    },
+    {
+      "artist": "Lady Gaga",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 234.0,
+      "time_signature": 4,
+      "title": "Poker Face"
+    },
+    {
+      "artist": "Katy Perry",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 88.0,
+      "time_signature": 4,
+      "title": "Roar"
+    },
+    {
+      "artist": "Katy Perry",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Teenage Dream"
+    },
+    {
+      "artist": "Taylor Swift",
+      "key": "D",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Love Story"
+    },
+    {
+      "artist": "Taylor Swift",
+      "key": "G",
+      "mode": "major",
+      "tempo": 162.0,
+      "time_signature": 4,
+      "title": "Shake It Off"
+    },
+    {
+      "artist": "Adele",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Rolling in the Deep"
+    },
+    {
+      "artist": "Madeleine Peyroux",
+      "key": "C",
+      "mode": "major",
+      "tempo": 98.0,
+      "time_signature": 4,
+      "title": "Hello Babe"
+    },
+    {
+      "artist": "Ed Sheeran",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Shape of You"
+    },
+    {
+      "artist": "Ed Sheeran",
+      "key": "D",
+      "mode": "major",
+      "tempo": 78.0,
+      "time_signature": 4,
+      "title": "Thinking Out Loud"
+    },
+    {
+      "artist": "Justin Timberlake",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 146.0,
+      "time_signature": 4,
+      "title": "Cry Me a River"
+    },
+    {
+      "artist": "Justin Bieber",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "Baby"
+    },
+    {
+      "artist": "Justin Bieber",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 100.0,
+      "time_signature": 4,
+      "title": "Sorry"
+    },
+    {
+      "artist": "Drake",
+      "key": "G",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "God's Plan"
+    },
+    {
+      "artist": "Drake",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "One Dance"
+    },
+    {
+      "artist": "Bruno Mars",
+      "key": "F",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Just the Way You Are"
+    },
+    {
+      "artist": "The Weeknd",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Blinding Lights"
+    },
+    {
+      "artist": "The Weeknd",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Can't Feel My Face"
+    },
+    {
+      "artist": "Dua Lipa",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Levitating"
+    },
+    {
+      "artist": "Dua Lipa",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Don't Start Now"
+    },
+    {
+      "artist": "Billie Eilish",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "bad guy"
+    },
+    {
+      "artist": "Ariana Grande",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "thank u, next"
+    },
+    {
+      "artist": "Ariana Grande",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 70.0,
+      "time_signature": 4,
+      "title": "7 rings"
+    },
+    {
+      "artist": "Post Malone",
+      "key": "C",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Circles"
+    },
+    {
+      "artist": "Sam Smith",
+      "key": "C",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4,
+      "title": "Stay With Me"
+    },
+    {
+      "artist": "Shawn Mendes",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Stitches"
+    },
+    {
+      "artist": "Camila Cabello",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 103.0,
+      "time_signature": 4,
+      "title": "Havana"
+    },
+    {
+      "artist": "Charlie Puth",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 98.0,
+      "time_signature": 4,
+      "title": "Attention"
+    },
+    {
+      "artist": "Halsey",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Without Me"
+    },
+    {
+      "artist": "Miley Cyrus",
+      "key": "F",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Wrecking Ball"
+    },
+    {
+      "artist": "P!nk",
+      "key": "G",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Just Give Me a Reason"
+    },
+    {
+      "artist": "Kelly Clarkson",
+      "key": "G",
+      "mode": "major",
+      "tempo": 68.0,
+      "time_signature": 4,
+      "title": "Since U Been Gone"
+    },
+    {
+      "artist": "Kesha",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "TiK ToK"
+    },
+    {
+      "artist": "LMFAO",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Party Rock Anthem"
+    },
+    {
+      "artist": "Pharrell Williams",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4,
+      "title": "Happy (From \"Despicable Me 2\")"
+    }
+  ],
+  "rock": [
+    {
+      "artist": "Chuck Berry",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 83.0,
+      "time_signature": 4,
+      "title": "Johnny B. Goode"
+    },
+    {
+      "artist": "Little Richard",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Tutti Frutti"
+    },
+    {
+      "artist": "Elvis Presley",
+      "key": "C",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Hound Dog"
+    },
+    {
+      "artist": "Buddy Holly",
+      "key": "D",
+      "mode": "major",
+      "tempo": 114.0,
+      "time_signature": 4,
+      "title": "That'll Be the Day"
+    },
+    {
+      "artist": "The Beatles",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4,
+      "title": "Come Together"
+    },
+    {
+      "artist": "The Beatles",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 81.0,
+      "time_signature": 4,
+      "title": "A Day in the Life"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4,
+      "title": "Paint It Black"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "key": "A",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Sympathy for the Devil"
+    },
+    {
+      "artist": "The Who",
+      "key": "F",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Baba O'Riley"
+    },
+    {
+      "artist": "The Who",
+      "key": "D",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "Won't Get Fooled Again"
+    },
+    {
+      "artist": "Led Zeppelin",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 178.0,
+      "time_signature": 4,
+      "title": "Whole Lotta Love"
+    },
+    {
+      "artist": "Led Zeppelin",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 82.0,
+      "time_signature": 4,
+      "title": "Stairway to Heaven"
+    },
+    {
+      "artist": "Led Zeppelin",
+      "key": "D",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 3,
+      "title": "Kashmir"
+    },
+    {
+      "artist": "The Jimi Hendrix Experience",
+      "key": "D",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "Purple Haze"
+    },
+    {
+      "artist": "The Jimi Hendrix Experience",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "All Along the Watchtower"
+    },
+    {
+      "artist": "Cream",
+      "key": "D",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Sunshine of Your Love"
+    },
+    {
+      "artist": "Janis Joplin",
+      "key": "A",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Me and Bobby McGee"
+    },
+    {
+      "artist": "The Doors",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Light My Fire"
+    },
+    {
+      "artist": "The Doors",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Riders on the Storm"
+    },
+    {
+      "artist": "David Bowie",
+      "key": "G",
+      "mode": "major",
+      "tempo": 80.0,
+      "time_signature": 4,
+      "title": "Ziggy Stardust"
+    },
+    {
+      "artist": "David Bowie",
+      "key": "G",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "\u201cHeroes\u201d"
+    },
+    {
+      "artist": "Queen",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "Bohemian Rhapsody"
+    },
+    {
+      "artist": "Queen",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 81.0,
+      "time_signature": 4,
+      "title": "We Will Rock You"
+    },
+    {
+      "artist": "Queen",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 55.0,
+      "time_signature": 3,
+      "title": "Somebody to Love"
+    },
+    {
+      "artist": "Aerosmith",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 78.0,
+      "time_signature": 4,
+      "title": "Dream On"
+    },
+    {
+      "artist": "Aerosmith",
+      "key": "A",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Sweet Emotion"
+    },
+    {
+      "artist": "Black Sabbath",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 160.0,
+      "time_signature": 4,
+      "title": "Paranoid"
+    },
+    {
+      "artist": "Black Sabbath",
+      "key": "A",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "Iron Man"
+    },
+    {
+      "artist": "AC/DC",
+      "key": "A",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Back in Black"
+    },
+    {
+      "artist": "Fleetwood Mac",
+      "key": "D",
+      "mode": "major",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "The Chain"
+    },
+    {
+      "artist": "Eagles",
+      "key": "D",
+      "mode": "major",
+      "tempo": 75.0,
+      "time_signature": 4,
+      "title": "Hotel California"
+    },
+    {
+      "artist": "Lynyrd Skynyrd",
+      "key": "C",
+      "mode": "major",
+      "tempo": 118.0,
+      "time_signature": 4,
+      "title": "Free Bird"
+    },
+    {
+      "artist": "Bruce Springsteen",
+      "key": "E",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Born to Run"
+    },
+    {
+      "artist": "Bruce Springsteen",
+      "key": "F",
+      "mode": "major",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Thunder Road"
+    },
+    {
+      "artist": "Tom Petty and the Heartbreakers",
+      "key": "A",
+      "mode": "major",
+      "tempo": 114.0,
+      "time_signature": 4,
+      "title": "American Girl"
+    },
+    {
+      "artist": "Blondie",
+      "key": "E",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Heart of Glass"
+    },
+    {
+      "artist": "The Clash",
+      "key": "C",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 4,
+      "title": "London Calling"
+    },
+    {
+      "artist": "Sex Pistols",
+      "key": "F",
+      "mode": "major",
+      "tempo": 134.0,
+      "time_signature": 4,
+      "title": "Anarchy in the U.K."
+    },
+    {
+      "artist": "Talking Heads",
+      "key": "A",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Psycho Killer"
+    },
+    {
+      "artist": "U2",
+      "key": "D",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Where the Streets Have No Name"
+    },
+    {
+      "artist": "U2",
+      "key": "D",
+      "mode": "major",
+      "tempo": 112.0,
+      "time_signature": 4,
+      "title": "With or Without You"
+    },
+    {
+      "artist": "R.E.M.",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Losing My Religion"
+    },
+    {
+      "artist": "R.E.M.",
+      "key": "D",
+      "mode": "major",
+      "tempo": 94.0,
+      "time_signature": 3,
+      "title": "Everybody Hurts"
+    },
+    {
+      "artist": "The Cure",
+      "key": "A",
+      "mode": "major",
+      "tempo": 168.0,
+      "time_signature": 4,
+      "title": "Boys Don't Cry"
+    },
+    {
+      "artist": "Depeche Mode",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Personal Jesus"
+    },
+    {
+      "artist": "Van Halen",
+      "key": "C",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Jump"
+    },
+    {
+      "artist": "Guns N' Roses",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Welcome to the Jungle"
+    },
+    {
+      "artist": "Guns N' Roses",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Sweet Child o' Mine"
+    },
+    {
+      "artist": "Guns N' Roses",
+      "key": "B",
+      "mode": "major",
+      "tempo": 78.0,
+      "time_signature": 4,
+      "title": "November Rain"
+    },
+    {
+      "artist": "Metallica",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Enter Sandman"
+    },
+    {
+      "artist": "Metallica",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 220.0,
+      "time_signature": 4,
+      "title": "Master of Puppets"
+    },
+    {
+      "artist": "Metallica",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 136.0,
+      "time_signature": 3,
+      "title": "Tuesday's Gone"
+    },
+    {
+      "artist": "Soundgarden",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 105.0,
+      "time_signature": 4,
+      "title": "Black Hole Sun"
+    },
+    {
+      "artist": "Soundgarden",
+      "key": "C",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Spoonman"
+    },
+    {
+      "artist": "Nirvana",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Smells Like Teen Spirit"
+    },
+    {
+      "artist": "Nirvana",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Come as You Are"
+    },
+    {
+      "artist": "Nirvana",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 99.0,
+      "time_signature": 4,
+      "title": "Heart-Shaped Box"
+    },
+    {
+      "artist": "Pearl Jam",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 75.0,
+      "time_signature": 4,
+      "title": "Alive"
+    },
+    {
+      "artist": "Pearl Jam",
+      "key": "D",
+      "mode": "major",
+      "tempo": 108.0,
+      "time_signature": 4,
+      "title": "Jeremy"
+    },
+    {
+      "artist": "Alice in Chains",
+      "key": "F#",
+      "mode": "major",
+      "tempo": 198.0,
+      "time_signature": 4,
+      "title": "Would?"
+    },
+    {
+      "artist": "Alice in Chains",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 72.0,
+      "time_signature": 3,
+      "title": "Rooster"
+    },
+    {
+      "artist": "Stone Temple Pilots",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "Plush"
+    },
+    {
+      "artist": "Nine Inch Nails",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 79.0,
+      "time_signature": 4,
+      "title": "Hurt"
+    },
+    {
+      "artist": "The Smashing Pumpkins",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 121.0,
+      "time_signature": 4,
+      "title": "Bullet With Butterfly Wings"
+    },
+    {
+      "artist": "Green Day",
+      "key": "D#",
+      "mode": "major",
+      "tempo": 170.0,
+      "time_signature": 4,
+      "title": "Basket Case"
+    },
+    {
+      "artist": "Green Day",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 82.0,
+      "time_signature": 4,
+      "title": "Boulevard of Broken Dreams"
+    },
+    {
+      "artist": "Weezer",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4,
+      "title": "Buddy Holly"
+    },
+    {
+      "artist": "Beck",
+      "key": "D",
+      "mode": "major",
+      "tempo": 85.0,
+      "time_signature": 4,
+      "title": "Loser"
+    },
+    {
+      "artist": "Radiohead",
+      "key": "G",
+      "mode": "major",
+      "tempo": 92.0,
+      "time_signature": 4,
+      "title": "Creep"
+    },
+    {
+      "artist": "Radiohead",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 84.0,
+      "time_signature": 4,
+      "title": "Paranoid Android"
+    },
+    {
+      "artist": "Radiohead",
+      "key": "G",
+      "mode": "major",
+      "tempo": 74.0,
+      "time_signature": 4,
+      "title": "Karma Police"
+    },
+    {
+      "artist": "Oasis",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 87.0,
+      "time_signature": 4,
+      "title": "Wonderwall"
+    },
+    {
+      "artist": "Oasis",
+      "key": "A",
+      "mode": "major",
+      "tempo": 150.0,
+      "time_signature": 4,
+      "title": "Champagne Supernova"
+    },
+    {
+      "artist": "The Verve",
+      "key": "A",
+      "mode": "major",
+      "tempo": 172.0,
+      "time_signature": 4,
+      "title": "Bitter Sweet Symphony"
+    },
+    {
+      "artist": "Muse",
+      "key": "D",
+      "mode": "major",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Uprising"
+    },
+    {
+      "artist": "Muse",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "Supermassive Black Hole"
+    },
+    {
+      "artist": "The White Stripes",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Seven Nation Army"
+    },
+    {
+      "artist": "The White Stripes",
+      "key": "A",
+      "mode": "major",
+      "tempo": 78.0,
+      "time_signature": 4,
+      "title": "Ball And Biscuit"
+    },
+    {
+      "artist": "The Strokes",
+      "key": "C",
+      "mode": "major",
+      "tempo": 206.0,
+      "time_signature": 4,
+      "title": "Last Nite"
+    },
+    {
+      "artist": "The Strokes",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 156.0,
+      "time_signature": 4,
+      "title": "Reptilia"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 204.0,
+      "time_signature": 4,
+      "title": "I Bet You Look Good on the Dancefloor"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "R U Mine?"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "key": "C",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "505"
+    },
+    {
+      "artist": "Queens of the Stone Age",
+      "key": "C",
+      "mode": "major",
+      "tempo": 170.0,
+      "time_signature": 4,
+      "title": "No One Knows"
+    },
+    {
+      "artist": "Queens of the Stone Age",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 159.0,
+      "time_signature": 4,
+      "title": "Go With The Flow"
+    },
+    {
+      "artist": "Foo Fighters",
+      "key": "D",
+      "mode": "major",
+      "tempo": 156.0,
+      "time_signature": 4,
+      "title": "Everlong"
+    },
+    {
+      "artist": "Foo Fighters",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "Best of You"
+    },
+    {
+      "artist": "Jack White",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 59.0,
+      "time_signature": 4,
+      "title": "Lazaretto"
+    },
+    {
+      "artist": "Tame Impala",
+      "key": "D",
+      "mode": "major",
+      "tempo": 122.0,
+      "time_signature": 4,
+      "title": "Elephant"
+    },
+    {
+      "artist": "Tame Impala",
+      "key": "E",
+      "mode": "major",
+      "tempo": 117.0,
+      "time_signature": 4,
+      "title": "The Less I Know the Better"
+    },
+    {
+      "artist": "Greta Van Fleet",
+      "key": "E",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Highway Tune"
+    }
+  ],
+  "trap": [
+    {
+      "artist": "T.I.",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "Rubber Band Man"
+    },
+    {
+      "artist": "Young Jeezy",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 84.0,
+      "time_signature": 4,
+      "title": "Soul Survivor (remix)"
+    },
+    {
+      "artist": "Gucci Mane",
+      "key": "G",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4,
+      "title": "Lemonade"
+    },
+    {
+      "artist": "Lil Wayne",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 151.0,
+      "time_signature": 4,
+      "title": "A Milli"
+    },
+    {
+      "artist": "T.I.",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 146.0,
+      "time_signature": 4,
+      "title": "What You Know"
+    },
+    {
+      "artist": "Gucci Mane",
+      "key": "F",
+      "mode": "major",
+      "tempo": 155.0,
+      "time_signature": 4,
+      "title": "Wasted"
+    },
+    {
+      "artist": "Rick Ross",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 135.0,
+      "time_signature": 4,
+      "title": "Hustlin'"
+    },
+    {
+      "artist": "Waka Flocka Flame",
+      "key": "B",
+      "mode": "major",
+      "tempo": 71.0,
+      "time_signature": 4,
+      "title": "Hard in da Paint"
+    },
+    {
+      "artist": "Waka Flocka Flame",
+      "key": "C",
+      "mode": "minor",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Grove St. Party"
+    },
+    {
+      "artist": "2 Chainz",
+      "key": "D",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "No Lie"
+    },
+    {
+      "artist": "Future",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 131.0,
+      "time_signature": 4,
+      "title": "Turn On the Lights"
+    },
+    {
+      "artist": "Future",
+      "key": "B",
+      "mode": "major",
+      "tempo": 65.0,
+      "time_signature": 4,
+      "title": "Move That Dope"
+    },
+    {
+      "artist": "Future",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 76.0,
+      "time_signature": 4,
+      "title": "Mask Off"
+    },
+    {
+      "artist": "Future",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 143.0,
+      "time_signature": 4,
+      "title": "Low Life"
+    },
+    {
+      "artist": "Migos",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 66.0,
+      "time_signature": 4,
+      "title": "Versace"
+    },
+    {
+      "artist": "Migos",
+      "key": "D#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "Bad and Boujee (feat. Lil Uzi Vert)"
+    },
+    {
+      "artist": "Migos",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 69.0,
+      "time_signature": 4,
+      "title": "T-Shirt"
+    },
+    {
+      "artist": "Travis Scott",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 66.0,
+      "time_signature": 4,
+      "title": "Antidote"
+    },
+    {
+      "artist": "Travis Scott",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "goosebumps"
+    },
+    {
+      "artist": "Travis Scott",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 72.0,
+      "time_signature": 4,
+      "title": "BUTTERFLY EFFECT"
+    },
+    {
+      "artist": "21 Savage",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 73.0,
+      "time_signature": 4,
+      "title": "a lot"
+    },
+    {
+      "artist": "Lil Uzi Vert",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "XO TOUR Llif3"
+    },
+    {
+      "artist": "Lil Pump",
+      "key": "B",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Esskeetit"
+    },
+    {
+      "artist": "Lil Pump",
+      "key": "F",
+      "mode": "major",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Gucci Gang"
+    },
+    {
+      "artist": "Kodak Black",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 171.0,
+      "time_signature": 4,
+      "title": "Tunnel Vision"
+    },
+    {
+      "artist": "Playboi Carti",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 161.0,
+      "time_signature": 4,
+      "title": "Magnolia"
+    },
+    {
+      "artist": "Playboi Carti",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 156.0,
+      "time_signature": 4,
+      "title": "wokeuplikethis*"
+    },
+    {
+      "artist": "Cardi B",
+      "key": "E",
+      "mode": "minor",
+      "tempo": 123.0,
+      "time_signature": 4,
+      "title": "Bodak Yellow"
+    },
+    {
+      "artist": "Nicki Minaj",
+      "key": "G#",
+      "mode": "minor",
+      "tempo": 179.0,
+      "time_signature": 3,
+      "title": "Only"
+    },
+    {
+      "artist": "Drake",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 86.0,
+      "time_signature": 4,
+      "title": "Started From the Bottom"
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "key": "D",
+      "mode": "major",
+      "tempo": 91.0,
+      "time_signature": 4,
+      "title": "m.A.A.d city"
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 77.0,
+      "time_signature": 4,
+      "title": "Backseat Freestyle"
+    },
+    {
+      "artist": "A$AP Rocky",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 130.0,
+      "time_signature": 4,
+      "title": "PMW (All I Really Need)"
+    },
+    {
+      "artist": "Fetty Wap",
+      "key": "G",
+      "mode": "major",
+      "tempo": 148.0,
+      "time_signature": 4,
+      "title": "Trap Queen"
+    },
+    {
+      "artist": "Rae Sremmurd",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 120.0,
+      "time_signature": 4,
+      "title": "No Flex Zone"
+    },
+    {
+      "artist": "Rae Sremmurd",
+      "key": "C",
+      "mode": "major",
+      "tempo": 145.0,
+      "time_signature": 4,
+      "title": "Black Beatles"
+    },
+    {
+      "artist": "Yo Gotti",
+      "key": "C#",
+      "mode": "minor",
+      "tempo": 152.0,
+      "time_signature": 4,
+      "title": "Down In the DM"
+    },
+    {
+      "artist": "Kevin Gates",
+      "key": "G",
+      "mode": "minor",
+      "tempo": 121.0,
+      "time_signature": 4,
+      "title": "2 Phones"
+    },
+    {
+      "artist": "Lil Baby",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "Yes Indeed"
+    },
+    {
+      "artist": "Roddy Ricch",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 116.0,
+      "time_signature": 4,
+      "title": "The Box"
+    },
+    {
+      "artist": "DaBaby",
+      "key": "B",
+      "mode": "major",
+      "tempo": 89.0,
+      "time_signature": 4,
+      "title": "ROCKSTAR (feat. Roddy Ricch)"
+    },
+    {
+      "artist": "DaBaby",
+      "key": "D",
+      "mode": "minor",
+      "tempo": 150.0,
+      "time_signature": 4,
+      "title": "Suge"
+    },
+    {
+      "artist": "Pop Smoke",
+      "key": "G",
+      "mode": "major",
+      "tempo": 142.0,
+      "time_signature": 4,
+      "title": "Dior - Bonus"
+    },
+    {
+      "artist": "Pop Smoke",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 129.0,
+      "time_signature": 4,
+      "title": "For The Night (feat. Lil Baby & DaBaby)"
+    },
+    {
+      "artist": "Polo G",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 168.0,
+      "time_signature": 4,
+      "title": "Pop Out (feat. Lil Tjay)"
+    },
+    {
+      "artist": "Polo G",
+      "key": "G",
+      "mode": "major",
+      "tempo": 160.0,
+      "time_signature": 4,
+      "title": "Heartless (feat. Mustard)"
+    },
+    {
+      "artist": "Lil Durk",
+      "key": "F",
+      "mode": "minor",
+      "tempo": 74.0,
+      "time_signature": 4,
+      "title": "India Pt. II"
+    },
+    {
+      "artist": "Mozzy",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 90.0,
+      "time_signature": 4,
+      "title": "Dead Homies (feat. E Mozzy)"
+    },
+    {
+      "artist": "Shoreline Mafia",
+      "key": "C#",
+      "mode": "major",
+      "tempo": 96.0,
+      "time_signature": 4,
+      "title": "Spaceship (feat. Stinc Team)"
+    },
+    {
+      "artist": "Sheff G",
+      "key": "G#",
+      "mode": "major",
+      "tempo": 143.0,
+      "time_signature": 4,
+      "title": "No Suburban, Pt. 2"
+    },
+    {
+      "artist": "BlocBoy JB",
+      "key": "A#",
+      "mode": "major",
+      "tempo": 144.0,
+      "time_signature": 4,
+      "title": "Look Alive (feat. Drake)"
+    },
+    {
+      "artist": "Blueface",
+      "key": "A#",
+      "mode": "minor",
+      "tempo": 104.0,
+      "time_signature": 4,
+      "title": "Thotiana"
+    },
+    {
+      "artist": "Lil Keed",
+      "key": "B",
+      "mode": "minor",
+      "tempo": 140.0,
+      "time_signature": 4,
+      "title": "Nameless"
+    },
+    {
+      "artist": "Trippie Redd",
+      "key": "A",
+      "mode": "minor",
+      "tempo": 119.0,
+      "time_signature": 4,
+      "title": "Love Scars"
+    },
+    {
+      "artist": "Juice WRLD",
+      "key": "F#",
+      "mode": "minor",
+      "tempo": 83.0,
+      "time_signature": 4,
+      "title": "Lucid Dreams"
+    },
+    {
+      "artist": "Juice WRLD",
+      "key": "G",
+      "mode": "major",
+      "tempo": 162.0,
+      "time_signature": 4,
+      "title": "All Girls Are The Same"
+    }
+  ]
+}
