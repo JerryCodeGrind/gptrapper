@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 import numpy as np
 from pipeline import (load_audio, strip_silence, extract, feat_vec,
-                      ALL_COLS, SCALAR_FEATS, MFCC_COLS, RECORDINGS)
+                      ALL_COLS, RECORDINGS)
 
 with open("instruments_db.csv") as fh:
     db = [{k: (v if k == "instrument" else float(v)) for k, v in r.items()}
@@ -30,8 +30,9 @@ for path in RECORDINGS:
     f = extract(y)
 
     print(f"\n  Key features of recording:")
-    for k in ["spectral_centroid_mean","energy_sub_bass","energy_bass",
-              "energy_low_mid","energy_mid","harmonic_ratio","zcr_mean"]:
+    for k in ["spectral_centroid_mean", "energy_sub_bass", "energy_bass",
+              "energy_low_mid", "energy_mid", "harmonic_ratio",
+              "attack_time", "decay_time", "sustain_ratio", "release_time"]:
         print(f"    {k:<30} {getattr(f, k):.4f}")
 
     q   = feat_vec(f)
@@ -44,20 +45,20 @@ for path in RECORDINGS:
         bar = "█" * int(dist * 2)
         print(f"    {name:<14} {dist:6.3f}  {bar}")
 
-    best_name = ranked[0][1]
-    worst2_name = ranked[1][1]
+    best_name   = ranked[0][1]
+    second_name = ranked[1][1]
 
-    best_idx = next(i for i, r in enumerate(db) if r["instrument"] == best_name)
-    alt_idx  = next(i for i, r in enumerate(db) if r["instrument"] == worst2_name)
+    best_idx   = next(i for i, r in enumerate(db) if r["instrument"] == best_name)
+    second_idx = next(i for i, r in enumerate(db) if r["instrument"] == second_name)
 
-    print(f"\n  Why {best_name} beat {worst2_name} — biggest contributing features:")
+    print(f"\n  Why {best_name} beat {second_name} — biggest contributing features:")
     contribs = []
     for i, c in enumerate(ALL_COLS):
-        bd = weights[i] * (db_n[best_idx, i] - q_n[i]) ** 2
-        ad = weights[i] * (db_n[alt_idx,  i] - q_n[i]) ** 2
+        bd = weights[i] * (db_n[best_idx,   i] - q_n[i]) ** 2
+        ad = weights[i] * (db_n[second_idx, i] - q_n[i]) ** 2
         contribs.append((ad - bd, c, bd, ad))
     contribs.sort(reverse=True)
-    print(f"    {'feature':<28} {best_name:>12} {worst2_name:>12}  advantage")
+    print(f"    {'feature':<28} {best_name:>12} {second_name:>12}  advantage")
     for diff, c, bd, ad in contribs[:10]:
-        direction = f"  ← {best_name} wins by {diff:.3f}" if diff > 0 else f"  ← {worst2_name} wins by {-diff:.3f}"
+        direction = f"  ← {best_name} wins by {diff:.3f}" if diff > 0 else f"  ← {second_name} wins by {-diff:.3f}"
         print(f"    {c:<28} {bd:>12.4f} {ad:>12.4f}{direction}")
